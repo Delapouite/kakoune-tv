@@ -20,7 +20,7 @@ var slice = function (keys) {
 	return keys.slice(0, keys.length - 2)
 }
 
-player.setAttribute('src', '/asciicasts/' + id + '.json')
+player.setAttribute('src', 'asciicasts/' + id + '.json')
 
 // populate keys
 keys.textContent = slice(asciicast.keys)
