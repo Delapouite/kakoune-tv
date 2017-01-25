@@ -2,7 +2,7 @@
   "version": 1,
   "width": 120,
   "height": 30,
-  "duration": 18.668717,
+  "duration": 18.485583,
   "command": null,
   "title": null,
   "env": {
@@ -11,539 +11,683 @@
   },
   "stdout": [
     [
-      0.226288,
-      "\u001bPtmux;\u001b\u001b]4;0;rgb:28/21/1c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;1;rgb:cf/6a/4c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;2;rgb:54/be/0d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;3;rgb:f9/ee/98\u001b\u001b\\\u001b\\"
-    ],
-    [
-      4e-05,
-      "\u001bPtmux;\u001b\u001b]4;4;rgb:5e/a6/ea\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;5;rgb:9b/85/9d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;6;rgb:af/c4/db\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;7;rgb:8a/89/86\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;8;rgb:66/66/66\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;9;rgb:cf/6a/4c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;10;rgb:54/be/0d\u001b\u001b\\\u001b\\"
-    ],
-    [
-      2.1e-05,
-      "\u001bPtmux;\u001b\u001b]4;11;rgb:f9/ee/98\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;12;rgb:5e/a6/ea\u001b\u001b\\\u001b\\"
-    ],
-    [
-      1.3e-05,
-      "\u001bPtmux;\u001b\u001b]4;13;rgb:9b/85/9d\u001b\u001b\\\u001b\\"
-    ],
-    [
-      1.3e-05,
-      "\u001bPtmux;\u001b\u001b]4;14;rgb:af/c4/db\u001b\u001b\\\u001b\\"
-    ],
-    [
-      1.4e-05,
-      "\u001bPtmux;\u001b\u001b]4;15;rgb:ba/ae/9e\u001b\u001b\\\u001b\\"
-    ],
-    [
-      0.000128,
-      "\u001bPtmux;\u001b\u001b]4;16;rgb:cf/7d/34\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;17;rgb:93/71/21\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;18;rgb:36/31/2e\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;19;rgb:5e/5d/5c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;20;rgb:79/79/77\u001b\u001b\\\u001b\\"
-    ],
-    [
-      3.5e-05,
-      "\u001bPtmux;\u001b\u001b]4;21;rgb:9d/9b/97\u001b\u001b\\\u001b\\"
-    ],
-    [
-      0.000148,
-      "\u001bPtmux;\u001b\u001b]10;rgb:8a/89/86\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]11;rgb:28/21/1c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]12;7\u001b\u001b\\\u001b\\"
-    ],
-    [
-      0.017641,
-      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
-    ],
-    [
-      0.053661,
-      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jλ kakoune-tv \u001b[K\u001b[?2004h"
-    ],
-    [
-      0.629004,
-      "\u001b[32mk\u001b[39m"
-    ],
-    [
-      0.036291,
-      "\b\u001b[1m\u001b[31mk\u001b[1m\u001b[31ma\u001b[0m\u001b[39m"
-    ],
-    [
-      0.034411,
-      "\b\b\u001b[0m\u001b[32mk\u001b[0m\u001b[32ma\u001b[32mk\u001b[39m"
-    ],
-    [
-      0.035864,
-      " "
-    ],
-    [
-      0.035894,
-      "-"
-    ],
-    [
-      0.035631,
-      "n"
-    ],
-    [
-      0.036367,
-      " "
-    ],
-    [
-      0.036581,
-      "-"
-    ],
-    [
-      0.034391,
-      "e"
-    ],
-    [
-      0.035979,
-      " "
-    ],
-    [
-      0.035064,
-      "\u001b[33m'\u001b[39m"
-    ],
-    [
-      0.035948,
-      "\b\u001b[33m'\u001b[33ms\u001b[39m"
-    ],
-    [
-      0.035609,
-      "\b\u001b[33ms\u001b[33me\u001b[39m"
-    ],
-    [
-      0.03566,
-      "\b\u001b[33me\u001b[33mt\u001b[39m"
-    ],
-    [
-      0.035756,
-      "\b\u001b[33mt\u001b[33m \u001b[39m"
-    ],
-    [
-      0.035886,
-      "\b\u001b[33m \u001b[33mg\u001b[39m"
-    ],
-    [
-      0.035958,
-      "\b\u001b[33mg\u001b[33ml\u001b[39m"
-    ],
-    [
-      0.036654,
-      "\b\u001b[33ml\u001b[33mo\u001b[39m"
-    ],
-    [
-      0.035528,
-      "\b\u001b[33mo\u001b[33mb\u001b[39m"
-    ],
-    [
-      0.035777,
-      "\b\u001b[33mb\u001b[33ma\u001b[39m"
-    ],
-    [
-      0.035353,
-      "\b\u001b[33ma\u001b[33ml\u001b[39m"
-    ],
-    [
-      0.037854,
-      "\b\u001b[33ml\u001b[33m \u001b[39m"
-    ],
-    [
-      0.035011,
-      "\b\u001b[33m \u001b[33mu\u001b[39m"
-    ],
-    [
-      0.034683,
-      "\b\u001b[33mu\u001b[33mi\u001b[39m"
-    ],
-    [
-      0.035414,
-      "\b\u001b[33mi\u001b[33m_\u001b[39m"
-    ],
-    [
-      0.035443,
-      "\b\u001b[33m_\u001b[33mo\u001b[39m"
-    ],
-    [
-      0.036051,
-      "\b\u001b[33mo\u001b[33mp\u001b[39m"
-    ],
-    [
-      0.035361,
-      "\b\u001b[33mp\u001b[33mt\u001b[39m"
-    ],
-    [
-      0.035778,
-      "\b\u001b[33mt\u001b[33mi\u001b[39m"
-    ],
-    [
-      0.036301,
-      "\b\u001b[33mi\u001b[33mo\u001b[39m"
-    ],
-    [
-      0.037609,
-      "\b\u001b[33mo\u001b[33mn\u001b[39m"
-    ],
-    [
-      0.03413,
-      "\b\u001b[33mn\u001b[33ms\u001b[39m"
-    ],
-    [
-      0.035214,
-      "\b\u001b[33ms\u001b[33m \u001b[39m"
-    ],
-    [
-      0.035776,
-      "\b\u001b[33m \u001b[33mn\u001b[39m"
-    ],
-    [
-      0.035756,
-      "\b\u001b[33mn\u001b[33mc\u001b[39m"
-    ],
-    [
-      0.035327,
-      "\b\u001b[33mc\u001b[33mu\u001b[39m"
-    ],
-    [
-      0.035481,
-      "\b\u001b[33mu\u001b[33mr\u001b[39m"
-    ],
-    [
-      0.038267,
-      "\b\u001b[33mr\u001b[33ms\u001b[39m"
-    ],
-    [
-      0.03453,
-      "\b\u001b[33ms\u001b[33me\u001b[39m"
-    ],
-    [
-      0.036481,
-      "\b\u001b[33me\u001b[33ms\u001b[39m"
-    ],
-    [
-      0.03508,
-      "\b\u001b[33ms\u001b[33m_\u001b[39m"
-    ],
-    [
-      0.035351,
-      "\b\u001b[33m_\u001b[33ma\u001b[39m"
-    ],
-    [
-      0.059194,
-      "\b\u001b[33ma\u001b[33ms\u001b[39m"
-    ],
-    [
-      0.035893,
-      "\b\u001b[33ms\u001b[33ms\u001b[39m"
-    ],
-    [
-      0.035224,
-      "\b\u001b[33ms\u001b[33mi\u001b[39m"
-    ],
-    [
-      0.039316,
-      "\b\u001b[33mi\u001b[33ms\u001b[39m"
-    ],
-    [
-      0.034972,
-      "\b\u001b[33ms\u001b[33mt\u001b[39m"
-    ],
-    [
-      0.034502,
-      "\b\u001b[33mt\u001b[33ma\u001b[39m"
-    ],
-    [
-      0.035918,
-      "\b\u001b[33ma\u001b[33mn\u001b[39m"
-    ],
-    [
-      0.035959,
-      "\b\u001b[33mn\u001b[33mt\u001b[39m"
-    ],
-    [
-      0.035846,
-      "\b\u001b[33mt\u001b[33m=\u001b[39m"
-    ],
-    [
-      0.035478,
-      "\b\u001b[33m=\u001b[33mn\u001b[39m"
-    ],
-    [
-      0.037209,
-      "\b\u001b[33mn\u001b[33mo\u001b[39m"
-    ],
-    [
-      0.036908,
-      "\b\u001b[33mo\u001b[33mn\u001b[39m"
-    ],
-    [
-      0.034544,
-      "\b\u001b[33mn\u001b[33me\u001b[39m"
-    ],
-    [
-      0.037051,
-      "\b\u001b[33me\u001b[33m'\u001b[39m"
-    ],
-    [
-      0.035664,
-      " "
-    ],
-    [
-      0.035962,
-      "\u001b[4m4\u001b[24m"
-    ],
-    [
-      0.035923,
-      "\b\u001b[4m4\u001b[4md\u001b[24m"
-    ],
-    [
-      0.034257,
-      "\b\u001b[4md\u001b[4m1\u001b[24m"
-    ],
-    [
-      0.035284,
-      "\b\u001b[4m1\u001b[4ma\u001b[24m"
-    ],
-    [
-      0.036184,
-      "\b\u001b[4ma\u001b[4m3\u001b[24m"
-    ],
-    [
-      0.035965,
-      "\b\u001b[4m3\u001b[4m4\u001b[24m"
-    ],
-    [
-      0.03723,
-      "\b\u001b[4m4\u001b[4mc\u001b[24m"
-    ],
-    [
-      0.034815,
-      "\b\u001b[4mc\u001b[4mc\u001b[24m"
-    ],
-    [
-      0.0363,
-      "\b\u001b[4mc\u001b[4mf\u001b[24m"
-    ],
-    [
-      0.035908,
-      "\b\u001b[4mf\u001b[4ma\u001b[24m"
-    ],
-    [
-      0.035983,
-      "\b\u001b[4ma\u001b[4m8\u001b[24m"
-    ],
-    [
-      0.035202,
-      "\b\u001b[4m8\u001b[4m5\u001b[24m"
-    ],
-    [
-      0.036061,
-      "\b\u001b[4m5\u001b[4mf\u001b[24m"
-    ],
-    [
-      0.035861,
-      "\b\u001b[4mf\u001b[4m3\u001b[24m"
-    ],
-    [
-      0.035959,
-      "\b\u001b[4m3\u001b[4m2\u001b[24m"
-    ],
-    [
-      0.035142,
-      "\b\u001b[4m2\u001b[4m0\u001b[24m"
-    ],
-    [
-      0.035375,
-      "\b\u001b[4m0\u001b[4m6\u001b[24m"
-    ],
-    [
-      0.035643,
-      "\b\u001b[4m6\u001b[4m5\u001b[24m"
-    ],
-    [
-      0.035805,
-      "\b\u001b[4m5\u001b[4m0\u001b[24m"
-    ],
-    [
-      0.03564,
-      "\b\u001b[4m0\u001b[4m0\u001b[24m"
-    ],
-    [
-      0.035995,
-      "\b\u001b[4m0\u001b[4m0\u001b[24m"
-    ],
-    [
-      0.035519,
-      "\b\u001b[4m0\u001b[4m0\u001b[24m"
-    ],
-    [
-      0.038107,
-      "\b\u001b[4m0\u001b[4m0\u001b[24m"
-    ],
-    [
-      0.034514,
-      "\b\u001b[4m0\u001b[4m4\u001b[24m"
-    ],
-    [
-      0.03855,
-      "\b\u001b[4m4\u001b[4m/\u001b[24m"
-    ],
-    [
-      0.034964,
-      "\b\u001b[4m/\u001b[4mi\u001b[24m"
-    ],
-    [
-      0.034889,
-      "\b\u001b[4mi\u001b[4mn\u001b[24m"
-    ],
-    [
-      0.038748,
-      "\u001b[?2004l\r\r\n"
-    ],
-    [
-      0.006422,
-      "\u001b(B\u001b)0\u001b[?1049h\u001b[1;30r\u001b[m\u000f\u001b[4l\u001b[?25l\u001b[39;49m\u001b[?1000h"
-    ],
-    [
-      3.3e-05,
-      "\u001b[?1002h\u001b[?1004h"
-    ],
-    [
-      9.8e-05,
-      "\u001b[?1h\u001b="
-    ],
-    [
-      5.1e-05,
-      "\u001b[39;49m\u001b[m\u000f\u001b[H\u001b[J"
-    ],
-    [
-      0.000867,
-      "\u001b[1;31r\u001b]2;4d1a34ccfa85f32065000004/in 1:1  1 sel - unnamed0@[24739] - Kakoune\u0007"
-    ],
-    [
-      0.000565,
-      "\u001b[30m\u001b[47mM\u001b[39;49make the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1HThe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1HThe name \"Vim\" is an acronym for                                                                                        \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1HVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                                        \u001b[9;"
-    ],
-    [
-      1.6e-05,
-      "1HTrivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga                                           \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1HVim has a vi compatibility mode                                                                                         \u001b[13;1HVim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi                             \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;1H~"
-    ],
-    [
-      2.3e-05,
-      "                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~        "
-    ],
-    [
-      1.4e-05,
-      "                                                                                                               \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                               4d1a34ccfa85f32065000004/in 1:1  \u001b[34m1 sel\u001b[36m - unnamed0@[24739\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
-    ],
-    [
-      1.012904,
-      "\u001b]2;4d1a34ccfa85f32065000004/in 13:92  1 sel - unnamed0@[24739] - Kakoune\u0007"
-    ],
-    [
-      0.000252,
-      "\u001b[H\u001b[37m\u001b[44mMake the pairs of lines match up by making each second line same as first: \u001b[39;49m                                             \u001b[2;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[3;1H\u001b[37m\u001b[44m# Appending text: \u001b[39;49m                                                                                                      \u001b[4;1H\u001b[37m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\" \u001b[39;49m                                                                         \u001b[5;1H\u001b[37m\u001b[44mThe name \"Vim\" is an acronym for \u001b[39;49m                                                                                       \u001b[6;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[7;1H\u001b[37m\u001b[44m# Editing text: \u001b[39;49m                                                                                                        \u001b[8;1H\u001b[37m\u001b[44mVim"
+      0.22897,
+      "\u001bPtmux;\u001b\u001b]4;0;rgb:28/21/1c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;1;rgb:cf/6a/4c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;2;rgb:54/be/0d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;3;rgb:f9/ee/98\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;4;rgb:5e/a6/ea\u001b\u001b\\\u001b\\"
     ],
     [
       3e-05,
-      " is a text editor originally released by Bram Moolenaar in 1991 for the Amiga \u001b[39;49m                                       \u001b[9;1H\u001b[37m\u001b[44mTrivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga \u001b[39;49m                                          \u001b[10;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[11;1H\u001b[37m\u001b[44m# Deleting text: \u001b[39;49m                                                                                                       \u001b[12;1H\u001b[37m\u001b[44mVim has a vi compatibility mode \u001b[39;49m                                                                                        \u001b[13;1H\u001b[37m\u001b[44mVim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi\u001b[30m\u001b[47m \u001b[39;49m                            \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                         "
+      "\u001bPtmux;\u001b\u001b]4;5;rgb:9b/85/9d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;6;rgb:af/c4/db\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;7;rgb:8a/89/86\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;8;rgb:66/66/66\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;9;rgb:cf/6a/4c\u001b\u001b\\\u001b\\"
     ],
     [
-      1.9e-05,
-      "                                                                                              \u001b[16;1H~                                                                                                                       \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                 "
+      1.4e-05,
+      "\u001bPtmux;\u001b\u001b]4;10;rgb:54/be/0d\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.3e-05,
+      "\u001bPtmux;\u001b\u001b]4;11;rgb:f9/ee/98\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.4e-05,
+      "\u001bPtmux;\u001b\u001b]4;12;rgb:5e/a6/ea\u001b\u001b\\\u001b\\"
+    ],
+    [
+      9.4e-05,
+      "\u001bPtmux;\u001b\u001b]4;13;rgb:9b/85/9d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;14;rgb:af/c4/db\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;15;rgb:ba/ae/9e\u001b\u001b\\\u001b\\"
     ],
     [
       2e-05,
-      "                                                                                      \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                             4d1a34ccfa85f32065000004/in 13:92  \u001b[34m1 sel\u001b[36m - unnamed0@[24739\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+      "\u001bPtmux;\u001b\u001b]4;16;rgb:cf/7d/34\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;17;rgb:93/71/21\u001b\u001b\\\u001b\\"
     ],
     [
-      1.017054,
-      "\u001b]2;4d1a34ccfa85f32065000004/in 13:92  prompt - unnamed0@[24739] - Kakoune\u0007"
-    ],
-    [
-      0.000447,
-      "\u001b[H\u001b[37m\u001b[44mMake the pairs of lines match up by making each second line same as first: \u001b[39;49m                                             \u001b[2;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[3;1H\u001b[37m\u001b[44m# Appending text: \u001b[39;49m                                                                                                      \u001b[4;1H\u001b[37m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\" \u001b[39;49m                                                                         \u001b[5;1H\u001b[37m\u001b[44mThe name \"Vim\" is an acronym for \u001b[39;49m                                                                                       \u001b[6;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[7;1H\u001b[37m\u001b[44m# Editing text: \u001b[39;49m                                                                                                        \u001b[8;1H\u001b[37m\u001b[44mVim"
-    ],
-    [
-      4.4e-05,
-      " is a text editor originally released by Bram Moolenaar in 1991 for the Amiga \u001b[39;49m                                       \u001b[9;1H\u001b[37m\u001b[44mTrivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga \u001b[39;49m                                          \u001b[10;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[11;1H\u001b[37m\u001b[44m# Deleting text: \u001b[39;49m                                                                                                       \u001b[12;1H\u001b[37m\u001b[44mVim has a vi compatibility mode \u001b[39;49m                                                                                        \u001b[13;1H\u001b[37m\u001b[44mVim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi\u001b[30m\u001b[47m \u001b[39;49m                            \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                         "
+      6.7e-05,
+      "\u001bPtmux;\u001b\u001b]4;18;rgb:36/31/2e\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;19;rgb:5e/5d/5c\u001b\u001b\\\u001b\\"
     ],
     [
       3.2e-05,
+      "\u001bPtmux;\u001b\u001b]4;20;rgb:79/79/77\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;21;rgb:9d/9b/97\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.000165,
+      "\u001bPtmux;\u001b\u001b]10;rgb:8a/89/86\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]11;rgb:28/21/1c\u001b\u001b\\\u001b\\"
+    ],
+    [
+      1.7e-05,
+      "\u001bPtmux;\u001b\u001b]12;7\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.017825,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
+    ],
+    [
+      0.061495,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jλ kakoune-tv \u001b[K\u001b[?2004h"
+    ],
+    [
+      0.61635,
+      "\u001b[32mk\u001b[39m"
+    ],
+    [
+      0.026456,
+      "\b\u001b[1m\u001b[31mk\u001b[1m\u001b[31ma\u001b[0m\u001b[39m"
+    ],
+    [
+      0.025358,
+      "\b\b\u001b[0m\u001b[32mk\u001b[0m\u001b[32ma\u001b[32mk\u001b[39m"
+    ],
+    [
+      0.025929,
+      " "
+    ],
+    [
+      0.025661,
+      "-"
+    ],
+    [
+      0.025632,
+      "n"
+    ],
+    [
+      0.025534,
+      " "
+    ],
+    [
+      0.026244,
+      "-"
+    ],
+    [
+      0.025923,
+      "e"
+    ],
+    [
+      0.026023,
+      " "
+    ],
+    [
+      0.026287,
+      "\u001b[33m'\u001b[39m"
+    ],
+    [
+      0.026064,
+      "\b\u001b[33m'\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025853,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025824,
+      "\b\u001b[33me\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.027054,
+      "\b\u001b[33mt\u001b[33m \u001b[39m"
+    ],
+    [
+      0.024574,
+      "\b\u001b[33m \u001b[33mg\u001b[39m"
+    ],
+    [
+      0.025232,
+      "\b\u001b[33mg\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025268,
+      "\b\u001b[33ml\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025907,
+      "\b\u001b[33mo\u001b[33mb\u001b[39m"
+    ],
+    [
+      0.025303,
+      "\b\u001b[33mb\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.026224,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.026114,
+      "\b\u001b[33ml\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025885,
+      "\b\u001b[33m \u001b[33mu\u001b[39m"
+    ],
+    [
+      0.025794,
+      "\b\u001b[33mu\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025291,
+      "\b\u001b[33mi\u001b[33m_\u001b[39m"
+    ],
+    [
+      0.025846,
+      "\b\u001b[33m_\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025284,
+      "\b\u001b[33mo\u001b[33mp\u001b[39m"
+    ],
+    [
+      0.025682,
+      "\b\u001b[33mp\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025496,
+      "\b\u001b[33mt\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025787,
+      "\b\u001b[33mi\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025348,
+      "\b\u001b[33mo\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.026201,
+      "\b\u001b[33mn\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025868,
+      "\b\u001b[33ms\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025202,
+      "\b\u001b[33m \u001b[33mn\u001b[39m"
+    ],
+    [
+      0.026028,
+      "\b\u001b[33mn\u001b[33mc\u001b[39m"
+    ],
+    [
+      0.025815,
+      "\b\u001b[33mc\u001b[33mu\u001b[39m"
+    ],
+    [
+      0.026072,
+      "\b\u001b[33mu\u001b[33mr\u001b[39m"
+    ],
+    [
+      0.025177,
+      "\b\u001b[33mr\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025508,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.02594,
+      "\b\u001b[33me\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025951,
+      "\b\u001b[33ms\u001b[33m_\u001b[39m"
+    ],
+    [
+      0.0253,
+      "\b\u001b[33m_\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025803,
+      "\b\u001b[33ma\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025293,
+      "\b\u001b[33ms\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025576,
+      "\b\u001b[33ms\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025957,
+      "\b\u001b[33mi\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.02547,
+      "\b\u001b[33ms\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.026217,
+      "\b\u001b[33mt\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.02543,
+      "\b\u001b[33ma\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025943,
+      "\b\u001b[33mn\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.026249,
+      "\b\u001b[33mt\u001b[33m=\u001b[39m"
+    ],
+    [
+      0.025526,
+      "\b\u001b[33m=\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.026152,
+      "\b\u001b[33mn\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025269,
+      "\b\u001b[33mo\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.02604,
+      "\b\u001b[33mn\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025863,
+      "\b\u001b[33me\u001b[33m;\u001b[39m"
+    ],
+    [
+      0.025421,
+      "\b\u001b[33m;\u001b[33m \u001b[39m"
+    ],
+    [
+      0.026183,
+      "\b\u001b[33m \u001b[33ms\u001b[39m"
+    ],
+    [
+      0.026069,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025711,
+      "\b\u001b[33me\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025527,
+      "\b\u001b[33mt\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025553,
+      "\b\u001b[33m \u001b[33mg\u001b[39m"
+    ],
+    [
+      0.025728,
+      "\b\u001b[33mg\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025765,
+      "\b\u001b[33ml\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025374,
+      "\b\u001b[33mo\u001b[33mb\u001b[39m"
+    ],
+    [
+      0.026017,
+      "\b\u001b[33mb\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025237,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.02569,
+      "\b\u001b[33ml\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025194,
+      "\b\u001b[33m \u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025547,
+      "\b\u001b[33ma\u001b[33mu\u001b[39m"
+    ],
+    [
+      0.025257,
+      "\b\u001b[33mu\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025251,
+      "\b\u001b[33mt\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.0261,
+      "\b\u001b[33mo\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025903,
+      "\b\u001b[33mi\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025035,
+      "\b\u001b[33mn\u001b[33mf\u001b[39m"
+    ],
+    [
+      0.026393,
+      "\b\u001b[33mf\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.024707,
+      "\b\u001b[33mo\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025589,
+      "\b\u001b[33m \u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025652,
+      "\b\u001b[33mn\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025133,
+      "\b\u001b[33mo\u001b[33mr\u001b[39m"
+    ],
+    [
+      0.025476,
+      "\b\u001b[33mr\u001b[33mm\u001b[39m"
+    ],
+    [
+      0.025327,
+      "\b\u001b[33mm\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025737,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.027202,
+      "\b\u001b[33ml\u001b[33m'\u001b[39m"
+    ],
+    [
+      0.025264,
+      " "
+    ],
+    [
+      0.026304,
+      "\u001b[4m4\u001b[24m"
+    ],
+    [
+      0.025881,
+      "\b\u001b[4m4\u001b[4md\u001b[24m"
+    ],
+    [
+      0.025883,
+      "\b\u001b[4md\u001b[4m1\u001b[24m"
+    ],
+    [
+      0.026031,
+      "\b\u001b[4m1\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.025109,
+      "\b\u001b[4ma\u001b[4m3\u001b[24m"
+    ],
+    [
+      0.025781,
+      "\b\u001b[4m3\u001b[4m4\u001b[24m"
+    ],
+    [
+      0.026951,
+      "\b\u001b[4m4\u001b[4mc\u001b[24m"
+    ],
+    [
+      0.025672,
+      "\b\u001b[4mc\u001b[4mc\u001b[24m"
+    ],
+    [
+      0.025949,
+      "\b\u001b[4mc\u001b[4mf\u001b[24m"
+    ],
+    [
+      0.026097,
+      "\b\u001b[4mf\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.025508,
+      "\b\u001b[4ma\u001b[4m8\u001b[24m"
+    ],
+    [
+      0.025662,
+      "\b\u001b[4m8\u001b[4m5\u001b[24m"
+    ],
+    [
+      0.025776,
+      "\b\u001b[4m5\u001b[4mf\u001b[24m"
+    ],
+    [
+      0.026229,
+      "\b\u001b[4mf\u001b[4m3\u001b[24m"
+    ],
+    [
+      0.026034,
+      "\b\u001b[4m3\u001b[4m2\u001b[24m"
+    ],
+    [
+      0.026146,
+      "\b\u001b[4m2\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025784,
+      "\b\u001b[4m0\u001b[4m6\u001b[24m"
+    ],
+    [
+      0.026001,
+      "\b\u001b[4m6\u001b[4m5\u001b[24m"
+    ],
+    [
+      0.025868,
+      "\b\u001b[4m5\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025609,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025625,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.02573,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m \r\u001b[K"
+    ],
+    [
+      0.025615,
+      "\u001bM\u001b[119C\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025642,
+      "\r\u001b[4m0\u001b[4m4\u001b[24m"
+    ],
+    [
+      0.025273,
+      "\r\u001b[4m0\u001b[4m4\u001b[4m/\u001b[24m"
+    ],
+    [
+      0.025567,
+      "\b\u001b[4m/\u001b[4mi\u001b[24m"
+    ],
+    [
+      0.025383,
+      "\b\u001b[4mi\u001b[4mn\u001b[24m"
+    ],
+    [
+      0.02742,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.00425,
+      "\u001b(B\u001b)0\u001b[?1049h\u001b[1;30r\u001b[m\u000f\u001b[4l\u001b[?25l\u001b[39;49m\u001b[?1000h\u001b[?1002h\u001b[?1004h"
+    ],
+    [
+      4.4e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000289,
+      "\u001b[39;49m\u001b[m\u000f\u001b[H\u001b[J"
+    ],
+    [
+      0.000648,
+      "\u001b[1;31r\u001b]2;4d1a34ccfa85f32065000004/in 1:1  1 sel - unnamed0@[7280] - Kakoune\u0007"
+    ],
+    [
+      0.000252,
+      "\u001b[30m\u001b[47mM\u001b[39;49make the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1HThe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1HThe name \"Vim\" is an acronym for                                                                                        \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1HVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                                        \u001b[9;"
+    ],
+    [
+      2.7e-05,
+      "1HTrivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga                                           \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1HVim has a vi compatibility mode                                                                                         \u001b[13;1HVim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi                             \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;1H~"
+    ],
+    [
+      1.6e-05,
+      "                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~        "
+    ],
+    [
+      1.5e-05,
+      "                                                                                                               \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                                4d1a34ccfa85f32065000004/in 1:1  \u001b[34m1 sel\u001b[36m - unnamed0@[7280\b]\b\u001b[1@0\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.012062,
+      "\u001b]2;4d1a34ccfa85f32065000004/in 13:92  1 sel - unnamed0@[7280] - Kakoune\u0007"
+    ],
+    [
+      0.000177,
+      "\u001b[H\u001b[37m\u001b[44mMake the pairs of lines match up by making each second line same as first: \u001b[39;49m                                             \u001b[2;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[3;1H\u001b[37m\u001b[44m# Appending text: \u001b[39;49m                                                                                                      \u001b[4;1H\u001b[37m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\" \u001b[39;49m                                                                         \u001b[5;1H\u001b[37m\u001b[44mThe name \"Vim\" is an acronym for \u001b[39;49m                                                                                       \u001b[6;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[7;1H\u001b[37m\u001b[44m# Editing text: \u001b[39;49m                                                                                                        \u001b[8;1H\u001b[37m\u001b[44mVim"
+    ],
+    [
+      1.5e-05,
+      " is a text editor originally released by Bram Moolenaar in 1991 for the Amiga \u001b[39;49m                                       \u001b[9;1H\u001b[37m\u001b[44mTrivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga \u001b[39;49m                                          \u001b[10;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[11;1H\u001b[37m\u001b[44m# Deleting text: \u001b[39;49m                                                                                                       \u001b[12;1H\u001b[37m\u001b[44mVim has a vi compatibility mode \u001b[39;49m                                                                                        \u001b[13;1H\u001b[37m\u001b[44mVim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi\u001b[30m\u001b[47m \u001b[39;49m                            \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                         "
+    ],
+    [
+      1.5e-05,
       "                                                                                              \u001b[16;1H~                                                                                                                       \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                 "
     ],
     [
+      1.1e-05,
+      "                                                                                      \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                \u001b[30m\u001b[43m╭─────────┤%├─────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                \u001b[30m\u001b[43m│ select whole buffer │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                \u001b[30m\u001b[43m╰─────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m      "
+    ],
+    [
+      9e-06,
+      "                                                        4d1a34ccfa85f32065000004/in 13:92  \u001b[34m1 sel\u001b[36m - unnamed0@[7280\b]\b\u001b[1@0\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.010497,
+      "\u001b]2;4d1a34ccfa85f32065000004/in 13:92  prompt - unnamed0@[7280] - Kakoune\u0007"
+    ],
+    [
+      0.000164,
+      "\u001b[H\u001b[37m\u001b[44mMake the pairs of lines match up by making each second line same as first: \u001b[39;49m                                             \u001b[2;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[3;1H\u001b[37m\u001b[44m# Appending text: \u001b[39;49m                                                                                                      \u001b[4;1H\u001b[37m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\" \u001b[39;49m                                                                         \u001b[5;1H\u001b[37m\u001b[44mThe name \"Vim\" is an acronym for \u001b[39;49m                                                                                       \u001b[6;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[7;1H\u001b[37m\u001b[44m# Editing text: \u001b[39;49m                                                                                                        \u001b[8;1H\u001b[37m\u001b[44mVim"
+    ],
+    [
       2.2e-05,
-      "                                                                                      \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[33mselect:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                    4d1a34ccfa85f32065000004/in 13:92  \u001b[33mprompt\u001b[36m - unnamed0@[24739\b]\b\u001b[1@9\u001b[39"
+      " is a text editor originally released by Bram Moolenaar in 1991 for the Amiga \u001b[39;49m                                       \u001b[9;1H\u001b[37m\u001b[44mTrivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga \u001b[39;49m                                          \u001b[10;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[11;1H\u001b[37m\u001b[44m# Deleting text: \u001b[39;49m                                                                                                       \u001b[12;1H\u001b[37m\u001b[44mVim has a vi compatibility mode \u001b[39;49m                                                                                        \u001b[13;1H\u001b[37m\u001b[44mVim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi\u001b[30m\u001b[47m \u001b[39;49m                            \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                         "
     ],
     [
-      2.1e-05,
-      "m\u001b[m\u000f"
+      1.4e-05,
+      "                                                                                              \u001b[16;1H~                                                                                                                       \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                 "
     ],
     [
-      1.019698,
-      "\u001b]2;4d1a34ccfa85f32065000004/in 11:1  prompt - unnamed0@[24739] - Kakoune\u0007"
+      1.3e-05,
+      "                                                                                      \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                              \u001b[30m\u001b[43m╭──────────────────┤s├──────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m│ select regex matches in selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m╰────────────────────────"
     ],
     [
-      0.000818,
+      1.2e-05,
+      "───────────────╯\u001b[30;1H\u001b[39;49m\u001b[33mselect:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                     4d1a34ccfa85f32065000004/in 13:92  \u001b[33mprompt\u001b[36m - unnamed0@[7280\b]\b\u001b[1@0\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.011647,
+      "\u001b]2;4d1a34ccfa85f32065000004/in 11:1  prompt - unnamed0@[7280] - Kakoune\u0007"
+    ],
+    [
+      0.000183,
       "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H\u001b[30m\u001b[47m#\u001b[39;49m Appending text:                                                                                                       \u001b[4;1HThe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1HThe name \"Vim\" is an acronym for                                                                                        \u001b[6;1H                                                                                                                        \u001b[7;1H\u001b[30m\u001b[47m#\u001b[39;49m Editing text:                                                                                                         \u001b[8;1HVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                       "
     ],
     [
-      4.9e-05,
+      1.6e-05,
       "                 \u001b[9;1HTrivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga                                           \u001b[10;1H                                                                                                                        \u001b[11;1H\u001b[30m\u001b[47m#\u001b[39;49m Deleting text:                                                                                                        \u001b[12;1HVim has a vi compatibility mode                                                                                         \u001b[13;1HVim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi                             \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                        "
     ],
     [
-      4.2e-05,
+      1.8e-05,
       "                               \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                "
     ],
     [
-      3.5e-05,
-      "                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[33mselect:\u001b[36m#\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                    4d1a34ccfa85f32065000004/in 11:1  \u001b[33mprompt\u001b[36m - unnamed0@[24739\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+      1.7e-05,
+      "                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                              \u001b[30m\u001b[43m╭──────────────────┤s├──────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m│ select regex matches in selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m╰───────────────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[33mselect:\u001b[36m#\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                     4d1a34ccfa85f32065000004/in 11:1  "
     ],
     [
-      1.008836,
-      "\u001b]2;4d1a34ccfa85f32065000004/in 11:1  3 sel - unnamed0@[24739] - Kakoune\u0007"
+      1e-05,
+      "\u001b[33mprompt\u001b[36m - unnamed0@[7280\b]\b\u001b[1@0\u001bM\u001b[39m\u001b[m\u000f"
     ],
     [
-      0.000297,
+      1.00966,
+      "\u001b]2;4d1a34ccfa85f32065000004/in 11:1  3 sel - unnamed0@[7280] - Kakoune\u0007"
+    ],
+    [
+      0.000163,
       "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H\u001b[30m\u001b[47m#\u001b[39;49m Appending text:                                                                                                       \u001b[4;1HThe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1HThe name \"Vim\" is an acronym for                                                                                        \u001b[6;1H                                                                                                                        \u001b[7;1H\u001b[30m\u001b[47m#\u001b[39;49m Editing text:                                                                                                         \u001b[8;1HVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                       "
     ],
     [
-      2.1e-05,
+      1.4e-05,
       "                 \u001b[9;1HTrivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga                                           \u001b[10;1H                                                                                                                        \u001b[11;1H\u001b[30m\u001b[47m#\u001b[39;49m Deleting text:                                                                                                        \u001b[12;1HVim has a vi compatibility mode                                                                                         \u001b[13;1HVim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi                             \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                        "
     ],
     [
-      2.1e-05,
+      1.4e-05,
       "                               \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                "
     ],
     [
       1e-05,
-      "                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                              4d1a34ccfa85f32065000004/in 11:1  \u001b[34m3 sel\u001b[36m - unnamed0@[24739\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+      "                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                               4d1a34ccfa85f32065000004/in 11:1  \u001b[34m3 sel\u001b[36m - unnamed0@[7280\b]\b\u001b[1@0\u001b[39m\u001b[m\u000f"
     ],
     [
-      1.023222,
-      "\u001b]2;4d1a34ccfa85f32065000004/in 12:1  3 sel - unnamed0@[24739] - Kakoune\u0007"
+      1.019422,
+      "\u001b]2;4d1a34ccfa85f32065000004/in 12:1  3 sel - unnamed0@[7280] - Kakoune\u0007"
     ],
     [
-      0.000592,
+      0.000206,
       "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1H\u001b[30m\u001b[47mT\u001b[39;49mhe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1HThe name \"Vim\" is an acronym for                                                                                        \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1H\u001b[30m\u001b[47mV\u001b[39;49mim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                       "
     ],
     [
-      4.7e-05,
+      1.9e-05,
       "                 \u001b[9;1HTrivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga                                           \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1H\u001b[30m\u001b[47mV\u001b[39;49mim has a vi compatibility mode                                                                                         \u001b[13;1HVim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi                             \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                        "
     ],
     [
-      2.4e-05,
+      2.5e-05,
       "                               \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                "
     ],
     [
-      2.6e-05,
-      "                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                              4d1a34ccfa85f32065000004/in 12:1  \u001b[34m3 sel\u001b[36m - unnamed0@[24739\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+      2.2e-05,
+      "                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                          \u001b[30m\u001b[43m╭────┤j├────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                          \u001b[30m\u001b[43m│ move down │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                          \u001b[30m\u001b[43m╰───────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                               4d1a34ccfa85f32065000004/in 12:1  \u001b[34m3 sel\u001b[36m - unnamed0@[7280\b]\b\u001b[1@0\u001bM\u001b[39m\u001b[m\u000f"
     ],
     [
-      1.016392,
-      "\u001b]2;4d1a34ccfa85f32065000004/in 12:32  3 sel - unnamed0@[24739] - Kakoune\u0007"
+      1.018065,
+      "\u001b]2;4d1a34ccfa85f32065000004/in 12:32  3 sel - unnamed0@[7280] - Kakoune\u0007"
     ],
     [
-      0.000767,
+      0.000753,
       "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1H\u001b[30m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\"\u001b[30m\u001b[47m \u001b[39;49m                                                                         \u001b[5;1HThe name \"Vim\" is an acronym for                                                                                        \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1H\u001b[30m\u001b[44mVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga\u001b[30m\u001b[47m \u001b[39;49m  "
     ],
     [
-      5.2e-05,
+      3.9e-05,
+      "                                     \u001b[9;1HTrivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga                                           \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1H\u001b[37m\u001b[44mVim has a vi compatibility mode\u001b[30m\u001b[47m \u001b[39;49m                                                                                        \u001b[13;1HVim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi                             \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                          "
+    ],
+    [
+      3.6e-05,
+      "                                                             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                  "
+    ],
+    [
+      3.4e-05,
+      "                                                     \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                        \u001b[30m\u001b[43m╭─────┤x├─────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                        \u001b[30m\u001b[43m│ select line │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                        \u001b[30m\u001b[43m╰─────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                              4d1a34ccfa85f32065000004/in 12:32  \u001b[34m3 sel\u001b[36m - unnamed0@[7280\b]\b\u001b[1@0\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.01226,
+      "\u001b]2;4d1a34ccfa85f32065000004/in 12:32  3 sel - unnamed0@[7280] - Kakoune\u0007"
+    ],
+    [
+      0.00049,
+      "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1H\u001b[30m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\"\u001b[30m\u001b[47m \u001b[39;49m                                                                         \u001b[5;1HThe name \"Vim\" is an acronym for                                                                                        \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1H\u001b[30m\u001b[44mVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga\u001b[30m\u001b[47m \u001b[39;49m  "
+    ],
+    [
+      3.1e-05,
       "                                     \u001b[9;1HTrivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga                                           \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1H\u001b[37m\u001b[44mVim has a vi compatibility mode\u001b[30m\u001b[47m \u001b[39;49m                                                                                        \u001b[13;1HVim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi                             \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                          "
     ],
     [
@@ -551,155 +695,131 @@
       "                                                             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                  "
     ],
     [
-      3.1e-05,
-      "                                                     \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                             4d1a34ccfa85f32065000004/in 12:32  \u001b[34m3 sel\u001b[36m - unnamed0@[24739\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+      2.5e-05,
+      "                                                     \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                 \u001b[30m\u001b[43m╭────────┤y├─────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                 \u001b[30m\u001b[43m│ yank selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                 \u001b[30m\u001b[43m╰────────────────────╯\u001b[30;1Hyanked 3 selections to register \"\u001b[39;49m\u001b[36m                             4d1a34ccfa85f32065000004/in 12:32  \u001b[34m3 sel\u001b[36m - unnamed0@[7280\b]\b\u001b[1@0\u001bM\u001b[39m\u001b[m\u000f"
     ],
     [
-      1.018158,
-      "\u001b]2;4d1a34ccfa85f32065000004/in 12:32  3 sel - unnamed0@[24739] - Kakoune\u0007"
+      1.013148,
+      "\u001b]2;4d1a34ccfa85f32065000004/in 13:92  3 sel - unnamed0@[7280] - Kakoune\u0007"
     ],
     [
-      0.000856,
-      "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1H\u001b[30m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\"\u001b[30m\u001b[47m \u001b[39;49m                                                                         \u001b[5;1HThe name \"Vim\" is an acronym for                                                                                        \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1H\u001b[30m\u001b[44mVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga\u001b[30m\u001b[47m \u001b[39;49m  "
-    ],
-    [
-      5.9e-05,
-      "                                     \u001b[9;1HTrivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga                                           \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1H\u001b[37m\u001b[44mVim has a vi compatibility mode\u001b[30m\u001b[47m \u001b[39;49m                                                                                        \u001b[13;1HVim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi                             \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                          "
-    ],
-    [
-      3.4e-05,
-      "                                                             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                  "
-    ],
-    [
-      3.7e-05,
-      "                                                     \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[30m\u001b[43myanked 3 selections to register \"\u001b[39;49m\u001b[36m                            4d1a34ccfa85f32065000004/in 12:32  \u001b[34m3 sel\u001b[36m - unnamed0@[24739\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
-    ],
-    [
-      1.019869,
-      "\u001b]2;4d1a34ccfa85f32065000004/in 13:92  3 sel - unnamed0@[24739] - Kakoune\u0007"
-    ],
-    [
-      0.000469,
+      0.00041,
       "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1HThe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1H\u001b[30m\u001b[44mThe name \"Vim\" is an acronym for\u001b[30m\u001b[47m \u001b[39;49m                                                                                       \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1HVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                               "
     ],
     [
-      3.2e-05,
+      2e-05,
       "         \u001b[9;1H\u001b[30m\u001b[44mTrivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga\u001b[30m\u001b[47m \u001b[39;49m                                          \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1HVim has a vi compatibility mode                                                                                         \u001b[13;1H\u001b[37m\u001b[44mVim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi\u001b[30m\u001b[47m \u001b[39;49m                            \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                          "
+    ],
+    [
+      1.4e-05,
+      "                                                             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                  "
+    ],
+    [
+      2.3e-05,
+      "                                                     \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                        \u001b[30m\u001b[43m╭─────┤x├─────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                        \u001b[30m\u001b[43m│ select line │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                        \u001b[30m\u001b[43m╰─────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                              4d1a34ccfa85f32065000004/in 13:92  \u001b[34m3 sel\u001b[36m - unnamed0@[7280\b]\b\u001b[1@0\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.011288,
+      "\u001b]2;4d1a34ccfa85f32065000004/in 13:32 [+] 3 sel - unnamed0@[7280] - Kakoune\u0007"
+    ],
+    [
+      0.000384,
+      "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1HThe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1H\u001b[30m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\"\u001b[30m\u001b[47m \u001b[39;49m                                                                         \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1HVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                               "
+    ],
+    [
+      1.7e-05,
+      "         \u001b[9;1H\u001b[30m\u001b[44mVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga\u001b[30m\u001b[47m \u001b[39;49m                                       \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1HVim has a vi compatibility mode                                                                                         \u001b[13;1H\u001b[37m\u001b[44mVim has a vi compatibility mode\u001b[30m\u001b[47m \u001b[39;49m                                                                                        \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                          "
+    ],
+    [
+      1.7e-05,
+      "                                                             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                  "
+    ],
+    [
+      1.9e-05,
+      "                                                     \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                             \u001b[30m\u001b[43m╭──────────────────┤R├───────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                             \u001b[30m\u001b[43m│ replace selected text with yanked text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                             \u001b[30m\u001b[43m╰────────────────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                         "
+    ],
+    [
+      1.4e-05,
+      "                                  4d1a34ccfa85f32065000004/in 13:32 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m3 sel\u001b[36m - unnamed0@[7280\b]\b\u001b[1@0\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      2.012969,
+      "\u001b]2;4d1a34ccfa85f32065000004/in 13:32 [+] prompt - unnamed0@[7280] - Kakoune\u0007"
+    ],
+    [
+      0.000272,
+      "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1HThe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1H\u001b[30m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\"\u001b[30m\u001b[47m \u001b[39;49m                                                                         \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1HVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                               "
+    ],
+    [
+      4e-05,
+      "         \u001b[9;1H\u001b[30m\u001b[44mVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga\u001b[30m\u001b[47m \u001b[39;49m                                       \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1HVim has a vi compatibility mode                                                                                         \u001b[13;1H\u001b[37m\u001b[44mVim has a vi compatibility mode\u001b[30m\u001b[47m \u001b[39;49m                                                                                        \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                          "
+    ],
+    [
+      2.6e-05,
+      "                                                             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                               \u001b[30m\u001b[43m╭─────────┤:├──────────╮\u001b[20;1H\u001b[39;49m\u001b[34m~                                                                                               \u001b[30m\u001b[43m│ enter command prompt │\u001b[21;1H\u001b[39;49m\u001b[34m~                                                                                               \u001b[30m\u001b[43m╰──────────────────────╯\u001b[22;1H\u001b[34m\u001b[47madd-highlighter    alias              buffer             buffer-next        buffer-previous    change-directory        █\u001b[23;1Hdebug              declare-o"
+    ],
+    [
+      3e-05,
+      "ption     define-command     delete-buffer      delete-buffer!     echo                    █\u001b[24;1Hedit               edit!              eval               exec               hook               info                    █\u001b[25;1Hkill               kill!              map                menu               nop                on-key                  █\u001b[26;1Hprompt             quit               quit!              remove-highlighter remove-hooks       rename-buffer           █\u001b[27;1Hrename-client      rename-session     select             set-face           set-option         set-register            █\u001b[28;1Hsource             try                unalias            unmap              unset-option       write                   █\u001b[29;1Hwrite-all          write-all-quit     write-quit         write-quit!                                                   █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                        4d1a34ccfa85f32065000004/in 13:32 \u001b[30m\u001b[43m[+]\u001b[39;49m"
+    ],
+    [
+      2e-05,
+      "\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[7280\b]\b\u001b[1@0\u001b[9A\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.500104,
+      "\u001b]2;4d1a34ccfa85f32065000004/in 13:32 [+] prompt - unnamed0@[7280] - Kakoune\u0007"
+    ],
+    [
+      0.00023,
+      "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1HThe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1H\u001b[30m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\"\u001b[30m\u001b[47m \u001b[39;49m                                                                         \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1HVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                               "
+    ],
+    [
+      1.6e-05,
+      "         \u001b[9;1H\u001b[30m\u001b[44mVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga\u001b[30m\u001b[47m \u001b[39;49m                                       \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1HVim has a vi compatibility mode                                                                                         \u001b[13;1H\u001b[37m\u001b[44mVim has a vi compatibility mode\u001b[30m\u001b[47m \u001b[39;49m                                                                                        \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                          "
     ],
     [
       1.9e-05,
       "                                                             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                  "
     ],
     [
+      1.6e-05,
+      "                                                     \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H\u001b[34m\u001b[47mquit             quit!            write-quit       write-quit!      write-all-quit                                     █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                       4d1a34ccfa85f32065000004/in 13:32 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[7280\b]\b\u001b[1@0\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.500935,
+      "\u001b]2;4d1a34ccfa85f32065000004/in 13:32 [+] prompt - unnamed0@[7280] - Kakoune\u0007"
+    ],
+    [
+      0.000238,
+      "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1HThe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1H\u001b[30m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\"\u001b[30m\u001b[47m \u001b[39;49m                                                                         \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1HVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                               "
+    ],
+    [
+      1.5e-05,
+      "         \u001b[9;1H\u001b[30m\u001b[44mVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga\u001b[30m\u001b[47m \u001b[39;49m                                       \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1HVim has a vi compatibility mode                                                                                         \u001b[13;1H\u001b[37m\u001b[44mVim has a vi compatibility mode\u001b[30m\u001b[47m \u001b[39;49m                                                                                        \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                          "
+    ],
+    [
       1.7e-05,
-      "                                                     \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                             4d1a34ccfa85f32065000004/in 13:92  \u001b[34m3 sel\u001b[36m - unnamed0@[24739\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
-    ],
-    [
-      1.012994,
-      "\u001b]2;4d1a34ccfa85f32065000004/in 13:32 [+] 3 sel - unnamed0@[24739] - Kakoune\u0007"
-    ],
-    [
-      0.000358,
-      "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1HThe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1H\u001b[30m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\"\u001b[30m\u001b[47m \u001b[39;49m                                                                         \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1HVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                               "
-    ],
-    [
-      3.4e-05,
-      "         \u001b[9;1H\u001b[30m\u001b[44mVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga\u001b[30m\u001b[47m \u001b[39;49m                                       \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1HVim has a vi compatibility mode                                                                                         \u001b[13;1H\u001b[37m\u001b[44mVim has a vi compatibility mode\u001b[30m\u001b[47m \u001b[39;49m                                                                                        \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                          "
-    ],
-    [
-      2.4e-05,
       "                                                             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                  "
     ],
     [
-      2e-05,
-      "                                                     \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                          4d1a34ccfa85f32065000004/in 13:32 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m3 sel\u001b[36m - unnamed0@[24739\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+      1.4e-05,
+      "                                                     \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H\u001b[34m\u001b[47mquit!        write-quit!                                                                                               █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq!\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                      4d1a34ccfa85f32065000004/in 13:32 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[7280\b]\b\u001b[1@0\u001bM\u001b[39m\u001b[m\u000f"
     ],
     [
-      2.012213,
-      "\u001b]2;4d1a34ccfa85f32065000004/in 13:32 [+] prompt - unnamed0@[24739] - Kakoune\u0007"
+      1.508543,
+      "\u001b[?1000l\u001b[?1004l\u001b[?1002l\u001b[30;1H\u001b[34h\u001b[?25h\u001b[?1049l\r\u001b[?1l\u001b>"
     ],
     [
-      0.000174,
-      "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1HThe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1H\u001b[30m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\"\u001b[30m\u001b[47m \u001b[39;49m                                                                         \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1HVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                               "
-    ],
-    [
-      1.2e-05,
-      "         \u001b[9;1H\u001b[30m\u001b[44mVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga\u001b[30m\u001b[47m \u001b[39;49m                                       \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1HVim has a vi compatibility mode                                                                                         \u001b[13;1H\u001b[37m\u001b[44mVim has a vi compatibility mode\u001b[30m\u001b[47m \u001b[39;49m                                                                                        \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                          "
-    ],
-    [
-      1.1e-05,
-      "                                                             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H\u001b[34m\u001b[47madd-highlighter    alias              buffer             buffer-next        buffer-previous    change-directory        █\u001b[23;1Hdebug              declare-option     define-command     delete-buffer      delete-buffer!     echo                    █\u001b[24;1Hedit               edit!              eval           "
-    ],
-    [
-      9e-06,
-      "    exec               hook               info                    █\u001b[25;1Hkill               kill!              map                menu               nop                on-key                  █\u001b[26;1Hprompt             quit               quit!              remove-highlighter remove-hooks       rename-buffer           █\u001b[27;1Hrename-client      rename-session     select             set-face           set-option         set-register            █\u001b[28;1Hsource             try                unalias            unmap              unset-option       write                   █\u001b[29;1Hwrite-all          write-all-quit     write-quit         write-quit!                                                   █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                       4d1a34ccfa85f32065000004/in 13:32 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[24739\b]\b\u001b[1@9\u001bM\u001b[39m\u001b[m\u000f"
-    ],
-    [
-      0.499575,
-      "\u001b]2;4d1a34ccfa85f32065000004/in 13:32 [+] prompt - unnamed0@[24739] - Kakoune\u0007"
-    ],
-    [
-      0.000268,
-      "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1HThe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1H\u001b[30m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\"\u001b[30m\u001b[47m \u001b[39;49m                                                                         \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1HVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                               "
-    ],
-    [
-      2.9e-05,
-      "         \u001b[9;1H\u001b[30m\u001b[44mVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga\u001b[30m\u001b[47m \u001b[39;49m                                       \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1HVim has a vi compatibility mode                                                                                         \u001b[13;1H\u001b[37m\u001b[44mVim has a vi compatibility mode\u001b[30m\u001b[47m \u001b[39;49m                                                                                        \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                          "
-    ],
-    [
-      3.4e-05,
-      "                                                             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                  "
-    ],
-    [
-      3.1e-05,
-      "                                                     \u001b[25;1H~             \u001b[30m\u001b[43m╭─────────────────────────────────────────────────┤quit├─────────────────────────────────────────────────╮\u001b[26;1H\u001b[39;49m\u001b[34m~             \u001b[30m\u001b[43m│ quit current client, and the kakoune session if the client is the last (if not running in daemon mode) │\u001b[27;1H\u001b[39;49m\u001b[34m~             \u001b[30m\u001b[43m│ Aliases: q                                                                                             │\u001b[28;1H\u001b[39;49m\u001b[34m~             \u001b[30m\u001b[43m╰───────────────────────────────────────────────────────────────────────────────────────────"
-    ],
-    [
-      2.7e-05,
-      "─────────────╯\u001b[29;1H\u001b[34m\u001b[47mquit             quit!            write-quit       write-quit!      write-all-quit                                     █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                      4d1a34ccfa85f32065000004/in 13:32 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[24739\b]\b\u001b[1@9\u001bM\u001bM\u001b[39m\u001b[m\u000f"
-    ],
-    [
-      0.503697,
-      "\u001b]2;4d1a34ccfa85f32065000004/in 13:32 [+] prompt - unnamed0@[24739] - Kakoune\u0007"
-    ],
-    [
-      0.000612,
-      "\u001b[HMake the pairs of lines match up by making each second line same as first:                                              \u001b[2;1H                                                                                                                        \u001b[3;1H# Appending text:                                                                                                       \u001b[4;1HThe name \"Vim\" is an acronym for \"Vi IMproved\"                                                                          \u001b[5;1H\u001b[30m\u001b[44mThe name \"Vim\" is an acronym for \"Vi IMproved\"\u001b[30m\u001b[47m \u001b[39;49m                                                                         \u001b[6;1H                                                                                                                        \u001b[7;1H# Editing text:                                                                                                         \u001b[8;1HVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga                               "
-    ],
-    [
-      5.2e-05,
-      "         \u001b[9;1H\u001b[30m\u001b[44mVim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga\u001b[30m\u001b[47m \u001b[39;49m                                       \u001b[10;1H                                                                                                                        \u001b[11;1H# Deleting text:                                                                                                        \u001b[12;1HVim has a vi compatibility mode                                                                                         \u001b[13;1H\u001b[37m\u001b[44mVim has a vi compatibility mode\u001b[30m\u001b[47m \u001b[39;49m                                                                                        \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                          "
-    ],
-    [
-      9.6e-05,
-      "                                                             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~      \u001b[30m\u001b[43m╭───────────────"
-    ],
-    [
-      5.9e-05,
-      "─────────────────────────────────────┤quit!├────────────────────────────────────────────────────╮\u001b[25;1H\u001b[39;49m\u001b[34m~      \u001b[30m\u001b[43m│ quit current client, and the kakoune session if the client is the last (if not running in daemon mode). force │\u001b[26;1H\u001b[39;49m\u001b[34m~      \u001b[30m\u001b[43m│ quit even if the client is the last and some buffers are not saved.                                           │\u001b[27;1H\u001b[39;49m\u001b[34m~      \u001b[30m\u001b[43m│ Aliases: q!                                                                                                   │\u001b[28;1H\u001b[39;49m\u001b[34m~      \u001b[30m\u001b[43m╰─────────────────────────────────────────────────────────────────────────────────"
-    ],
-    [
-      4.4e-05,
-      "──────────────────────────────╯\u001b[29;1H\u001b[34m\u001b[47mquit!        write-quit!                                                                                               █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq!\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                     4d1a34ccfa85f32065000004/in 13:32 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[24739\b]\b\u001b[1@9\u001bM\u001bM\u001b[39m\u001b[m\u000f"
-    ],
-    [
-      1.504112,
-      "\u001b[?1000l\u001b[?1004l\u001b[?1002l"
-    ],
-    [
-      3.3e-05,
-      "\u001b[30;1H\u001b[34h\u001b[?25h\u001b[?1049l\r\u001b[?1l\u001b>"
-    ],
-    [
-      0.001426,
+      0.001944,
       "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
     ],
     [
-      0.059111,
+      0.081321,
       "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jλ kakoune-tv \u001b[K\u001b[?2004h"
     ],
     [
-      0.961623,
+      0.941473,
       "\u001b[?2004l\r\r\n"
     ]
   ]
