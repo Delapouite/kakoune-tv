@@ -1,0 +1,53 @@
+body {
+	background: #333;
+	color: #eee;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+a {
+	color: #fff;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	margin-top: 2em;
+	text-align: center;
+}
+
+main {
+	margin: 0 auto;
+	width: 880px;
+}
+
+#kakoune-logo {
+	height: 60px;
+	vertical-align: middle;
+}
+
+#player-holder {
+	min-height: 540px;
+}
+
+#keys-holder {
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#keys {
+	background: #000;
+	display: inline-block;
+	font-size: 1.5em;
+	padding: .5em;
+}
+
+#episode-selector-holder {
+	text-align: center;
+}
+
+#vimgolf-link {
+	display: block;
+	margin: 1em;
+}

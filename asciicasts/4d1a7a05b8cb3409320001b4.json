@@ -1,0 +1,794 @@
+{
+  "version": 1,
+  "width": 120,
+  "height": 30,
+  "duration": 19.688565,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "screen-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.225919,
+      "\u001bPtmux;\u001b\u001b]4;0;rgb:28/21/1c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;1;rgb:cf/6a/4c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;2;rgb:54/be/0d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;3;rgb:f9/ee/98\u001b\u001b\\\u001b\\"
+    ],
+    [
+      3.8e-05,
+      "\u001bPtmux;\u001b\u001b]4;4;rgb:5e/a6/ea\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;5;rgb:9b/85/9d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;6;rgb:af/c4/db\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;7;rgb:8a/89/86\u001b\u001b\\\u001b\\"
+    ],
+    [
+      1.7e-05,
+      "\u001bPtmux;\u001b\u001b]4;8;rgb:66/66/66\u001b\u001b\\\u001b\\"
+    ],
+    [
+      1.5e-05,
+      "\u001bPtmux;\u001b\u001b]4;9;rgb:cf/6a/4c\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.6e-05,
+      "\u001bPtmux;\u001b\u001b]4;10;rgb:54/be/0d\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.8e-05,
+      "\u001bPtmux;\u001b\u001b]4;11;rgb:f9/ee/98\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.5e-05,
+      "\u001bPtmux;\u001b\u001b]4;12;rgb:5e/a6/ea\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.7e-05,
+      "\u001bPtmux;\u001b\u001b]4;13;rgb:9b/85/9d\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.5e-05,
+      "\u001bPtmux;\u001b\u001b]4;14;rgb:af/c4/db\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.7e-05,
+      "\u001bPtmux;\u001b\u001b]4;15;rgb:ba/ae/9e\u001b\u001b\\\u001b\\"
+    ],
+    [
+      3.9e-05,
+      "\u001bPtmux;\u001b\u001b]4;16;rgb:cf/7d/34\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.7e-05,
+      "\u001bPtmux;\u001b\u001b]4;17;rgb:93/71/21\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.8e-05,
+      "\u001bPtmux;\u001b\u001b]4;18;rgb:36/31/2e\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.7e-05,
+      "\u001bPtmux;\u001b\u001b]4;19;rgb:5e/5d/5c\u001b\u001b\\\u001b\\"
+    ],
+    [
+      3e-05,
+      "\u001bPtmux;\u001b\u001b]4;20;rgb:79/79/77\u001b\u001b\\\u001b\\"
+    ],
+    [
+      3.4e-05,
+      "\u001bPtmux;\u001b\u001b]4;21;rgb:9d/9b/97\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.000257,
+      "\u001bPtmux;\u001b\u001b]10;rgb:8a/89/86\u001b\u001b\\\u001b\\"
+    ],
+    [
+      3.8e-05,
+      "\u001bPtmux;\u001b\u001b]11;rgb:28/21/1c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]12;7\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.017829,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
+    ],
+    [
+      0.055067,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jλ kakoune-tv \u001b[K\u001b[?2004h"
+    ],
+    [
+      0.633901,
+      "\u001b[32mk\u001b[39m"
+    ],
+    [
+      0.035367,
+      "\b\u001b[1m\u001b[31mk\u001b[1m\u001b[31ma\u001b[0m\u001b[39m"
+    ],
+    [
+      0.03489,
+      "\b\b\u001b[0m\u001b[32mk\u001b[0m\u001b[32ma\u001b[32mk\u001b[39m"
+    ],
+    [
+      0.035418,
+      " "
+    ],
+    [
+      0.035925,
+      "-"
+    ],
+    [
+      0.035762,
+      "n"
+    ],
+    [
+      0.035817,
+      " "
+    ],
+    [
+      0.035289,
+      "-"
+    ],
+    [
+      0.035388,
+      "e"
+    ],
+    [
+      0.035862,
+      " "
+    ],
+    [
+      0.035748,
+      "\u001b[33m'\u001b[39m"
+    ],
+    [
+      0.035719,
+      "\b\u001b[33m'\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.034954,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.036106,
+      "\b\u001b[33me\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.036057,
+      "\b\u001b[33mt\u001b[33m \u001b[39m"
+    ],
+    [
+      0.035896,
+      "\b\u001b[33m \u001b[33mg\u001b[39m"
+    ],
+    [
+      0.035589,
+      "\b\u001b[33mg\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.035703,
+      "\b\u001b[33ml\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.035855,
+      "\b\u001b[33mo\u001b[33mb\u001b[39m"
+    ],
+    [
+      0.035788,
+      "\b\u001b[33mb\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.036138,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.035821,
+      "\b\u001b[33ml\u001b[33m \u001b[39m"
+    ],
+    [
+      0.035752,
+      "\b\u001b[33m \u001b[33mu\u001b[39m"
+    ],
+    [
+      0.035207,
+      "\b\u001b[33mu\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.036088,
+      "\b\u001b[33mi\u001b[33m_\u001b[39m"
+    ],
+    [
+      0.036067,
+      "\b\u001b[33m_\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.035139,
+      "\b\u001b[33mo\u001b[33mp\u001b[39m"
+    ],
+    [
+      0.038281,
+      "\b\u001b[33mp\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.034535,
+      "\b\u001b[33mt\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.035576,
+      "\b\u001b[33mi\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.035201,
+      "\b\u001b[33mo\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.036038,
+      "\b\u001b[33mn\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.03575,
+      "\b\u001b[33ms\u001b[33m \u001b[39m"
+    ],
+    [
+      0.035795,
+      "\b\u001b[33m \u001b[33mn\u001b[39m"
+    ],
+    [
+      0.035852,
+      "\b\u001b[33mn\u001b[33mc\u001b[39m"
+    ],
+    [
+      0.035936,
+      "\b\u001b[33mc\u001b[33mu\u001b[39m"
+    ],
+    [
+      0.03548,
+      "\b\u001b[33mu\u001b[33mr\u001b[39m"
+    ],
+    [
+      0.035984,
+      "\b\u001b[33mr\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.035204,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.035416,
+      "\b\u001b[33me\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.035419,
+      "\b\u001b[33ms\u001b[33m_\u001b[39m"
+    ],
+    [
+      0.037912,
+      "\b\u001b[33m_\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.034899,
+      "\b\u001b[33ma\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.03498,
+      "\b\u001b[33ms\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.035083,
+      "\b\u001b[33ms\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.035456,
+      "\b\u001b[33mi\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.035083,
+      "\b\u001b[33ms\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.035416,
+      "\b\u001b[33mt\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.035497,
+      "\b\u001b[33ma\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.038185,
+      "\b\u001b[33mn\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.033345,
+      "\b\u001b[33mt\u001b[33m=\u001b[39m"
+    ],
+    [
+      0.03618,
+      "\b\u001b[33m=\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.035111,
+      "\b\u001b[33mn\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.035789,
+      "\b\u001b[33mo\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.035676,
+      "\b\u001b[33mn\u001b[33me\u001b[39m"
+    ],
+    [
+      0.035765,
+      "\b\u001b[33me\u001b[33m'\u001b[39m"
+    ],
+    [
+      0.035663,
+      " "
+    ],
+    [
+      0.035959,
+      "\u001b[4m4\u001b[24m"
+    ],
+    [
+      0.035579,
+      "\b\u001b[4m4\u001b[4md\u001b[24m"
+    ],
+    [
+      0.035571,
+      "\b\u001b[4md\u001b[4m1\u001b[24m"
+    ],
+    [
+      0.035653,
+      "\b\u001b[4m1\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.035485,
+      "\b\u001b[4ma\u001b[4m7\u001b[24m"
+    ],
+    [
+      0.035383,
+      "\b\u001b[4m7\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.061312,
+      "\b\u001b[4ma\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.035131,
+      "\b\u001b[4m0\u001b[4m5\u001b[24m"
+    ],
+    [
+      0.035368,
+      "\b\u001b[4m5\u001b[4mb\u001b[24m"
+    ],
+    [
+      0.03621,
+      "\b\u001b[4mb\u001b[4m8\u001b[24m"
+    ],
+    [
+      0.035921,
+      "\b\u001b[4m8\u001b[4mc\u001b[24m"
+    ],
+    [
+      0.03554,
+      "\b\u001b[4mc\u001b[4mb\u001b[24m"
+    ],
+    [
+      0.035607,
+      "\b\u001b[4mb\u001b[4m3\u001b[24m"
+    ],
+    [
+      0.035918,
+      "\b\u001b[4m3\u001b[4m4\u001b[24m"
+    ],
+    [
+      0.038752,
+      "\b\u001b[4m4\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.034788,
+      "\b\u001b[4m0\u001b[4m9\u001b[24m"
+    ],
+    [
+      0.035274,
+      "\b\u001b[4m9\u001b[4m3\u001b[24m"
+    ],
+    [
+      0.034913,
+      "\b\u001b[4m3\u001b[4m2\u001b[24m"
+    ],
+    [
+      0.035384,
+      "\b\u001b[4m2\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.035628,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.035665,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.035655,
+      "\b\u001b[4m0\u001b[4m1\u001b[24m"
+    ],
+    [
+      0.035743,
+      "\b\u001b[4m1\u001b[4mb\u001b[24m"
+    ],
+    [
+      0.035667,
+      "\b\u001b[4mb\u001b[4m4\u001b[24m"
+    ],
+    [
+      0.035804,
+      "\b\u001b[4m4\u001b[4m/\u001b[24m"
+    ],
+    [
+      0.03608,
+      "\b\u001b[4m/\u001b[4mi\u001b[24m"
+    ],
+    [
+      0.035497,
+      "\b\u001b[4mi\u001b[4mn\u001b[24m"
+    ],
+    [
+      0.038043,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.005742,
+      "\u001b(B\u001b)0\u001b[?1049h\u001b[1;30r\u001b[m\u000f\u001b[4l\u001b[?25l\u001b[39;49m\u001b[?1000h"
+    ],
+    [
+      3e-05,
+      "\u001b[?1002h\u001b[?1004h\u001b[?1h\u001b="
+    ],
+    [
+      0.000241,
+      "\u001b[39;49m\u001b[m\u000f\u001b[H\u001b[J"
+    ],
+    [
+      0.000712,
+      "\u001b[1;31r\u001b]2;4d1a7a05b8cb3409320001b4/in 1:1  1 sel - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.000263,
+      "\u001b[30m\u001b[47m<\u001b[39;49mh1>What Vim Can Do</h1>                                                                                                \u001b[2;1H<p>                                                                                                                     \u001b[3;1HVim is an advanced text editor that seeks to provide the power of                                                       \u001b[4;1Hthe de-facto Unix editor 'Vi', with a more complete feature set.                                                        \u001b[5;1HIt's useful whether you're <a href='viusers.php'>already using vi</a> or <a                                             \u001b[6;1Hhref='others.php'>using a different editor</a>.  Users of Vim 5 and 6 should                                            \u001b[7;1Hconsider upgrading to Vim 7.  The main advantages of Vim 6 compared to Vim 5                                            \u001b[8;1Hcan be found on <a href='vim5users.php'>this page</a>.                                                                  \u001b[9;"
+    ],
+    [
+      2.1e-05,
+      "1H</p>                                                                                                                    \u001b[10;1H                                                                                                                        \u001b[11;1H<h1>A General Overview</h1>                                                                                             \u001b[12;1H                                                                                                                        \u001b[13;1H<a href=\"http://tnerual.eriogerg.free.fr/0xBABAF000L/10_en.html\"><img src='/images/0xbabaf000l.png' alt=\"Emaks-Vim-Notep\u001b[14;1HCopyright (c) 2007 Laurent Gregoire                                                                                     \u001b[15;1H                                                                                                                        \u001b[16;1H<h4>What Is Vim?</h4>                                                                                                   \u001b[17;1H<p>   "
+    ],
+    [
+      1.5e-05,
+      "                                                                                                                  \u001b[18;1HVim is a highly configurable text editor built to enable efficient text                                                 \u001b[19;1Hediting. It is an improved version of the vi editor distributed with                                                    \u001b[20;1Hmost UNIX systems.                                                                                                      \u001b[21;1H<p>                                                                                                                     \u001b[22;1HVim is often called a \"programmer's editor,\" and so useful for                                                          \u001b[23;1Hprogramming that many consider it an entire <abbr title='integrated                                                     \u001b[24;1Hdevelopment environment'>IDE</abbr>.  It's not just for programmers,                                                    \u001b[25;1Hthough.  Vim i"
+    ],
+    [
+      1.3e-05,
+      "s perfect for all kinds of text editing, from composing                                                   \u001b[26;1Hemail to editing configuration files.                                                                                   \u001b[27;1H</p>                                                                                                                    \u001b[28;1H<p>                                                                                                                     \u001b[29;1HDespite what the above comic suggests, Vim can be configured to work in a very                                          \u001b[30;1H\u001b[36m                                                               4d1a7a05b8cb3409320001b4/in 1:1  \u001b[34m1 sel\u001b[36m - unnamed0@[29009\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.012467,
+      "\u001b]2;4d1a7a05b8cb3409320001b4/in 54:6  1 sel - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.000396,
+      "\u001b[H\u001b[37m\u001b[44memail to editing configuration files. \u001b[39;49m                                                                                  \u001b[2;1H\u001b[37m\u001b[44m</p>  \u001b[39;49m                                                                                                                  \u001b[3;1H\u001b[37m\u001b[44m<p>  \u001b[39;49m                                                                                                                   \u001b[4;1H\u001b[37m\u001b[44mDespite what the above comic suggests, Vim can be configured to work in a very \u001b[39;49m                                         \u001b[5;1H\u001b[37m\u001b[44msimple (Notepad-like) way, called evim or Easy Vim. \u001b[39;49m                                                                    \u001b[6;1H\u001b[37m\u001b[44m</p>  \u001b[39;49m                                                                                                                  \u001b[7;1H\u001b[37m\u001b[44m  \u001b[39;49m                                                                                                                      \u001b[8;1H\u001b[37m\u001b[44m<h4"
+    ],
+    [
+      3.7e-05,
+      ">What Vim Is Not?</h4>  \u001b[39;49m                                                                                             \u001b[9;1H\u001b[37m\u001b[44m<p>  \u001b[39;49m                                                                                                                   \u001b[10;1H\u001b[37m\u001b[44mVim isn't an editor designed to hold its users' hands.  It is a tool, \u001b[39;49m                                                  \u001b[11;1H\u001b[37m\u001b[44mthe use of which must be learned. \u001b[39;49m                                                                                      \u001b[12;1H\u001b[37m\u001b[44m</p>  \u001b[39;49m                                                                                                                  \u001b[13;1H\u001b[37m\u001b[44m  \u001b[39;49m                                                                                                                      \u001b[14;1H\u001b[37m\u001b[44m<p>  \u001b[39;49m                                                                                                                   \u001b[15;1H\u001b[37m\u001b[44mVim isn't a w"
+    ],
+    [
+      3e-05,
+      "ord processor.  Although it can display text with various \u001b[39;49m                                                 \u001b[16;1H\u001b[37m\u001b[44mforms of highlighting and formatting, it isn't there to provide WYSIWYG \u001b[39;49m                                                \u001b[17;1H\u001b[37m\u001b[44mediting of typeset documents.  (It is great for editing TeX, though.) \u001b[39;49m                                                  \u001b[18;1H\u001b[37m\u001b[44m</p>  \u001b[39;49m                                                                                                                  \u001b[19;1H\u001b[37m\u001b[44m  \u001b[39;49m                                                                                                                      \u001b[20;1H\u001b[37m\u001b[44m<h4>Vim's License</h4>  \u001b[39;49m                                                                                                \u001b[21;1H\u001b[37m\u001b[44m<p>  \u001b[39;49m                                                                                                                   \u001b[22;1H\u001b[37m\u001b[44mVim is charityware.  I"
+    ],
+    [
+      2.8e-05,
+      "ts license is GPL-compatible, so it's \u001b[39;49m                                                            \u001b[23;1H\u001b[37m\u001b[44mdistributed freely, but we ask that if you find it useful you make a \u001b[39;49m                                                   \u001b[24;1H\u001b[37m\u001b[44mdonation to help children in Uganda through the \u001b[39;49m                                                                        \u001b[25;1H\u001b[37m\u001b[44m<a href='http://iccf-holland.org/'>ICCF</a>.  The full license text can be \u001b[39;49m                                             \u001b[26;1H\u001b[37m\u001b[44mfound in the <a href='http://vimdoc.sourceforge.net/htmldoc/uganda.html#license'>documentation</a>. \u001b[39;49m                    \u001b[27;1H\u001b[37m\u001b[44mMuch more information about charityware on \u001b[39;49m                                                                             \u001b[28;1H\u001b[37m\u001b[44m<A HREF=\"http://Charityware.info/\">Charityware.info</a>. \u001b[39;49m                                                               \u001b[29;1H\u001b[37m\u001b[44m</p> \u001b[30m\u001b[47m \u001b[39;49m       "
+    ],
+    [
+      3.2e-05,
+      "                                                                                                           \u001b[30;1H\u001b[36m                                                              4d1a7a05b8cb3409320001b4/in 54:6  \u001b[34m1 sel\u001b[36m - unnamed0@[29009\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.014019,
+      "\u001b]2;4d1a7a05b8cb3409320001b4/in 54:6  prompt - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.000529,
+      "\u001b[H\u001b[37m\u001b[44memail to editing configuration files. \u001b[39;49m                                                                                  \u001b[2;1H\u001b[37m\u001b[44m</p>  \u001b[39;49m                                                                                                                  \u001b[3;1H\u001b[37m\u001b[44m<p>  \u001b[39;49m                                                                                                                   \u001b[4;1H\u001b[37m\u001b[44mDespite what the above comic suggests, Vim can be configured to work in a very \u001b[39;49m                                         \u001b[5;1H\u001b[37m\u001b[44msimple (Notepad-like) way, called evim or Easy Vim. \u001b[39;49m                                                                    \u001b[6;1H\u001b[37m\u001b[44m</p>  \u001b[39;49m                                                                                                                  \u001b[7;1H\u001b[37m\u001b[44m  \u001b[39;49m                                                                                                                      \u001b[8;1H\u001b[37m\u001b[44m<h4"
+    ],
+    [
+      2.7e-05,
+      ">What Vim Is Not?</h4>  \u001b[39;49m                                                                                             \u001b[9;1H\u001b[37m\u001b[44m<p>  \u001b[39;49m                                                                                                                   \u001b[10;1H\u001b[37m\u001b[44mVim isn't an editor designed to hold its users' hands.  It is a tool, \u001b[39;49m                                                  \u001b[11;1H\u001b[37m\u001b[44mthe use of which must be learned. \u001b[39;49m                                                                                      \u001b[12;1H\u001b[37m\u001b[44m</p>  \u001b[39;49m                                                                                                                  \u001b[13;1H\u001b[37m\u001b[44m  \u001b[39;49m                                                                                                                      \u001b[14;1H\u001b[37m\u001b[44m<p>  \u001b[39;49m                                                                                                                   \u001b[15;1H\u001b[37m\u001b[44mVim isn't a w"
+    ],
+    [
+      2.2e-05,
+      "ord processor.  Although it can display text with various \u001b[39;49m                                                 \u001b[16;1H\u001b[37m\u001b[44mforms of highlighting and formatting, it isn't there to provide WYSIWYG \u001b[39;49m                                                \u001b[17;1H\u001b[37m\u001b[44mediting of typeset documents.  (It is great for editing TeX, though.) \u001b[39;49m                                                  \u001b[18;1H\u001b[37m\u001b[44m</p>  \u001b[39;49m                                                                                                                  \u001b[19;1H\u001b[37m\u001b[44m  \u001b[39;49m                                                                                                                      \u001b[20;1H\u001b[37m\u001b[44m<h4>Vim's License</h4>  \u001b[39;49m                                                                                                \u001b[21;1H\u001b[37m\u001b[44m<p>  \u001b[39;49m                                                                                                                   \u001b[22;1H\u001b[37m\u001b[44mVim is charityware.  I"
+    ],
+    [
+      1.5e-05,
+      "ts license is GPL-compatible, so it's \u001b[39;49m                                                            \u001b[23;1H\u001b[37m\u001b[44mdistributed freely, but we ask that if you find it useful you make a \u001b[39;49m                                                   \u001b[24;1H\u001b[37m\u001b[44mdonation to help children in Uganda through the \u001b[39;49m                                                                        \u001b[25;1H\u001b[37m\u001b[44m<a href='http://iccf-holland.org/'>ICCF</a>.  The full license text can be \u001b[39;49m                                             \u001b[26;1H\u001b[37m\u001b[44mfound in the <a href='http://vimdoc.sourceforge.net/htmldoc/uganda.html#license'>documentation</a>. \u001b[39;49m                    \u001b[27;1H\u001b[37m\u001b[44mMuch more information about charityware on \u001b[39;49m                                                                             \u001b[28;1H\u001b[37m\u001b[44m<A HREF=\"http://Charityware.info/\">Charityware.info</a>. \u001b[39;49m                                                               \u001b[29;1H\u001b[37m\u001b[44m</p> \u001b[30m\u001b[47m \u001b[39;49m       "
+    ],
+    [
+      2e-05,
+      "                                                                                                           \u001b[30;1H\u001b[33mselect:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                     4d1a7a05b8cb3409320001b4/in 54:6  \u001b[33mprompt\u001b[36m - unnamed0@[29009\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.010117,
+      "\u001b]2;4d1a7a05b8cb3409320001b4/in 54:1  prompt - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.000274,
+      "\u001b[Hemail to editing configuration files.                                                                                   \u001b[2;1H\u001b[30m\u001b[47m<\u001b[39;49m/p>                                                                                                                    \u001b[3;1H\u001b[30m\u001b[47m<\u001b[39;49mp>                                                                                                                     \u001b[4;1HDespite what the above comic suggests, Vim can be configured to work in a very                                          \u001b[5;1Hsimple (Notepad-like) way, called evim or Easy Vim.                                                                     \u001b[6;1H\u001b[30m\u001b[47m<\u001b[39;49m/p>                                                                                                                    \u001b[7;1H                                                                                                                        \u001b[8;1H\u001b[30m\u001b[47m<\u001b[39;49mh4>What Vim Is Not?\u001b[30m\u001b[47m<\u001b[39;49m/h4>                        "
+    ],
+    [
+      2.1e-05,
+      "                                                                       \u001b[9;1H\u001b[30m\u001b[47m<\u001b[39;49mp>                                                                                                                     \u001b[10;1HVim isn't an editor designed to hold its users' hands.  It is a tool,                                                   \u001b[11;1Hthe use of which must be learned.                                                                                       \u001b[12;1H\u001b[30m\u001b[47m<\u001b[39;49m/p>                                                                                                                    \u001b[13;1H                                                                                                                        \u001b[14;1H\u001b[30m\u001b[47m<\u001b[39;49mp>                                                                                                                     \u001b[15;1HVim isn't a word processor.  Although it can display text with various                                                  \u001b[16;1Hform"
+    ],
+    [
+      1e-05,
+      "s of highlighting and formatting, it isn't there to provide WYSIWYG                                                 \u001b[17;1Hediting of typeset documents.  (It is great for editing TeX, though.)                                                   \u001b[18;1H\u001b[30m\u001b[47m<\u001b[39;49m/p>                                                                                                                    \u001b[19;1H                                                                                                                        \u001b[20;1H\u001b[30m\u001b[47m<\u001b[39;49mh4>Vim's License\u001b[30m\u001b[47m<\u001b[39;49m/h4>                                                                                                  \u001b[21;1H\u001b[30m\u001b[47m<\u001b[39;49mp>                                                                                                                     \u001b[22;1HVim is charityware.  Its license is GPL-compatible, so it's                                                             \u001b[23;1Hdistributed freely, but we ask that if you find it useful you make "
+    ],
+    [
+      9e-06,
+      "a                                                    \u001b[24;1Hdonation to help children in Uganda through the                                                                         \u001b[25;1H\u001b[30m\u001b[47m<\u001b[39;49ma href='http://iccf-holland.org/'>ICCF\u001b[30m\u001b[47m<\u001b[39;49m/a>.  The full license text can be                                              \u001b[26;1Hfound in the \u001b[30m\u001b[47m<\u001b[39;49ma href='http://vimdoc.sourceforge.net/htmldoc/uganda.html#license'>documentation\u001b[30m\u001b[47m<\u001b[39;49m/a>.                     \u001b[27;1HMuch more information about charityware on                                                                              \u001b[28;1H\u001b[30m\u001b[47m<\u001b[39;49mA HREF=\"http://Charityware.info/\">Charityware.info\u001b[30m\u001b[47m<\u001b[39;49m/a>.                                                                \u001b[29;1H\u001b[30m\u001b[47m<\u001b[39;49m/p>                                                                                                                    \u001b[30;1H\u001b[33mselect:\u001b[36m<\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                  "
+    ],
+    [
+      1e-05,
+      "                  4d1a7a05b8cb3409320001b4/in 54:1  \u001b[33mprompt\u001b[36m - unnamed0@[29009\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.01939,
+      "\u001b]2;4d1a7a05b8cb3409320001b4/in 54:1  40 sel - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.000572,
+      "\u001b[Hemail to editing configuration files.                                                                                   \u001b[2;1H\u001b[30m\u001b[47m<\u001b[39;49m/p>                                                                                                                    \u001b[3;1H\u001b[30m\u001b[47m<\u001b[39;49mp>                                                                                                                     \u001b[4;1HDespite what the above comic suggests, Vim can be configured to work in a very                                          \u001b[5;1Hsimple (Notepad-like) way, called evim or Easy Vim.                                                                     \u001b[6;1H\u001b[30m\u001b[47m<\u001b[39;49m/p>                                                                                                                    \u001b[7;1H                                                                                                                        \u001b[8;1H\u001b[30m\u001b[47m<\u001b[39;49mh4>What Vim Is Not?\u001b[30m\u001b[47m<\u001b[39;49m/h4>                        "
+    ],
+    [
+      6.3e-05,
+      "                                                                       \u001b[9;1H\u001b[30m\u001b[47m<\u001b[39;49mp>                                                                                                                     \u001b[10;1HVim isn't an editor designed to hold its users' hands.  It is a tool,                                                   \u001b[11;1Hthe use of which must be learned.                                                                                       \u001b[12;1H\u001b[30m\u001b[47m<\u001b[39;49m/p>                                                                                                                    \u001b[13;1H                                                                                                                        \u001b[14;1H\u001b[30m\u001b[47m<\u001b[39;49mp>                                                                                                                     \u001b[15;1HVim isn't a word processor.  Although it can display text with various                                                  \u001b[16;1Hform"
+    ],
+    [
+      4.6e-05,
+      "s of highlighting and formatting, it isn't there to provide WYSIWYG                                                 \u001b[17;1Hediting of typeset documents.  (It is great for editing TeX, though.)                                                   \u001b[18;1H\u001b[30m\u001b[47m<\u001b[39;49m/p>                                                                                                                    \u001b[19;1H                                                                                                                        \u001b[20;1H\u001b[30m\u001b[47m<\u001b[39;49mh4>Vim's License\u001b[30m\u001b[47m<\u001b[39;49m/h4>                                                                                                  \u001b[21;1H\u001b[30m\u001b[47m<\u001b[39;49mp>                                                                                                                     \u001b[22;1HVim is charityware.  Its license is GPL-compatible, so it's                                                             \u001b[23;1Hdistributed freely, but we ask that if you find it useful you make "
+    ],
+    [
+      5.4e-05,
+      "a                                                    \u001b[24;1Hdonation to help children in Uganda through the                                                                         \u001b[25;1H\u001b[30m\u001b[47m<\u001b[39;49ma href='http://iccf-holland.org/'>ICCF\u001b[30m\u001b[47m<\u001b[39;49m/a>.  The full license text can be                                              \u001b[26;1Hfound in the \u001b[30m\u001b[47m<\u001b[39;49ma href='http://vimdoc.sourceforge.net/htmldoc/uganda.html#license'>documentation\u001b[30m\u001b[47m<\u001b[39;49m/a>.                     \u001b[27;1HMuch more information about charityware on                                                                              \u001b[28;1H\u001b[30m\u001b[47m<\u001b[39;49mA HREF=\"http://Charityware.info/\">Charityware.info\u001b[30m\u001b[47m<\u001b[39;49m/a>.                                                                \u001b[29;1H\u001b[30m\u001b[47m<\u001b[39;49m/p>                                                                                                                    \u001b[30;1H\u001b[36m                                                             4d1a7a05b8"
+    ],
+    [
+      5e-05,
+      "cb3409320001b4/in 54:1  \u001b[34m40 sel\u001b[36m - unnamed0@[29009\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.015254,
+      "\u001b]2;4d1a7a05b8cb3409320001b4/in 54:4  40 sel - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.000181,
+      "\u001b[Hemail to editing configuration files.                                                                                   \u001b[2;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[3;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[4;1HDespite what the above comic suggests, Vim can be configured to work in a very                                          \u001b[5;1Hsimple (Notepad-like) way, called evim or Easy Vim.                                                                     \u001b[6;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[7;1H                                                                                                                        \u001b[8;1H\u001b[30m\u001b[44m<h4\u001b[30m\u001b[47m>\u001b[39;49mWhat Vim Is Not?\u001b[30m\u001b["
+    ],
+    [
+      1.7e-05,
+      "44m</h4\u001b[30m\u001b[47m>\u001b[39;49m                                                                                               \u001b[9;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[10;1HVim isn't an editor designed to hold its users' hands.  It is a tool,                                                   \u001b[11;1Hthe use of which must be learned.                                                                                       \u001b[12;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[13;1H                                                                                                                        \u001b[14;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[15;1HVim isn't a word processor.  Although it can displa"
+    ],
+    [
+      1.7e-05,
+      "y text with various                                                  \u001b[16;1Hforms of highlighting and formatting, it isn't there to provide WYSIWYG                                                 \u001b[17;1Hediting of typeset documents.  (It is great for editing TeX, though.)                                                   \u001b[18;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[19;1H                                                                                                                        \u001b[20;1H\u001b[30m\u001b[44m<h4\u001b[30m\u001b[47m>\u001b[39;49mVim's License\u001b[30m\u001b[44m</h4\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                  \u001b[21;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[22;1HVim is charityware.  Its license is GPL-compatible, so it's               "
+    ],
+    [
+      1.3e-05,
+      "                                              \u001b[23;1Hdistributed freely, but we ask that if you find it useful you make a                                                    \u001b[24;1Hdonation to help children in Uganda through the                                                                         \u001b[25;1H\u001b[30m\u001b[44m<a href='http://iccf-holland.org/'\u001b[30m\u001b[47m>\u001b[39;49mICCF\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.  The full license text can be                                              \u001b[26;1Hfound in the \u001b[30m\u001b[44m<a href='http://vimdoc.sourceforge.net/htmldoc/uganda.html#license'\u001b[30m\u001b[47m>\u001b[39;49mdocumentation\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.                     \u001b[27;1HMuch more information about charityware on                                                                              \u001b[28;1H\u001b[30m\u001b[44m<A HREF=\"http://Charityware.info/\"\u001b[30m\u001b[47m>\u001b[39;49mCharityware.info\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.                                                                \u001b[29;1H\u001b[37m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m         "
+    ],
+    [
+      1.2e-05,
+      "                                                                                                           \u001b[30;1H\u001b[36m                                                             4d1a7a05b8cb3409320001b4/in 54:4  \u001b[34m40 sel\u001b[36m - unnamed0@[29009\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.015873,
+      "\u001b]2;4d1a7a05b8cb3409320001b4/in 54:4  prompt - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.000243,
+      "\u001b[Hemail to editing configuration files.                                                                                   \u001b[2;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[3;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[4;1HDespite what the above comic suggests, Vim can be configured to work in a very                                          \u001b[5;1Hsimple (Notepad-like) way, called evim or Easy Vim.                                                                     \u001b[6;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[7;1H                                                                                                                        \u001b[8;1H\u001b[30m\u001b[44m<h4\u001b[30m\u001b[47m>\u001b[39;49mWhat Vim Is Not?\u001b[30m\u001b["
+    ],
+    [
+      3.1e-05,
+      "44m</h4\u001b[30m\u001b[47m>\u001b[39;49m                                                                                               \u001b[9;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[10;1HVim isn't an editor designed to hold its users' hands.  It is a tool,                                                   \u001b[11;1Hthe use of which must be learned.                                                                                       \u001b[12;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[13;1H                                                                                                                        \u001b[14;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[15;1HVim isn't a word processor.  Although it can displa"
+    ],
+    [
+      2e-05,
+      "y text with various                                                  \u001b[16;1Hforms of highlighting and formatting, it isn't there to provide WYSIWYG                                                 \u001b[17;1Hediting of typeset documents.  (It is great for editing TeX, though.)                                                   \u001b[18;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[19;1H                                                                                                                        \u001b[20;1H\u001b[30m\u001b[44m<h4\u001b[30m\u001b[47m>\u001b[39;49mVim's License\u001b[30m\u001b[44m</h4\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                  \u001b[21;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[22;1HVim is charityware.  Its license is GPL-compatible, so it's               "
+    ],
+    [
+      1.9e-05,
+      "                                              \u001b[23;1Hdistributed freely, but we ask that if you find it useful you make a                                                    \u001b[24;1Hdonation to help children in Uganda through the                                                                         \u001b[25;1H\u001b[30m\u001b[44m<a href='http://iccf-holland.org/'\u001b[30m\u001b[47m>\u001b[39;49mICCF\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.  The full license text can be                                              \u001b[26;1Hfound in the \u001b[30m\u001b[44m<a href='http://vimdoc.sourceforge.net/htmldoc/uganda.html#license'\u001b[30m\u001b[47m>\u001b[39;49mdocumentation\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.                     \u001b[27;1HMuch more information about charityware on                                                                              \u001b[28;1H\u001b[30m\u001b[44m<A HREF=\"http://Charityware.info/\"\u001b[30m\u001b[47m>\u001b[39;49mCharityware.info\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.                                                                \u001b[29;1H\u001b[37m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m         "
+    ],
+    [
+      1.7e-05,
+      "                                                                                                           \u001b[30;1H\u001b[33mkeep not matching:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                          4d1a7a05b8cb3409320001b4/in 54:4  \u001b[33mprompt\u001b[36m - unnamed0@[29009\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.030117,
+      "\u001b]2;4d1a7a05b8cb3409320001b4/in 54:4  prompt - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.000888,
+      "\u001b[Hemail to editing configuration files.                                                                                   \u001b[2;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[3;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[4;1HDespite what the above comic suggests, Vim can be configured to work in a very                                          \u001b[5;1Hsimple (Notepad-like) way, called evim or Easy Vim.                                                                     \u001b[6;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[7;1H                                                                                                                        \u001b[8;1H\u001b[30m\u001b[44m<h4\u001b[30m\u001b[47m>\u001b[39;49mWhat Vim Is Not?\u001b[30m\u001b["
+    ],
+    [
+      4.1e-05,
+      "44m</h4\u001b[30m\u001b[47m>\u001b[39;49m                                                                                               \u001b[9;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[10;1HVim isn't an editor designed to hold its users' hands.  It is a tool,                                                   \u001b[11;1Hthe use of which must be learned.                                                                                       \u001b[12;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[13;1H                                                                                                                        \u001b[14;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[15;1HVim isn't a word processor.  Although it can displa"
+    ],
+    [
+      2.5e-05,
+      "y text with various                                                  \u001b[16;1Hforms of highlighting and formatting, it isn't there to provide WYSIWYG                                                 \u001b[17;1Hediting of typeset documents.  (It is great for editing TeX, though.)                                                   \u001b[18;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[19;1H                                                                                                                        \u001b[20;1H\u001b[30m\u001b[44m<h4\u001b[30m\u001b[47m>\u001b[39;49mVim's License\u001b[30m\u001b[44m</h4\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                  \u001b[21;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[22;1HVim is charityware.  Its license is GPL-compatible, so it's               "
+    ],
+    [
+      3e-05,
+      "                                              \u001b[23;1Hdistributed freely, but we ask that if you find it useful you make a                                                    \u001b[24;1Hdonation to help children in Uganda through the                                                                         \u001b[25;1H\u001b[30m\u001b[44m<a href='http://iccf-holland.org/'\u001b[30m\u001b[47m>\u001b[39;49mICCF\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.  The full license text can be                                              \u001b[26;1Hfound in the \u001b[30m\u001b[44m<a href='http://vimdoc.sourceforge.net/htmldoc/uganda.html#license'\u001b[30m\u001b[47m>\u001b[39;49mdocumentation\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.                     \u001b[27;1HMuch more information about charityware on                                                                              \u001b[28;1H\u001b[30m\u001b[44m<A HREF=\"http://Charityware.info/\"\u001b[30m\u001b[47m>\u001b[39;49mCharityware.info\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.                                                                \u001b[29;1H\u001b[37m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m         "
+    ],
+    [
+      2.8e-05,
+      "                                                                                                           \u001b[30;1H\u001b[30m\u001b[41mkeep not matching:\u001b[39;49m\u001b[36m\\\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                         4d1a7a05b8cb3409320001b4/in 54:4  \u001b[33mprompt\u001b[36m - unnamed0@[29009\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.016826,
+      "\u001b]2;4d1a7a05b8cb3409320001b4/in 54:4  prompt - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.000463,
+      "\u001b[Hemail to editing configuration files.                                                                                   \u001b[2;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[3;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[4;1HDespite what the above comic suggests, Vim can be configured to work in a very                                          \u001b[5;1Hsimple (Notepad-like) way, called evim or Easy Vim.                                                                     \u001b[6;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[7;1H                                                                                                                        \u001b[8;1H\u001b[30m\u001b[44m<h4\u001b[30m\u001b[47m>\u001b[39;49mWhat Vim Is Not?\u001b[30m\u001b["
+    ],
+    [
+      2.4e-05,
+      "44m</h4\u001b[30m\u001b[47m>\u001b[39;49m                                                                                               \u001b[9;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[10;1HVim isn't an editor designed to hold its users' hands.  It is a tool,                                                   \u001b[11;1Hthe use of which must be learned.                                                                                       \u001b[12;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[13;1H                                                                                                                        \u001b[14;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[15;1HVim isn't a word processor.  Although it can displa"
+    ],
+    [
+      2.8e-05,
+      "y text with various                                                  \u001b[16;1Hforms of highlighting and formatting, it isn't there to provide WYSIWYG                                                 \u001b[17;1Hediting of typeset documents.  (It is great for editing TeX, though.)                                                   \u001b[18;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[19;1H                                                                                                                        \u001b[20;1H\u001b[30m\u001b[44m<h4\u001b[30m\u001b[47m>\u001b[39;49mVim's License\u001b[30m\u001b[44m</h4\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                  \u001b[21;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[22;1HVim is charityware.  Its license is GPL-compatible, so it's               "
+    ],
+    [
+      1.7e-05,
+      "                                              \u001b[23;1Hdistributed freely, but we ask that if you find it useful you make a                                                    \u001b[24;1Hdonation to help children in Uganda through the                                                                         \u001b[25;1H\u001b[30m\u001b[44m<a href='http://iccf-holland.org/'\u001b[30m\u001b[47m>\u001b[39;49mICCF\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.  The full license text can be                                              \u001b[26;1Hfound in the \u001b[30m\u001b[44m<a href='http://vimdoc.sourceforge.net/htmldoc/uganda.html#license'\u001b[30m\u001b[47m>\u001b[39;49mdocumentation\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.                     \u001b[27;1HMuch more information about charityware on                                                                              \u001b[28;1H\u001b[30m\u001b[44m<A HREF=\"http://Charityware.info/\"\u001b[30m\u001b[47m>\u001b[39;49mCharityware.info\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.                                                                \u001b[29;1H\u001b[37m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m         "
+    ],
+    [
+      1.3e-05,
+      "                                                                                                           \u001b[30;1H\u001b[33mkeep not matching:\u001b[36m\\n\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                        4d1a7a05b8cb3409320001b4/in 54:4  \u001b[33mprompt\u001b[36m - unnamed0@[29009\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.012482,
+      "\u001b]2;4d1a7a05b8cb3409320001b4/in 54:4  38 sel - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.001125,
+      "\u001b[Hemail to editing configuration files.                                                                                   \u001b[2;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[3;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[4;1HDespite what the above comic suggests, Vim can be configured to work in a very                                          \u001b[5;1Hsimple (Notepad-like) way, called evim or Easy Vim.                                                                     \u001b[6;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[7;1H                                                                                                                        \u001b[8;1H\u001b[30m\u001b[44m<h4\u001b[30m\u001b[47m>\u001b[39;49mWhat Vim Is Not?\u001b[30m\u001b["
+    ],
+    [
+      7.4e-05,
+      "44m</h4\u001b[30m\u001b[47m>\u001b[39;49m                                                                                               \u001b[9;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[10;1HVim isn't an editor designed to hold its users' hands.  It is a tool,                                                   \u001b[11;1Hthe use of which must be learned.                                                                                       \u001b[12;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[13;1H                                                                                                                        \u001b[14;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[15;1HVim isn't a word processor.  Although it can displa"
+    ],
+    [
+      4.3e-05,
+      "y text with various                                                  \u001b[16;1Hforms of highlighting and formatting, it isn't there to provide WYSIWYG                                                 \u001b[17;1Hediting of typeset documents.  (It is great for editing TeX, though.)                                                   \u001b[18;1H\u001b[30m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                    \u001b[19;1H                                                                                                                        \u001b[20;1H\u001b[30m\u001b[44m<h4\u001b[30m\u001b[47m>\u001b[39;49mVim's License\u001b[30m\u001b[44m</h4\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                  \u001b[21;1H\u001b[30m\u001b[44m<p\u001b[30m\u001b[47m>\u001b[39;49m                                                                                                                     \u001b[22;1HVim is charityware.  Its license is GPL-compatible, so it's               "
+    ],
+    [
+      3.8e-05,
+      "                                              \u001b[23;1Hdistributed freely, but we ask that if you find it useful you make a                                                    \u001b[24;1Hdonation to help children in Uganda through the                                                                         \u001b[25;1H\u001b[30m\u001b[44m<a href='http://iccf-holland.org/'\u001b[30m\u001b[47m>\u001b[39;49mICCF\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.  The full license text can be                                              \u001b[26;1Hfound in the \u001b[30m\u001b[44m<a href='http://vimdoc.sourceforge.net/htmldoc/uganda.html#license'\u001b[30m\u001b[47m>\u001b[39;49mdocumentation\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.                     \u001b[27;1HMuch more information about charityware on                                                                              \u001b[28;1H\u001b[30m\u001b[44m<A HREF=\"http://Charityware.info/\"\u001b[30m\u001b[47m>\u001b[39;49mCharityware.info\u001b[30m\u001b[44m</a\u001b[30m\u001b[47m>\u001b[39;49m.                                                                \u001b[29;1H\u001b[37m\u001b[44m</p\u001b[30m\u001b[47m>\u001b[39;49m         "
+    ],
+    [
+      4.4e-05,
+      "                                                                                                           \u001b[30;1H\u001b[36m                                                             4d1a7a05b8cb3409320001b4/in 54:4  \u001b[34m38 sel\u001b[36m - unnamed0@[29009\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.02067,
+      "\u001b]2;4d1a7a05b8cb3409320001b4/in 54:1 [+] 38 sel - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.00063,
+      "\u001b[Hemail to editing configuration files.                                                                                   \u001b[2;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[3;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[4;1HDespite what the above comic suggests, Vim can be configured to work in a very                                          \u001b[5;1Hsimple (Notepad-like) way, called evim or Easy Vim.                                                                     \u001b[6;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[7;1H                                                                                                                        \u001b[8;1H\u001b[30m\u001b[47mW\u001b[39;49mhat Vim Is Not?\u001b[30m\u001b[47m \u001b[39;49m                                "
+    ],
+    [
+      4.4e-05,
+      "                                                                       \u001b[9;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[10;1HVim isn't an editor designed to hold its users' hands.  It is a tool,                                                   \u001b[11;1Hthe use of which must be learned.                                                                                       \u001b[12;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[13;1H                                                                                                                        \u001b[14;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[15;1HVim isn't a word processor.  Although it can display text with various                                                  \u001b[16;1Hform"
+    ],
+    [
+      2.2e-05,
+      "s of highlighting and formatting, it isn't there to provide WYSIWYG                                                 \u001b[17;1Hediting of typeset documents.  (It is great for editing TeX, though.)                                                   \u001b[18;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[19;1H                                                                                                                        \u001b[20;1H\u001b[30m\u001b[47mV\u001b[39;49mim's License\u001b[30m\u001b[47m \u001b[39;49m                                                                                                          \u001b[21;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[22;1HVim is charityware.  Its license is GPL-compatible, so it's                                                             \u001b[23;1Hdistributed freely, but we ask that if you find it useful you make "
+    ],
+    [
+      2.2e-05,
+      "a                                                    \u001b[24;1Hdonation to help children in Uganda through the                                                                         \u001b[25;1H\u001b[30m\u001b[47mI\u001b[39;49mCCF\u001b[30m\u001b[47m.\u001b[39;49m  The full license text can be                                                                                     \u001b[26;1Hfound in the \u001b[30m\u001b[47md\u001b[39;49mocumentation\u001b[30m\u001b[47m.\u001b[39;49m                                                                                             \u001b[27;1HMuch more information about charityware on                                                                              \u001b[28;1H\u001b[30m\u001b[47mC\u001b[39;49mharityware.info\u001b[30m\u001b[47m.\u001b[39;49m                                                                                                       \u001b[29;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[30;1H\u001b[36m                                                          4d1a7a05b8cb3"
+    ],
+    [
+      1.9e-05,
+      "409320001b4/in 54:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m38 sel\u001b[36m - unnamed0@[29009\b]\b\u001b[1@9\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      2.01531,
+      "\u001b]2;4d1a7a05b8cb3409320001b4/in 54:1 [+] prompt - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.000467,
+      "\u001b[Hemail to editing configuration files.                                                                                   \u001b[2;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[3;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[4;1HDespite what the above comic suggests, Vim can be configured to work in a very                                          \u001b[5;1Hsimple (Notepad-like) way, called evim or Easy Vim.                                                                     \u001b[6;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[7;1H                                                                                                                        \u001b[8;1H\u001b[30m\u001b[47mW\u001b[39;49mhat Vim Is Not?\u001b[30m\u001b[47m \u001b[39;49m                                "
+    ],
+    [
+      2.1e-05,
+      "                                                                       \u001b[9;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[10;1HVim isn't an editor designed to hold its users' hands.  It is a tool,                                                   \u001b[11;1Hthe use of which must be learned.                                                                                       \u001b[12;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[13;1H                                                                                                                        \u001b[14;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[15;1HVim isn't a word processor.  Although it can display text with various                                                  \u001b[16;1Hform"
+    ],
+    [
+      3.9e-05,
+      "s of highlighting and formatting, it isn't there to provide WYSIWYG                                                 \u001b[17;1Hediting of typeset documents.  (It is great for editing TeX, though.)                                                   \u001b[18;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[19;1H                                                                                                                        \u001b[20;1H\u001b[30m\u001b[47mV\u001b[39;49mim's License\u001b[30m\u001b[47m \u001b[39;49m                                                                                                          \u001b[21;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[22;1H\u001b[34m\u001b[47madd-highlighter    alias              buffer             buffer-next        buffer-previous    change-directory        █\u001b[23;1Hdebug              declare-option     define-command   "
+    ],
+    [
+      1.8e-05,
+      "  delete-buffer      delete-buffer!     echo                    █\u001b[24;1Hedit               edit!              eval               exec               hook               info                    █\u001b[25;1Hkill               kill!              map                menu               nop                on-key                  █\u001b[26;1Hprompt             quit               quit!              remove-highlighter remove-hooks       rename-buffer           █\u001b[27;1Hrename-client      rename-session     select             set-face           set-option         set-register            █\u001b[28;1Hsource             try                unalias            unmap              unset-option       write                   █\u001b[29;1Hwrite-all          write-all-quit     write-quit         write-quit!                                                   █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                        4d1a7a05b8cb3409320001b4/in 54:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unn"
+    ],
+    [
+      1.2e-05,
+      "amed0@[29009\b]\b\u001b[1@9\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.499727,
+      "\u001b]2;4d1a7a05b8cb3409320001b4/in 54:1 [+] prompt - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.00104,
+      "\u001b[Hemail to editing configuration files.                                                                                   \u001b[2;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[3;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[4;1HDespite what the above comic suggests, Vim can be configured to work in a very                                          \u001b[5;1Hsimple (Notepad-like) way, called evim or Easy Vim.                                                                     \u001b[6;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[7;1H                                                                                                                        \u001b[8;1H\u001b[30m\u001b[47mW\u001b[39;49mhat Vim Is Not?\u001b[30m\u001b[47m \u001b[39;49m                                "
+    ],
+    [
+      5.6e-05,
+      "                                                                       \u001b[9;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[10;1HVim isn't an editor designed to hold its users' hands.  It is a tool,                                                   \u001b[11;1Hthe use of which must be learned.                                                                                       \u001b[12;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[13;1H                                                                                                                        \u001b[14;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[15;1HVim isn't a word processor.  Although it can display text with various                                                  \u001b[16;1Hform"
+    ],
+    [
+      5.4e-05,
+      "s of highlighting and formatting, it isn't there to provide WYSIWYG                                                 \u001b[17;1Hediting of typeset documents.  (It is great for editing TeX, though.)                                                   \u001b[18;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[19;1H                                                                                                                        \u001b[20;1H\u001b[30m\u001b[47mV\u001b[39;49mim's License\u001b[30m\u001b[47m \u001b[39;49m                                                                                                          \u001b[21;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[22;1HVim is charityware.  Its license is GPL-compatible, so it's                                                             \u001b[23;1Hdistributed freely, but we ask that if you find it useful you make "
+    ],
+    [
+      5.3e-05,
+      "a                                                    \u001b[24;1Hdonation to help children in Uganda through the                                                                         \u001b[25;1H\u001b[30m\u001b[47mI\u001b[39;49mCCF\u001b[30m\u001b[47m.\u001b[39;49m  The ful\u001b[30m\u001b[43m╭─────────────────────────────────────────────────┤quit├─────────────────────────────────────────────────╮\u001b[26;1H\u001b[39;49mfound in the \u001b[30m\u001b[47md\u001b[30m\u001b[43m│ quit current client, and the kakoune session if the client is the last (if not running in daemon mode) │\u001b[27;1H\u001b[39;49mMuch more info\u001b[30m\u001b[43m│ Aliases: q                                                                                             │\u001b[28;1H\u001b[30m\u001b[47mC\u001b[39;49mharityware.in\u001b[30m\u001b[43m╰──────────────"
+    ],
+    [
+      8.5e-05,
+      "──────────────────────────────────────────────────────────────────────────────────────────╯\u001b[29;1H\u001b[34m\u001b[47mquit             quit!            write-quit       write-quit!      write-all-quit                                     █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                       4d1a7a05b8cb3409320001b4/in 54:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[29009\b]\b\u001b[1@9\u001bM\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.501141,
+      "\u001b]2;4d1a7a05b8cb3409320001b4/in 54:1 [+] prompt - unnamed0@[29009] - Kakoune\u0007"
+    ],
+    [
+      0.000968,
+      "\u001b[Hemail to editing configuration files.                                                                                   \u001b[2;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[3;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[4;1HDespite what the above comic suggests, Vim can be configured to work in a very                                          \u001b[5;1Hsimple (Notepad-like) way, called evim or Easy Vim.                                                                     \u001b[6;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[7;1H                                                                                                                        \u001b[8;1H\u001b[30m\u001b[47mW\u001b[39;49mhat Vim Is Not?\u001b[30m\u001b[47m \u001b[39;49m                                "
+    ],
+    [
+      7.3e-05,
+      "                                                                       \u001b[9;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[10;1HVim isn't an editor designed to hold its users' hands.  It is a tool,                                                   \u001b[11;1Hthe use of which must be learned.                                                                                       \u001b[12;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[13;1H                                                                                                                        \u001b[14;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[15;1HVim isn't a word processor.  Although it can display text with various                                                  \u001b[16;1Hform"
+    ],
+    [
+      3.8e-05,
+      "s of highlighting and formatting, it isn't there to provide WYSIWYG                                                 \u001b[17;1Hediting of typeset documents.  (It is great for editing TeX, though.)                                                   \u001b[18;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[19;1H                                                                                                                        \u001b[20;1H\u001b[30m\u001b[47mV\u001b[39;49mim's License\u001b[30m\u001b[47m \u001b[39;49m                                                                                                          \u001b[21;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[22;1HVim is charityware.  Its license is GPL-compatible, so it's                                                             \u001b[23;1Hdistributed freely, but we ask that if you find it useful you make "
+    ],
+    [
+      6.7e-05,
+      "a                                                    \u001b[24;1Hdonatio\u001b[30m\u001b[43m╭────────────────────────────────────────────────────┤quit!├────────────────────────────────────────────────────╮\u001b[25;1H\u001b[30m\u001b[47mI\u001b[39;49mCCF\u001b[30m\u001b[47m.\u001b[39;49m  \u001b[30m\u001b[43m│ quit current client, and the kakoune session if the client is the last (if not running in daemon mode). force │\u001b[26;1H\u001b[39;49mfound i\u001b[30m\u001b[43m│ quit even if the client is the last and some buffers are not saved.                                           │\u001b[27;1H\u001b[39;49mMuch mo\u001b[30m\u001b[43m│ Aliases: q!                                                                                                   │\u001b[28;1H\u001b[30m\u001b[47mC\u001b[39;49mharity\u001b[30m\u001b[43m╰────────────────────────────────"
+    ],
+    [
+      3.8e-05,
+      "───────────────────────────────────────────────────────────────────────────────╯\u001b[29;1H\u001b[34m\u001b[47mquit!        write-quit!                                                                                               █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq!\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                      4d1a7a05b8cb3409320001b4/in 54:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[29009\b]\b\u001b[1@9\u001bM\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.503654,
+      "\u001b[?1000l\u001b[?1004l\u001b[?1002l\u001b[30;1H\u001b[34h\u001b[?25h\u001b[?1049l\r\u001b[?1l\u001b>"
+    ],
+    [
+      0.001569,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
+    ],
+    [
+      0.078269,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jλ kakoune-tv \u001b[K\u001b[?2004h"
+    ],
+    [
+      0.945543,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

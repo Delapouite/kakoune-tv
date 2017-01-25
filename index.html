@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>kakoune-tv</title>
+	<link rel="stylesheet" type="text/css" href="/kakoune-tv.css" />
+	<link rel="stylesheet" type="text/css" href="/asciinema-player.css" />
+</head>
+<body>
+	<main>
+		<h1><img id="kakoune-logo" src="/kakoune-logo.svg" alt="kakoune logo">Kakoune TV</h1>
+
+		<div id="player-holder">
+			<asciinema-player id="player" cols="120" rows="30"></asciinema-player>
+		</div>
+
+		<div id="keys-holder">
+			<code id="keys"></code>
+		</div>
+
+		<div id="episode-selector-holder">
+			<label>Episodes: <select id="episode-selector"></select></label>
+			<a id="vimgolf-link">See this challenge on vimgolf.com</a>
+		</div>
+
+		<h2>About</h2>
+		<div>
+			<p>These short movies above, called <em>asciicasts</em>, show how to efficiently perform text-editing operations with <a href="http://kakoune.org">Kakoune</a>.</p>
+			<p>They are auto-generated from <a href="https://vimgolf.com">VimGolf</a> games, <a href="https://github.com/mawww/golf">resolved by mawww</a>, Kakoune's author.</p>
+			<p>For each challenge, the goal is to start from a document IN and transform in into a document OUT, using the less amount of keystrokes, displayed below the player.</p>
+			<p>The current website (<a href="https://github.com/Delapouite/kakoune-tv">source</a>) purpose is to help people learn new way to resolve common text-editing scenarios. Enjoy!</p>
+		</div>
+	</main>
+
+	<script src="/asciicasts.js"></script>
+	<script src="/kakoune-tv.js"></script>
+	<script src="/asciinema-player.js"></script>
+</body>
+</html>
