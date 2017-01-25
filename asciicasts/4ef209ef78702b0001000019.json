@@ -1,0 +1,810 @@
+{
+  "version": 1,
+  "width": 120,
+  "height": 30,
+  "duration": 17.490084,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "screen-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.229485,
+      "\u001bPtmux;\u001b\u001b]4;0;rgb:28/21/1c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;1;rgb:cf/6a/4c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;2;rgb:54/be/0d\u001b\u001b\\\u001b\\"
+    ],
+    [
+      3.7e-05,
+      "\u001bPtmux;\u001b\u001b]4;3;rgb:f9/ee/98\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;4;rgb:5e/a6/ea\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;5;rgb:9b/85/9d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;6;rgb:af/c4/db\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;7;rgb:8a/89/86\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;8;rgb:66/66/66\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.6e-05,
+      "\u001bPtmux;\u001b\u001b]4;9;rgb:cf/6a/4c\u001b\u001b\\\u001b\\"
+    ],
+    [
+      1.8e-05,
+      "\u001bPtmux;\u001b\u001b]4;10;rgb:54/be/0d\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.000107,
+      "\u001bPtmux;\u001b\u001b]4;11;rgb:f9/ee/98\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;12;rgb:5e/a6/ea\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;13;rgb:9b/85/9d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;14;rgb:af/c4/db\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;15;rgb:ba/ae/9e\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;16;rgb:cf/7d/34\u001b\u001b\\\u001b\\"
+    ],
+    [
+      1.7e-05,
+      "\u001bPtmux;\u001b\u001b]4;17;rgb:93/71/21\u001b\u001b\\\u001b\\"
+    ],
+    [
+      5.3e-05,
+      "\u001bPtmux;\u001b\u001b]4;18;rgb:36/31/2e\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;19;rgb:5e/5d/5c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;20;rgb:79/79/77\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;21;rgb:9d/9b/97\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.00014,
+      "\u001bPtmux;\u001b\u001b]10;rgb:8a/89/86\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]11;rgb:28/21/1c\u001b\u001b\\\u001b\\"
+    ],
+    [
+      1.5e-05,
+      "\u001bPtmux;\u001b\u001b]12;7\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.017671,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
+    ],
+    [
+      0.053928,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jλ kakoune-tv \u001b[K\u001b[?2004h"
+    ],
+    [
+      0.618726,
+      "\u001b[32mk\u001b[39m"
+    ],
+    [
+      0.026123,
+      "\b\u001b[1m\u001b[31mk\u001b[1m\u001b[31ma\u001b[0m\u001b[39m"
+    ],
+    [
+      0.025757,
+      "\b\b\u001b[0m\u001b[32mk\u001b[0m\u001b[32ma\u001b[32mk\u001b[39m"
+    ],
+    [
+      0.025106,
+      " "
+    ],
+    [
+      0.026353,
+      "-"
+    ],
+    [
+      0.025845,
+      "n"
+    ],
+    [
+      0.025203,
+      " "
+    ],
+    [
+      0.025486,
+      "-"
+    ],
+    [
+      0.025943,
+      "e"
+    ],
+    [
+      0.025689,
+      " "
+    ],
+    [
+      0.025908,
+      "\u001b[33m'\u001b[39m"
+    ],
+    [
+      0.025787,
+      "\b\u001b[33m'\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025598,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025917,
+      "\b\u001b[33me\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025826,
+      "\b\u001b[33mt\u001b[33m \u001b[39m"
+    ],
+    [
+      0.026206,
+      "\b\u001b[33m \u001b[33mg\u001b[39m"
+    ],
+    [
+      0.025242,
+      "\b\u001b[33mg\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.026224,
+      "\b\u001b[33ml\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.02586,
+      "\b\u001b[33mo\u001b[33mb\u001b[39m"
+    ],
+    [
+      0.025824,
+      "\b\u001b[33mb\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025656,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025851,
+      "\b\u001b[33ml\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025775,
+      "\b\u001b[33m \u001b[33mu\u001b[39m"
+    ],
+    [
+      0.026011,
+      "\b\u001b[33mu\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.026191,
+      "\b\u001b[33mi\u001b[33m_\u001b[39m"
+    ],
+    [
+      0.025398,
+      "\b\u001b[33m_\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025563,
+      "\b\u001b[33mo\u001b[33mp\u001b[39m"
+    ],
+    [
+      0.025203,
+      "\b\u001b[33mp\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025294,
+      "\b\u001b[33mt\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.026106,
+      "\b\u001b[33mi\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025725,
+      "\b\u001b[33mo\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.026358,
+      "\b\u001b[33mn\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.024857,
+      "\b\u001b[33ms\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025274,
+      "\b\u001b[33m \u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025954,
+      "\b\u001b[33mn\u001b[33mc\u001b[39m"
+    ],
+    [
+      0.028927,
+      "\b\u001b[33mc\u001b[33mu\u001b[39m"
+    ],
+    [
+      0.023047,
+      "\b\u001b[33mu\u001b[33mr\u001b[39m"
+    ],
+    [
+      0.0254,
+      "\b\u001b[33mr\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.026399,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025485,
+      "\b\u001b[33me\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025846,
+      "\b\u001b[33ms\u001b[33m_\u001b[39m"
+    ],
+    [
+      0.025584,
+      "\b\u001b[33m_\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025331,
+      "\b\u001b[33ma\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025561,
+      "\b\u001b[33ms\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.026318,
+      "\b\u001b[33ms\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.024979,
+      "\b\u001b[33mi\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.026489,
+      "\b\u001b[33ms\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.02568,
+      "\b\u001b[33mt\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025515,
+      "\b\u001b[33ma\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025722,
+      "\b\u001b[33mn\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025412,
+      "\b\u001b[33mt\u001b[33m=\u001b[39m"
+    ],
+    [
+      0.026099,
+      "\b\u001b[33m=\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025698,
+      "\b\u001b[33mn\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025407,
+      "\b\u001b[33mo\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025832,
+      "\b\u001b[33mn\u001b[33me\u001b[39m"
+    ],
+    [
+      0.028612,
+      "\b\u001b[33me\u001b[33m;\u001b[39m"
+    ],
+    [
+      0.025711,
+      "\b\u001b[33m;\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025623,
+      "\b\u001b[33m \u001b[33ms\u001b[39m"
+    ],
+    [
+      0.02564,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025856,
+      "\b\u001b[33me\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.026162,
+      "\b\u001b[33mt\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025468,
+      "\b\u001b[33m \u001b[33mg\u001b[39m"
+    ],
+    [
+      0.025386,
+      "\b\u001b[33mg\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025601,
+      "\b\u001b[33ml\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025376,
+      "\b\u001b[33mo\u001b[33mb\u001b[39m"
+    ],
+    [
+      0.025481,
+      "\b\u001b[33mb\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.026035,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025587,
+      "\b\u001b[33ml\u001b[33m \u001b[39m"
+    ],
+    [
+      0.026226,
+      "\b\u001b[33m \u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025428,
+      "\b\u001b[33ma\u001b[33mu\u001b[39m"
+    ],
+    [
+      0.02554,
+      "\b\u001b[33mu\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.046192,
+      "\b\u001b[33mt\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025696,
+      "\b\u001b[33mo\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025741,
+      "\b\u001b[33mi\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.02564,
+      "\b\u001b[33mn\u001b[33mf\u001b[39m"
+    ],
+    [
+      0.025306,
+      "\b\u001b[33mf\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.026295,
+      "\b\u001b[33mo\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025853,
+      "\b\u001b[33m \u001b[33mn\u001b[39m"
+    ],
+    [
+      0.02566,
+      "\b\u001b[33mn\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025657,
+      "\b\u001b[33mo\u001b[33mr\u001b[39m"
+    ],
+    [
+      0.026142,
+      "\b\u001b[33mr\u001b[33mm\u001b[39m"
+    ],
+    [
+      0.025781,
+      "\b\u001b[33mm\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025757,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025501,
+      "\b\u001b[33ml\u001b[33m'\u001b[39m"
+    ],
+    [
+      0.02588,
+      " "
+    ],
+    [
+      0.026031,
+      "\u001b[4m4\u001b[24m"
+    ],
+    [
+      0.025762,
+      "\b\u001b[4m4\u001b[4me\u001b[24m"
+    ],
+    [
+      0.025525,
+      "\b\u001b[4me\u001b[4mf\u001b[24m"
+    ],
+    [
+      0.025562,
+      "\b\u001b[4mf\u001b[4m2\u001b[24m"
+    ],
+    [
+      0.025546,
+      "\b\u001b[4m2\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025661,
+      "\b\u001b[4m0\u001b[4m9\u001b[24m"
+    ],
+    [
+      0.02563,
+      "\b\u001b[4m9\u001b[4me\u001b[24m"
+    ],
+    [
+      0.025706,
+      "\b\u001b[4me\u001b[4mf\u001b[24m"
+    ],
+    [
+      0.025752,
+      "\b\u001b[4mf\u001b[4m7\u001b[24m"
+    ],
+    [
+      0.02563,
+      "\b\u001b[4m7\u001b[4m8\u001b[24m"
+    ],
+    [
+      0.025324,
+      "\b\u001b[4m8\u001b[4m7\u001b[24m"
+    ],
+    [
+      0.030392,
+      "\b\u001b[4m7\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.023882,
+      "\b\u001b[4m0\u001b[4m2\u001b[24m"
+    ],
+    [
+      0.025594,
+      "\b\u001b[4m2\u001b[4mb\u001b[24m"
+    ],
+    [
+      0.024062,
+      "\b\u001b[4mb\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.02615,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.02586,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025817,
+      "\b\u001b[4m0\u001b[4m1\u001b[24m"
+    ],
+    [
+      0.025937,
+      "\b\u001b[4m1\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.026046,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025693,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.026374,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m \r\u001b[K"
+    ],
+    [
+      0.025331,
+      "\u001bM\u001b[119C\u001b[4m0\u001b[4m1\u001b[24m"
+    ],
+    [
+      0.024962,
+      "\r\u001b[4m1\u001b[4m9\u001b[24m"
+    ],
+    [
+      0.025894,
+      "\r\u001b[4m1\u001b[4m9\u001b[4m/\u001b[24m"
+    ],
+    [
+      0.025775,
+      "\b\u001b[4m/\u001b[4mi\u001b[24m"
+    ],
+    [
+      0.025864,
+      "\b\u001b[4mi\u001b[4mn\u001b[24m"
+    ],
+    [
+      0.027992,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.00422,
+      "\u001b(B\u001b)0\u001b[?1049h\u001b[1;30r\u001b[m\u000f\u001b[4l\u001b[?25l"
+    ],
+    [
+      3.6e-05,
+      "\u001b[39;49m\u001b[?1000h\u001b[?1002h\u001b[?1004h\u001b[?1h\u001b="
+    ],
+    [
+      8.6e-05,
+      "\u001b[39;49m\u001b[m\u000f\u001b[H\u001b[J"
+    ],
+    [
+      0.00232,
+      "\u001b[1;31r\u001b]2;4ef209ef78702b0001000019/in 1:1  1 sel - unnamed0@[18284] - Kakoune\u0007"
+    ],
+    [
+      0.000259,
+      "\u001b[30m\u001b[47m#\u001b[39;49mSet the global prefix key to C-q (default is C-b)                                                                      \u001b[2;1Hset-option -g prefix C-q                                                                                                \u001b[3;1Hbind-key C-q last-window                                                                                                \u001b[4;1H# Remove default binding since we’re replacing                                                                          \u001b[5;1Hunbind %                                                                                                                \u001b[6;1Hbind | split-window -h                                                                                                  \u001b[7;1Hbind - split-window -v                                                                                                  \u001b[8;1H# Set status bar                                                                                                        \u001b["
+    ],
+    [
+      1.2e-05,
+      "9;1Hset -g status-bg black                                                                                                  \u001b[10;1Hset -g status-fg white                                                                                                  \u001b[11;1Hset -g status-left '#[fg=green]#H'                                                                                      \u001b[12;1H# Highlight active window                                                                                               \u001b[13;1Hset-window-option -g window-status-current-bg red                                                                       \u001b[14;1Hset -g status-right '#[fg=yellow]#(uptime | cut -d \",\" -f 2-)'                                                          \u001b[15;1H# Set window notifications                                                                                              \u001b[16;1Hsetw -g monitor-activity on                                                                                             \u001b[17;1Hset "
+    ],
+    [
+      1e-05,
+      "-g visual-activity on                                                                                               \u001b[18;1H# Automatically set window title                                                                                        \u001b[19;1Hsetw -g automatic-rename                                                                                                \u001b[20;1H\u001b[34m~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~      "
+    ],
+    [
+      1e-05,
+      "                                                                                                                 \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                               4ef209ef78702b0001000019/in 1:1  \u001b[34m1 sel\u001b[36m - unnamed0@[18284\b]\b\u001b[1@4\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.013438,
+      "\u001b]2;4ef209ef78702b0001000019/in 19:25  1 sel - unnamed0@[18284] - Kakoune\u0007"
+    ],
+    [
+      0.00065,
+      "\u001b[H\u001b[37m\u001b[44m#Set the global prefix key to C-q (default is C-b) \u001b[39;49m                                                                     \u001b[2;1H\u001b[37m\u001b[44mset-option -g prefix C-q \u001b[39;49m                                                                                               \u001b[3;1H\u001b[37m\u001b[44mbind-key C-q last-window \u001b[39;49m                                                                                               \u001b[4;1H\u001b[37m\u001b[44m# Remove default binding since we’re replacing \u001b[39;49m                                                                         \u001b[5;1H\u001b[37m\u001b[44munbind % \u001b[39;49m                                                                                                               \u001b[6;1H\u001b[37m\u001b[44mbind | split-window -h \u001b[39;49m                                                                                                 \u001b[7;1H\u001b[37m\u001b[44mbind - split-window -v \u001b[39;49m                                                                                                 \u001b[8;1H\u001b[37m\u001b[44m#"
+    ],
+    [
+      2.6e-05,
+      " Set status bar \u001b[39;49m                                                                                                       \u001b[9;1H\u001b[37m\u001b[44mset -g status-bg black \u001b[39;49m                                                                                                 \u001b[10;1H\u001b[37m\u001b[44mset -g status-fg white \u001b[39;49m                                                                                                 \u001b[11;1H\u001b[37m\u001b[44mset -g status-left '#[fg=green]#H' \u001b[39;49m                                                                                     \u001b[12;1H\u001b[37m\u001b[44m# Highlight active window \u001b[39;49m                                                                                              \u001b[13;1H\u001b[37m\u001b[44mset-window-option -g window-status-current-bg red \u001b[39;49m                                                                      \u001b[14;1H\u001b[37m\u001b[44mset -g status-right '#[fg=yellow]#(uptime | cut -d \",\" -f 2-)' \u001b[39;49m                                                         \u001b[15;1H\u001b[37m\u001b[44m# Set windo"
+    ],
+    [
+      2.2e-05,
+      "w notifications \u001b[39;49m                                                                                             \u001b[16;1H\u001b[37m\u001b[44msetw -g monitor-activity on \u001b[39;49m                                                                                            \u001b[17;1H\u001b[37m\u001b[44mset -g visual-activity on \u001b[39;49m                                                                                              \u001b[18;1H\u001b[37m\u001b[44m# Automatically set window title \u001b[39;49m                                                                                       \u001b[19;1H\u001b[37m\u001b[44msetw -g automatic-rename\u001b[30m\u001b[47m \u001b[39;49m                                                                                               \u001b[20;1H\u001b[34m~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                  "
+    ],
+    [
+      3.1e-05,
+      "                                                                     \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                \u001b[30m\u001b[43m╭─────────┤%├─────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                \u001b[30m\u001b[43m│ select whole buffer │\u001b[29;1H\u001b[39;49m\u001b[34m~                          "
+    ],
+    [
+      3.3e-05,
+      "                                                                      \u001b[30m\u001b[43m╰─────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                             4ef209ef78702b0001000019/in 19:25  \u001b[34m1 sel\u001b[36m - unnamed0@[18284\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.009964,
+      "\u001b]2;4ef209ef78702b0001000019/in 19:25  prompt - unnamed0@[18284] - Kakoune\u0007"
+    ],
+    [
+      0.000269,
+      "\u001b[H\u001b[37m\u001b[44m#Set the global prefix key to C-q (default is C-b) \u001b[39;49m                                                                     \u001b[2;1H\u001b[37m\u001b[44mset-option -g prefix C-q \u001b[39;49m                                                                                               \u001b[3;1H\u001b[37m\u001b[44mbind-key C-q last-window \u001b[39;49m                                                                                               \u001b[4;1H\u001b[37m\u001b[44m# Remove default binding since we’re replacing \u001b[39;49m                                                                         \u001b[5;1H\u001b[37m\u001b[44munbind % \u001b[39;49m                                                                                                               \u001b[6;1H\u001b[37m\u001b[44mbind | split-window -h \u001b[39;49m                                                                                                 \u001b[7;1H\u001b[37m\u001b[44mbind - split-window -v \u001b[39;49m                                                                                                 \u001b[8;1H\u001b[37m\u001b[44m#"
+    ],
+    [
+      1.2e-05,
+      " Set status bar \u001b[39;49m                                                                                                       \u001b[9;1H\u001b[37m\u001b[44mset -g status-bg black \u001b[39;49m                                                                                                 \u001b[10;1H\u001b[37m\u001b[44mset -g status-fg white \u001b[39;49m                                                                                                 \u001b[11;1H\u001b[37m\u001b[44mset -g status-left '#[fg=green]#H' \u001b[39;49m                                                                                     \u001b[12;1H\u001b[37m\u001b[44m# Highlight active window \u001b[39;49m                                                                                              \u001b[13;1H\u001b[37m\u001b[44mset-window-option -g window-status-current-bg red \u001b[39;49m                                                                      \u001b[14;1H\u001b[37m\u001b[44mset -g status-right '#[fg=yellow]#(uptime | cut -d \",\" -f 2-)' \u001b[39;49m                                                         \u001b[15;1H\u001b[37m\u001b[44m# Set windo"
+    ],
+    [
+      1e-05,
+      "w notifications \u001b[39;49m                                                                                             \u001b[16;1H\u001b[37m\u001b[44msetw -g monitor-activity on \u001b[39;49m                                                                                            \u001b[17;1H\u001b[37m\u001b[44mset -g visual-activity on \u001b[39;49m                                                                                              \u001b[18;1H\u001b[37m\u001b[44m# Automatically set window title \u001b[39;49m                                                                                       \u001b[19;1H\u001b[37m\u001b[44msetw -g automatic-rename\u001b[30m\u001b[47m \u001b[39;49m                                                                                               \u001b[20;1H\u001b[34m~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                  "
+    ],
+    [
+      1.3e-05,
+      "                                                                     \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                              \u001b[30m\u001b[43m╭──────────────────┤s├──────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m│ select regex matches in selected text │\u001b[29;1H\u001b[39"
+    ],
+    [
+      1e-05,
+      ";49m\u001b[34m~                                                                              \u001b[30m\u001b[43m╰───────────────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[33mselect:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                    4ef209ef78702b0001000019/in 19:25  \u001b[33mprompt\u001b[36m - unnamed0@[18284\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.010917,
+      "\u001b]2;4ef209ef78702b0001000019/in 18:1  prompt - unnamed0@[18284] - Kakoune\u0007"
+    ],
+    [
+      0.000274,
+      "\u001b[H\u001b[30m\u001b[47m#\u001b[39;49mSet the global prefix key to C-q (default is C-b)                                                                      \u001b[2;1Hset-option -g prefix C-q                                                                                                \u001b[3;1Hbind-key C-q last-window                                                                                                \u001b[4;1H\u001b[30m\u001b[47m#\u001b[39;49m Remove default binding since we’re replacing                                                                          \u001b[5;1Hunbind %                                                                                                                \u001b[6;1Hbind | split-window -h                                                                                                  \u001b[7;1Hbind - split-window -v                                                                                                  \u001b[8;1H\u001b[30m\u001b[47m#\u001b[39;49m Set status bar                                                                   "
+    ],
+    [
+      1.1e-05,
+      "                                     \u001b[9;1Hset -g status-bg black                                                                                                  \u001b[10;1Hset -g status-fg white                                                                                                  \u001b[11;1Hset -g status-left '\u001b[30m\u001b[47m#\u001b[39;49m[fg=green]\u001b[30m\u001b[47m#\u001b[39;49mH'                                                                                      \u001b[12;1H\u001b[30m\u001b[47m#\u001b[39;49m Highlight active window                                                                                               \u001b[13;1Hset-window-option -g window-status-current-bg red                                                                       \u001b[14;1Hset -g status-right '\u001b[30m\u001b[47m#\u001b[39;49m[fg=yellow]\u001b[30m\u001b[47m#\u001b[39;49m(uptime | cut -d \",\" -f 2-)'                                                          \u001b[15;1H\u001b[30m\u001b[47m#\u001b[39;49m Set window notifications                                                                                     "
+    ],
+    [
+      1e-05,
+      "         \u001b[16;1Hsetw -g monitor-activity on                                                                                             \u001b[17;1Hset -g visual-activity on                                                                                               \u001b[18;1H\u001b[30m\u001b[47m#\u001b[39;49m Automatically set window title                                                                                        \u001b[19;1Hsetw -g automatic-rename                                                                                                \u001b[20;1H\u001b[34m~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                               "
+    ],
+    [
+      1.4e-05,
+      "                        \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                              \u001b[30m\u001b[43m╭──────────────────┤s├──────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m│ select regex matches in selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m╰───────────────────────"
+    ],
+    [
+      1.4e-05,
+      "────────────────╯\u001b[30;1H\u001b[39;49m\u001b[33mselect:\u001b[36m#\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                    4ef209ef78702b0001000019/in 18:1  \u001b[33mprompt\u001b[36m - unnamed0@[18284\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.010967,
+      "\u001b]2;4ef209ef78702b0001000019/in 18:2  prompt - unnamed0@[18284] - Kakoune\u0007"
+    ],
+    [
+      0.000315,
+      "\u001b[H#Set the global prefix key to C-q (default is C-b)                                                                      \u001b[2;1Hset-option -g prefix C-q                                                                                                \u001b[3;1Hbind-key C-q last-window                                                                                                \u001b[4;1H\u001b[30m\u001b[44m#\u001b[30m\u001b[47m \u001b[39;49mRemove default binding since we’re replacing                                                                          \u001b[5;1Hunbind %                                                                                                                \u001b[6;1Hbind | split-window -h                                                                                                  \u001b[7;1Hbind - split-window -v                                                                                                  \u001b[8;1H\u001b[30m\u001b[44m#\u001b[30m\u001b[47m \u001b[39;49mSet status bar                                                                 "
+    ],
+    [
+      1.2e-05,
+      "                                       \u001b[9;1Hset -g status-bg black                                                                                                  \u001b[10;1Hset -g status-fg white                                                                                                  \u001b[11;1Hset -g status-left '#[fg=green]#H'                                                                                      \u001b[12;1H\u001b[30m\u001b[44m#\u001b[30m\u001b[47m \u001b[39;49mHighlight active window                                                                                               \u001b[13;1Hset-window-option -g window-status-current-bg red                                                                       \u001b[14;1Hset -g status-right '#[fg=yellow]#(uptime | cut -d \",\" -f 2-)'                                                          \u001b[15;1H\u001b[30m\u001b[44m#\u001b[30m\u001b[47m \u001b[39;49mSet window notifications                                                                                              \u001b[16;1Hsetw -g monitor-activity on       "
+    ],
+    [
+      1.5e-05,
+      "                                                                                      \u001b[17;1Hset -g visual-activity on                                                                                               \u001b[18;1H\u001b[37m\u001b[44m#\u001b[30m\u001b[47m \u001b[39;49mAutomatically set window title                                                                                        \u001b[19;1Hsetw -g automatic-rename                                                                                                \u001b[20;1H\u001b[34m~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~        "
+    ],
+    [
+      1.2e-05,
+      "                                                                                                               \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                              \u001b[30m\u001b[43m╭──────────────────┤s├──────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m│ select regex matches in selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m╰───────────────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[33mselect:\u001b[36m# \u001b[30m\u001b[46m \u001b[39;49m\u001b[3"
+    ],
+    [
+      1.3e-05,
+      "6m                                                   4ef209ef78702b0001000019/in 18:2  \u001b[33mprompt\u001b[36m - unnamed0@[18284\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.009665,
+      "\u001b]2;4ef209ef78702b0001000019/in 18:2  5 sel - unnamed0@[18284] - Kakoune\u0007"
+    ],
+    [
+      0.000399,
+      "\u001b[H#Set the global prefix key to C-q (default is C-b)                                                                      \u001b[2;1Hset-option -g prefix C-q                                                                                                \u001b[3;1Hbind-key C-q last-window                                                                                                \u001b[4;1H\u001b[30m\u001b[44m#\u001b[30m\u001b[47m \u001b[39;49mRemove default binding since we’re replacing                                                                          \u001b[5;1Hunbind %                                                                                                                \u001b[6;1Hbind | split-window -h                                                                                                  \u001b[7;1Hbind - split-window -v                                                                                                  \u001b[8;1H\u001b[30m\u001b[44m#\u001b[30m\u001b[47m \u001b[39;49mSet status bar                                                                 "
+    ],
+    [
+      1.6e-05,
+      "                                       \u001b[9;1Hset -g status-bg black                                                                                                  \u001b[10;1Hset -g status-fg white                                                                                                  \u001b[11;1Hset -g status-left '#[fg=green]#H'                                                                                      \u001b[12;1H\u001b[30m\u001b[44m#\u001b[30m\u001b[47m \u001b[39;49mHighlight active window                                                                                               \u001b[13;1Hset-window-option -g window-status-current-bg red                                                                       \u001b[14;1Hset -g status-right '#[fg=yellow]#(uptime | cut -d \",\" -f 2-)'                                                          \u001b[15;1H\u001b[30m\u001b[44m#\u001b[30m\u001b[47m \u001b[39;49mSet window notifications                                                                                              \u001b[16;1Hsetw -g monitor-activity on       "
+    ],
+    [
+      1.4e-05,
+      "                                                                                      \u001b[17;1Hset -g visual-activity on                                                                                               \u001b[18;1H\u001b[37m\u001b[44m#\u001b[30m\u001b[47m \u001b[39;49mAutomatically set window title                                                                                        \u001b[19;1Hsetw -g automatic-rename                                                                                                \u001b[20;1H\u001b[34m~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~        "
+    ],
+    [
+      1.3e-05,
+      "                                                                                                               \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                              4ef209ef78702b0001000019/in 18:2  \u001b[34m5 sel\u001b[36m - unnamed0@[18284\b]\b\u001b[1@4\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.017899,
+      "\u001b]2;4ef209ef78702b0001000019/in 22:1 [+] insert 5 sel - unnamed0@[18284] - Kakoune\u0007"
+    ],
+    [
+      0.000264,
+      "\u001b[H#Set the global prefix key to C-q (default is C-b)                                                                      \u001b[2;1Hset-option -g prefix C-q                                                                                                \u001b[3;1Hbind-key C-q last-window                                                                                                \u001b[4;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[5;1H# Remove default binding since we’re replacing                                                                          \u001b[6;1Hunbind %                                                                                                                \u001b[7;1Hbind | split-window -h                                                                                                  \u001b[8;1Hbind - split-window -v                                                                                                 "
+    ],
+    [
+      1.1e-05,
+      " \u001b[9;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[10;1H# Set status bar                                                                                                        \u001b[11;1Hset -g status-bg black                                                                                                  \u001b[12;1Hset -g status-fg white                                                                                                  \u001b[13;1Hset -g status-left '#[fg=green]#H'                                                                                      \u001b[14;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[15;1H# Highlight active window                                                                                               \u001b[16;1Hset-window-option -g window-status-current-bg red                                           "
+    ],
+    [
+      9e-06,
+      "                            \u001b[17;1Hset -g status-right '#[fg=yellow]#(uptime | cut -d \",\" -f 2-)'                                                          \u001b[18;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[19;1H# Set window notifications                                                                                              \u001b[20;1Hsetw -g monitor-activity on                                                                                             \u001b[21;1Hset -g visual-activity on                                                                                               \u001b[22;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[23;1H# Automatically set window title                                                                                        \u001b[24;1Hsetw -g automatic-rename                                        "
+    ],
+    [
+      1.4e-05,
+      "                                                        \u001b[25;1H\u001b[34m~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                           \u001b[30m\u001b[43m╭───────────┤O├────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m│ insert on new line above │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m╰──────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                    4ef209ef78702b0001000019/in 22:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m5 sel\u001b[36"
+    ],
+    [
+      9e-06,
+      "m - unnamed0@[18284\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.010997,
+      "\u001b]2;4ef209ef78702b0001000019/in 27:1 [+] insert 5 sel - unnamed0@[18284] - Kakoune\u0007"
+    ],
+    [
+      0.000192,
+      "\u001b[H#Set the global prefix key to C-q (default is C-b)                                                                      \u001b[2;1Hset-option -g prefix C-q                                                                                                \u001b[3;1Hbind-key C-q last-window                                                                                                \u001b[4;1H                                                                                                                        \u001b[5;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[6;1H# Remove default binding since we’re replacing                                                                          \u001b[7;1Hunbind %                                                                                                                \u001b[8;1Hbind | split-window -h                                                                                                 "
+    ],
+    [
+      1.7e-05,
+      " \u001b[9;1Hbind - split-window -v                                                                                                  \u001b[10;1H                                                                                                                        \u001b[11;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[12;1H# Set status bar                                                                                                        \u001b[13;1Hset -g status-bg black                                                                                                  \u001b[14;1Hset -g status-fg white                                                                                                  \u001b[15;1Hset -g status-left '#[fg=green]#H'                                                                                      \u001b[16;1H                                                                                                              "
+    ],
+    [
+      2.9e-05,
+      "          \u001b[17;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[18;1H# Highlight active window                                                                                               \u001b[19;1Hset-window-option -g window-status-current-bg red                                                                       \u001b[20;1Hset -g status-right '#[fg=yellow]#(uptime | cut -d \",\" -f 2-)'                                                          \u001b[21;1H                                                                                                                        \u001b[22;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[23;1H# Set window notifications                                                                                              \u001b[24;1Hsetw -g monitor-activity on                                                       "
+    ],
+    [
+      1.6e-05,
+      "                                      \u001b[25;1Hset -g visual-activity on                                                                                               \u001b[26;1H                                                                                                                        \u001b[27;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                           \u001b[30m\u001b[43m╭───────────┤O├────────────╮\u001b[28;1H\u001b[39;49m# Automatically set window title                                                            \u001b[30m\u001b[43m│ insert on new line above │\u001b[29;1H\u001b[39;49msetw -g automatic-rename                                                                    \u001b[30m\u001b[43m╰──────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                    4ef209ef78702b0001000019/in 27:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m5 sel\u001b[36m - unnamed0@[1"
+    ],
+    [
+      1.1e-05,
+      "8284\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.042848,
+      "\u001b]2;4ef209ef78702b0001000019/in 27:1 [+] 5 sel - unnamed0@[18284] - Kakoune\u0007"
+    ],
+    [
+      0.000219,
+      "\u001b[H#Set the global prefix key to C-q (default is C-b)                                                                      \u001b[2;1Hset-option -g prefix C-q                                                                                                \u001b[3;1Hbind-key C-q last-window                                                                                                \u001b[4;1H                                                                                                                        \u001b[5;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[6;1H# Remove default binding since we’re replacing                                                                          \u001b[7;1Hunbind %                                                                                                                \u001b[8;1Hbind | split-window -h                                                                                                 "
+    ],
+    [
+      2.7e-05,
+      " \u001b[9;1Hbind - split-window -v                                                                                                  \u001b[10;1H                                                                                                                        \u001b[11;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[12;1H# Set status bar                                                                                                        \u001b[13;1Hset -g status-bg black                                                                                                  \u001b[14;1Hset -g status-fg white                                                                                                  \u001b[15;1Hset -g status-left '#[fg=green]#H'                                                                                      \u001b[16;1H                                                                                                              "
+    ],
+    [
+      2.3e-05,
+      "          \u001b[17;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[18;1H# Highlight active window                                                                                               \u001b[19;1Hset-window-option -g window-status-current-bg red                                                                       \u001b[20;1Hset -g status-right '#[fg=yellow]#(uptime | cut -d \",\" -f 2-)'                                                          \u001b[21;1H                                                                                                                        \u001b[22;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[23;1H# Set window notifications                                                                                              \u001b[24;1Hsetw -g monitor-activity on                                                       "
+    ],
+    [
+      2.1e-05,
+      "                                      \u001b[25;1Hset -g visual-activity on                                                                                               \u001b[26;1H                                                                                                                        \u001b[27;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[28;1H# Automatically set window title                                                                                        \u001b[29;1Hsetw -g automatic-rename                                                                                                \u001b[30;1H\u001b[36m                                                           4ef209ef78702b0001000019/in 27:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m5 sel\u001b[36m - unnamed0@[18284\b]\b\u001b[1@4\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.99716,
+      "\u001b]2;4ef209ef78702b0001000019/in 27:1 [+] prompt - unnamed0@[18284] - Kakoune\u0007"
+    ],
+    [
+      0.000378,
+      "\u001b[H#Set the global prefix key to C-q (default is C-b)                                                                      \u001b[2;1Hset-option -g prefix C-q                                                                                                \u001b[3;1Hbind-key C-q last-window                                                                                                \u001b[4;1H                                                                                                                        \u001b[5;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[6;1H# Remove default binding since we’re replacing                                                                          \u001b[7;1Hunbind %                                                                                                                \u001b[8;1Hbind | split-window -h                                                                                                 "
+    ],
+    [
+      4.3e-05,
+      " \u001b[9;1Hbind - split-window -v                                                                                                  \u001b[10;1H                                                                                                                        \u001b[11;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[12;1H# Set status bar                                                                                                        \u001b[13;1Hset -g status-bg black                                                                                                  \u001b[14;1Hset -g status-fg white                                                                                                  \u001b[15;1Hset -g status-left '#[fg=green]#H'                                                                                      \u001b[16;1H                                                                                                              "
+    ],
+    [
+      3.9e-05,
+      "          \u001b[17;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[18;1H# Highlight active window                                                                                               \u001b[19;1Hset-window-option -g window-status-current-bg red                                               \u001b[30m\u001b[43m╭─────────┤:├──────────╮\u001b[20;1H\u001b[39;49mset -g status-right '#[fg=yellow]#(uptime | cut -d \",\" -f 2-)'                                  \u001b[30m\u001b[43m│ enter command prompt │\u001b[21;1H\u001b[39;49m                                                                                                \u001b[30m\u001b[43m╰──────────────────────╯\u001b[22;1H\u001b[34m\u001b[47madd-highlighter    alias              buffer             buffer-next        buffer-previous    change-directory        █\u001b[23;1Hdebug              declare-option     define-command     delete-buffer "
+    ],
+    [
+      4.1e-05,
+      "     delete-buffer!     echo                    █\u001b[24;1Hedit               edit!              eval               exec               hook               info                    █\u001b[25;1Hkill               kill!              map                menu               nop                on-key                  █\u001b[26;1Hprompt             quit               quit!              remove-highlighter remove-hooks       rename-buffer           █\u001b[27;1Hrename-client      rename-session     select             set-face           set-option         set-register            █\u001b[28;1Hsource             try                unalias            unmap              unset-option       write                   █\u001b[29;1Hwrite-all          write-all-quit     write-quit         write-quit!                                                   █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                        4ef209ef78702b0001000019/in 27:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[18284\b]\b\u001b"
+    ],
+    [
+      3.4e-05,
+      "[1@4\u001b[9A\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.499195,
+      "\u001b]2;4ef209ef78702b0001000019/in 27:1 [+] prompt - unnamed0@[18284] - Kakoune\u0007"
+    ],
+    [
+      0.000236,
+      "\u001b[H#Set the global prefix key to C-q (default is C-b)                                                                      \u001b[2;1Hset-option -g prefix C-q                                                                                                \u001b[3;1Hbind-key C-q last-window                                                                                                \u001b[4;1H                                                                                                                        \u001b[5;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[6;1H# Remove default binding since we’re replacing                                                                          \u001b[7;1Hunbind %                                                                                                                \u001b[8;1Hbind | split-window -h                                                                                                 "
+    ],
+    [
+      2.2e-05,
+      " \u001b[9;1Hbind - split-window -v                                                                                                  \u001b[10;1H                                                                                                                        \u001b[11;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[12;1H# Set status bar                                                                                                        \u001b[13;1Hset -g status-bg black                                                                                                  \u001b[14;1Hset -g status-fg white                                                                                                  \u001b[15;1Hset -g status-left '#[fg=green]#H'                                                                                      \u001b[16;1H                                                                                                              "
+    ],
+    [
+      2.6e-05,
+      "          \u001b[17;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[18;1H# Highlight active window                                                                                               \u001b[19;1Hset-window-option -g window-status-current-bg red                                                                       \u001b[20;1Hset -g status-right '#[fg=yellow]#(uptime | cut -d \",\" -f 2-)'                                                          \u001b[21;1H                                                                                                                        \u001b[22;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[23;1H# Set window notifications                                                                                              \u001b[24;1Hsetw -g monitor-activity on                                                       "
+    ],
+    [
+      2.4e-05,
+      "                                      \u001b[25;1Hset -g visual-activity on                                                                                               \u001b[26;1H                                                                                                                        \u001b[27;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[28;1H# Automatically set window title                                                                                        \u001b[29;1H\u001b[34m\u001b[47mquit             quit!            write-quit       write-quit!      write-all-quit                                     █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                       4ef209ef78702b0001000019/in 27:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[18284\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.500761,
+      "\u001b]2;4ef209ef78702b0001000019/in 27:1 [+] prompt - unnamed0@[18284] - Kakoune\u0007"
+    ],
+    [
+      0.000252,
+      "\u001b[H#Set the global prefix key to C-q (default is C-b)                                                                      \u001b[2;1Hset-option -g prefix C-q                                                                                                \u001b[3;1Hbind-key C-q last-window                                                                                                \u001b[4;1H                                                                                                                        \u001b[5;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[6;1H# Remove default binding since we’re replacing                                                                          \u001b[7;1Hunbind %                                                                                                                \u001b[8;1Hbind | split-window -h                                                                                                 "
+    ],
+    [
+      2.4e-05,
+      " \u001b[9;1Hbind - split-window -v                                                                                                  \u001b[10;1H                                                                                                                        \u001b[11;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[12;1H# Set status bar                                                                                                        \u001b[13;1Hset -g status-bg black                                                                                                  \u001b[14;1Hset -g status-fg white                                                                                                  \u001b[15;1Hset -g status-left '#[fg=green]#H'                                                                                      \u001b[16;1H                                                                                                              "
+    ],
+    [
+      2.1e-05,
+      "          \u001b[17;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[18;1H# Highlight active window                                                                                               \u001b[19;1Hset-window-option -g window-status-current-bg red                                                                       \u001b[20;1Hset -g status-right '#[fg=yellow]#(uptime | cut -d \",\" -f 2-)'                                                          \u001b[21;1H                                                                                                                        \u001b[22;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[23;1H# Set window notifications                                                                                              \u001b[24;1Hsetw -g monitor-activity on                                                       "
+    ],
+    [
+      2.2e-05,
+      "                                      \u001b[25;1Hset -g visual-activity on                                                                                               \u001b[26;1H                                                                                                                        \u001b[27;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[28;1H# Automatically set window title                                                                                        \u001b[29;1H\u001b[34m\u001b[47mquit!        write-quit!                                                                                               █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq!\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                      4ef209ef78702b0001000019/in 27:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[18284\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.503244,
+      "\u001b[?1000l\u001b[?1004l\u001b[?1002l"
+    ],
+    [
+      2.4e-05,
+      "\u001b[30;1H\u001b[34h\u001b[?25h\u001b[?1049l\r\u001b[?1l\u001b>"
+    ],
+    [
+      0.000691,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
+    ],
+    [
+      0.061277,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jλ kakoune-tv \u001b[K\u001b[?2004h"
+    ],
+    [
+      0.96067,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}
