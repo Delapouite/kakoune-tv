@@ -38,6 +38,7 @@ main {
 
 #keys {
 	background: #000;
+	border-bottom: 1px solid #1c758e;
 	display: inline-block;
 	font-size: 1.5em;
 	padding: .5em;
@@ -50,4 +51,12 @@ main {
 #vimgolf-link {
 	display: block;
 	margin: 1em;
+}
+
+#in, #out {
+	background: #000;
+	border-bottom: 1px solid #d85c42;
+	max-height: 300px;
+	overflow: auto;
+	padding: 1em;
 }

@@ -8,6 +8,8 @@ var $ = document.querySelector.bind(document)
 var player = $('#player')
 var keys = $('#keys')
 var sel = $('#episode-selector')
+var docin = $('#in')
+var docout = $('#out')
 var vg = $('#vimgolf-link')
 
 var id = window.location.hash.slice(1) || asciicasts[0].id
@@ -33,6 +35,9 @@ asciicasts.forEach(function (a) {
 	opt.selected = a.id === id
 	sel.appendChild(opt)
 })
+
+docin.textContent = asciicast.in
+docout.textContent = asciicast.out
 
 vg.href = 'https://vimgolf.com/challenges/' + id
 
