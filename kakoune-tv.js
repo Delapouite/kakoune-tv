@@ -193,27 +193,35 @@ var annotate = function (tokens) {
 				break
 
 			case 'h':
-				logs.push([t, 'move left'])
+				logs.push([t, 'move left ←'])
 				break
 
 			case 'H':
-				logs.push([t, 'extend left'])
+				logs.push([t, 'extend left ⇐'])
 				break
 
 			case 'j':
-				logs.push([t, 'move down'])
+				logs.push([t, 'move down ↓'])
+				break
+
+			case 'J':
+				logs.push([t, 'extend down ⇓'])
 				break
 
 			case 'k':
-				logs.push([t, 'move up'])
+				logs.push([t, 'move up ↑'])
+				break
+
+			case 'K':
+				logs.push([t, 'extend up ⇑'])
 				break
 
 			case 'l':
-				logs.push([t, 'move right'])
+				logs.push([t, 'move right →'])
 				break
 
 			case 'L':
-				logs.push([t, 'extend right'])
+				logs.push([t, 'extend right ⇒'])
 				break
 
 			case 'm':
