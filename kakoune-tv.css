@@ -42,6 +42,7 @@ main {
 	display: inline-block;
 	font-size: 1.5em;
 	padding: .5em;
+	text-align: left;
 }
 
 #episode-selector-holder {

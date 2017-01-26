@@ -17,15 +17,22 @@ var asciicast = asciicasts.filter(function (a) {
 	return a.id === id
 })[0]
 
-// utils: remove ,q
-var slice = function (keys) {
-	return keys.slice(0, keys.length - 2)
+var parse = function (keys) {
+	return keys
+		// remove ,q
+		.slice(0, keys.length - 2)
+		// escape new lines
+		.replace(/\n/g, '\\n')
+		// TODO: remove false posive, like <ret> during insertion
+		// add some room for better human readibility
+		.replace(/<ret>/g, '<ret>\n')
+		.replace(/<esc>/g, '<esc>\n')
 }
 
 player.setAttribute('src', 'asciicasts/' + id + '.json')
 
 // populate keys
-keys.textContent = slice(asciicast.keys)
+keys.textContent = parse(asciicast.keys)
 
 // populate selector
 asciicasts.forEach(function (a) {
