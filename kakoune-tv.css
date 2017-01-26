@@ -62,19 +62,28 @@ kbd {
 	white-space: nowrap;
 }
 
+/* insert mode */
 kbd.kbd-i {
 	background-color: #99a969;
 	border-color: #99a969;
 }
 
+/* prompt */
 kbd.kbd-p {
 	background-color: #1c758e;
 	border-color: #1c758e;
 }
 
+/* leave */
 kbd.kbd-l {
 	background-color: #999;
 	border-color: #999;
+}
+
+/* digits (count) */
+kbd.kbd-d {
+	background-color: #fff;
+	border-color: #fff;
 }
 
 dt {

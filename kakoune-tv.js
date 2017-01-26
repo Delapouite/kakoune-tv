@@ -33,6 +33,7 @@ var annotate = function (tokens) {
 	var mode = 'n'
 	var insertBuffer = []
 	var promptBuffer = []
+	var countBuffer = []
 	var macroRecording = false
 	var logs = []
 
@@ -49,6 +50,10 @@ var annotate = function (tokens) {
 			logs.push([t, 'typed in prompt', 'p'])
 			mode = 'n'
 			continue
+		}
+		if (countBuffer.length && isNaN(Number(t))) {
+			logs.push([countBuffer.join(''), 'count for next command', 'd'])
+			countBuffer = []
 		}
 
 		switch (t) {
@@ -75,6 +80,19 @@ var annotate = function (tokens) {
 				logs.push([promptBuffer.join(''), 'typed in prompt', 'p'])
 				promptBuffer = []
 				logs.push([t, 'leave prompt  mode', 'l'])
+				break
+
+			case '0':
+			case '1':
+			case '2':
+			case '3':
+			case '4':
+			case '5':
+			case '6':
+			case '7':
+			case '8':
+			case '9':
+				countBuffer.push(t)
 				break
 
 			case 'b':
@@ -179,7 +197,7 @@ var annotate = function (tokens) {
 				break
 
 			case 'Q':
-				logs.push([t, `Q – ${macroRecording ? 'stop' : 'start'} macro recording`])
+				logs.push([t, `${macroRecording ? 'stop' : 'start'} macro recording`])
 				macroRecording = !macroRecording
 				break
 
