@@ -36,9 +36,11 @@ var annotate = function (tokens) {
 	var countBuffer = []
 	var macroRecording = false
 	var logs = []
+	// trigger by <a-;>
+	var oneShot = false
 
 	while (t = tokens.shift()) {
-		if (mode === 'i' && t !== '<esc>') {
+		if (mode === 'i' && t !== '<esc>' && t !== '<a-;>') {
 			insertBuffer.push(t)
 			continue
 		}
@@ -57,14 +59,39 @@ var annotate = function (tokens) {
 		}
 
 		switch (t) {
+			// insert mode
 			case 'a':
+				logs.push([t, 'insert after selected text'])
+				mode = 'i'
+				break
+
 			case 'A':
+				logs.push([t, 'insert at line end'])
+				mode = 'i'
+				break
+
 			case 'c':
+				logs.push([t, 'change selected text'])
+				mode = 'i'
+				break
+
 			case 'i':
+				logs.push([t, 'insert before selected text'])
+				mode = 'i'
+				break
+
 			case 'I':
+				logs.push([t, 'insert at line begin'])
+				mode = 'i'
+				break
+
 			case 'o':
+				logs.push([t, 'insert on new line below'])
+				mode = 'i'
+				break
+
 			case 'O':
-				logs.push([t, 'enter insert mode'])
+				logs.push([t, 'insert on new line above'])
 				mode = 'i'
 				break
 
@@ -76,10 +103,10 @@ var annotate = function (tokens) {
 				break
 
 			case '<ret>':
-				mode = 'n'
 				logs.push([promptBuffer.join(''), 'typed in prompt', 'p'])
 				promptBuffer = []
 				logs.push([t, 'leave prompt  mode', 'l'])
+				mode = 'n'
 				break
 
 			case '0':
@@ -251,6 +278,10 @@ var annotate = function (tokens) {
 				logs.push([t, 'yank selected text'])
 				break
 
+			case 'z':
+				logs.push([t, 'restore selections from register'])
+				break
+
 			case 'Z':
 				logs.push([t, 'save selections on register'])
 				break
@@ -322,8 +353,21 @@ var annotate = function (tokens) {
 				mode = 'p'
 				break
 
+			case '<a-;>':
+				logs.push([insertBuffer.join(''), 'inserted text', 'i'])
+				insertBuffer = []
+				logs.push([t, 'escape to normal mode for a single command'])
+				mode = 'n'
+				oneShot = true
+				continue
+
 			default:
 				console.debug('unknown token', t)
+		}
+
+		if (oneShot) {
+			oneShot = false
+			mode = 'i'
 		}
 	}
 	return logs
