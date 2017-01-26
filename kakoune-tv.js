@@ -40,7 +40,7 @@ var annotate = function (tokens) {
 	var oneShot = false
 
 	while (t = tokens.shift()) {
-		if (mode === 'i' && t !== '<esc>' && t !== '<a-;>') {
+		if (mode === 'i' && t !== '<esc>' && t !== '<a-;>' && t !== '<home>' && t !== '<end>') {
 			insertBuffer.push(t)
 			continue
 		}
@@ -291,10 +291,18 @@ var annotate = function (tokens) {
 				break
 
 			case '<home>':
+				if (insertBuffer.length) {
+					logs.push([insertBuffer.join(''), 'inserted text', 'i'])
+					insertBuffer = []
+				}
 				logs.push([t, 'select to line begin'])
 				break
 
 			case '<end>':
+				if (insertBuffer.length) {
+					logs.push([insertBuffer.join(''), 'inserted text', 'i'])
+					insertBuffer = []
+				}
 				logs.push([t, 'select to line end'])
 				break
 
