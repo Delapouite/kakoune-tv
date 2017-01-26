@@ -89,11 +89,17 @@ kbd.kbd-d {
 dt {
 	clear: left;
 	float: left;
+	margin-right: 1em;
 }
 
 dd {
 	margin-bottom: 1em;
 	margin-left: 11em;
+}
+
+dd em {
+	background: #222;
+	color: #CCC;
 }
 
 #in, #out {

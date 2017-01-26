@@ -36,7 +36,9 @@ var annotate = function (tokens) {
 	var countBuffer = []
 	var macroRecording = false
 	var logs = []
-	// trigger by <a-;>
+	var insertSwitch
+	var promptSwitch
+	// triggered by <a-;>
 	var oneShot = false
 
 	while (t = tokens.shift()) {
@@ -61,51 +63,75 @@ var annotate = function (tokens) {
 		switch (t) {
 			// insert mode
 			case 'a':
-				logs.push([t, 'insert after selected text'])
+				insertSwitch = [t, 'insert [text] after selected text']
 				mode = 'i'
 				break
 
 			case 'A':
-				logs.push([t, 'insert at line end'])
+				insertSwitch = [t, 'insert [text] at line end']
 				mode = 'i'
 				break
 
 			case 'c':
-				logs.push([t, 'change selected text'])
+				insertSwitch = [t, 'change selected text to [text]']
 				mode = 'i'
 				break
 
 			case 'i':
-				logs.push([t, 'insert before selected text'])
+				insertSwitch = [t, 'insert [text] before selected text']
 				mode = 'i'
 				break
 
 			case 'I':
-				logs.push([t, 'insert at line begin'])
+				insertSwitch = [t, 'insert [text] at line begin']
 				mode = 'i'
 				break
 
 			case 'o':
-				logs.push([t, 'insert on new line below'])
+				insertSwitch = [t, 'insert [text] on new line below']
 				mode = 'i'
 				break
 
 			case 'O':
-				logs.push([t, 'insert on new line above'])
+				insertSwitch = [t, 'insert [text] on new line above']
 				mode = 'i'
 				break
 
 			case '<esc>':
-				logs.push([insertBuffer.join(''), 'inserted text', 'i'])
+				logs.push([[insertSwitch[0], insertBuffer.join(''), t], insertSwitch[1], 'i'])
 				insertBuffer = []
-				logs.push([t, 'leave insert mode', 'l'])
 				mode = 'n'
 				break
 
+			// prompt mode
+			case '<a-k>':
+				promptSwitch = [t, 'keep selections matching regex [text]']
+				mode = 'p'
+				break
+
+			case '<a-K>':
+				promptSwitch = [t, 'keep selections not matching regex [text]']
+				mode = 'p'
+				break
+
+			case 's':
+				promptSwitch = [t, 'select regex [text] matches in selected text']
+				mode = 'p'
+				break
+
+			case '/':
+				promptSwitch = [t, 'select next given regex [text] match']
+				mode = 'p'
+				break
+
+			case '<a-/>':
+				promptSwitch = [t, 'select previous given regex [text] match']
+				mode = 'p'
+				break
+
 			case '<ret>':
-				logs.push([promptBuffer.join(''), 'typed in prompt', 'p'])
+				logs.push([[promptSwitch[0], promptBuffer.join(''), t], promptSwitch[1], 'p'])
 				promptBuffer = []
-				logs.push([t, 'leave prompt  mode', 'l'])
 				mode = 'n'
 				break
 
@@ -173,16 +199,6 @@ var annotate = function (tokens) {
 				logs.push([t, 'move up'])
 				break
 
-			case '<a-k>':
-				logs.push([t, 'keep selections matching given regex'])
-				mode = 'p'
-				break
-
-			case '<a-K>':
-				logs.push([t, 'keep selections not matching given regex'])
-				mode = 'p'
-				break
-
 			case 'l':
 				logs.push([t, 'move right'])
 				break
@@ -236,11 +252,6 @@ var annotate = function (tokens) {
 				logs.push([t, 'replace selected text with yanked text'])
 				break
 
-			case 's':
-				logs.push([t, 'select regex matches in selected text'])
-				mode = 'p'
-				break
-
 			case '<a-s>':
 				logs.push([t, 'split selected text on line ends'])
 				break
@@ -292,7 +303,7 @@ var annotate = function (tokens) {
 
 			case '<home>':
 				if (insertBuffer.length) {
-					logs.push([insertBuffer.join(''), 'inserted text', 'i'])
+					logs.push([[insertSwitch[0], insertBuffer.join('')], insertSwitch[1], 'i'])
 					insertBuffer = []
 				}
 				logs.push([t, 'select to line begin'])
@@ -300,7 +311,7 @@ var annotate = function (tokens) {
 
 			case '<end>':
 				if (insertBuffer.length) {
-					logs.push([insertBuffer.join(''), 'inserted text', 'i'])
+					logs.push([[insertSwitch[0], insertBuffer.join('')], insertSwitch[1], 'i'])
 					insertBuffer = []
 				}
 				logs.push([t, 'select to line end'])
@@ -351,18 +362,9 @@ var annotate = function (tokens) {
 				logs.push([t, 'copy indentation'])
 				break
 
-			case '/':
-				logs.push([t, 'select next given regex match'])
-				mode = 'p'
-				break
-
-			case '<a-/>':
-				logs.push([t, 'select previous given regex match'])
-				mode = 'p'
-				break
-
 			case '<a-;>':
-				logs.push([insertBuffer.join(''), 'inserted text', 'i'])
+				logs.push([[insertSwitch[0], insertBuffer.join('')], insertSwitch[1], 'i'])
+				insertSwitch = ['', 'insert [text]']
 				insertBuffer = []
 				logs.push([t, 'escape to normal mode for a single command'])
 				mode = 'n'
@@ -388,16 +390,49 @@ var buildDl = function (keys) {
 
 	annotations.forEach(function (a) {
 		var dt = document.createElement('dt')
-		var kbd = document.createElement('kbd')
-		kbd.textContent = a[0]
-		if (a[2]) {
-			kbd.classList.add(`kbd-${a[2]}`)
+
+		if (typeof a[0] === 'string') {
+			var kbd = document.createElement('kbd')
+			kbd.textContent = a[0]
+			if (a[2]) {
+				kbd.classList.add(`kbd-${a[2]}`)
+			}
+			dt.appendChild(kbd)
+		} else {
+			a[0].forEach(function (k, i) {
+				var kbd = document.createElement('kbd')
+				if (!k) return
+				kbd.textContent = k
+				if (i === 1) {
+					kbd.classList.add(`kbd-${a[2]}`)
+				}
+				if (i === 2) {
+					kbd.classList.add(`kbd-l`)
+				}
+				dt.appendChild(kbd)
+			})
 		}
-		dt.appendChild(kbd)
+
 		dl.appendChild(dt)
 
 		var dd = document.createElement('dd')
-		dd.textContent = a[1]
+		if (a[2] !== 'i' && a[2] !== 'p') {
+			dd.textContent = a[1]
+		} else {
+			var m = a[1].split('[text]')
+			var pre = document.createElement('span')
+			pre.textContent = m[0]
+
+			var text = document.createElement('em')
+			text.textContent = a[0][1]
+
+			var post = document.createElement('span')
+			post.textContent = m[1]
+
+			dd.appendChild(pre)
+			dd.appendChild(text)
+			dd.appendChild(post)
+		}
 		dl.appendChild(dd)
 	})
 
