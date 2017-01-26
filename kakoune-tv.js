@@ -39,6 +39,7 @@ var annotate = function (tokens) {
 	var insertSwitch
 	var promptSwitch
 	var chooseSwitch
+	var countSwitch
 	// triggered by <a-;>
 	var oneShot = false
 
@@ -55,10 +56,6 @@ var annotate = function (tokens) {
 			logs.push([[chooseSwitch[0], t], chooseSwitch[1], 'c'])
 			mode = 'n'
 			continue
-		}
-		if (countBuffer.length && isNaN(Number(t))) {
-			logs.push([countBuffer.join(''), 'count for next command', 'd'])
-			countBuffer = []
 		}
 
 		switch (t) {
@@ -381,6 +378,11 @@ var annotate = function (tokens) {
 			oneShot = false
 			mode = 'i'
 		}
+
+		if (countBuffer.length && isNaN(Number(t))) {
+			logs[logs.length - 1][3] = countBuffer.join('')
+			countBuffer = []
+		}
 	}
 	return logs
 }
@@ -392,6 +394,14 @@ var buildDl = function (keys) {
 
 	annotations.forEach(function (a) {
 		var dt = document.createElement('dt')
+
+		// count
+		if (a[3]) {
+			var kbd = document.createElement('kbd')
+			kbd.textContent = a[3]
+			kbd.classList.add(`kbd-d`)
+			dt.appendChild(kbd)
+		}
 
 		if (typeof a[0] === 'string') {
 			var kbd = document.createElement('kbd')
@@ -414,7 +424,6 @@ var buildDl = function (keys) {
 				dt.appendChild(kbd)
 			})
 		}
-
 		dl.appendChild(dt)
 
 		var dd = document.createElement('dd')
@@ -434,6 +443,11 @@ var buildDl = function (keys) {
 			dd.appendChild(pre)
 			dd.appendChild(text)
 			dd.appendChild(post)
+		}
+		if (a[3]) {
+			var count = document.createElement('strong')
+			count.textContent = ` (${a[3]} times)`
+			dd.appendChild(count)
 		}
 		dl.appendChild(dd)
 	})
