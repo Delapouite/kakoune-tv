@@ -31,9 +31,13 @@ main {
 	min-height: 540px;
 }
 
-#keys-holder {
-	margin-bottom: 1em;
+#episode-selector-holder {
 	text-align: center;
+	margin-bottom: 2em;
+}
+
+#vimgolf-link {
+	margin: 1em;
 }
 
 #keys {
@@ -45,13 +49,42 @@ main {
 	text-align: left;
 }
 
-#episode-selector-holder {
-	text-align: center;
+kbd {
+	background: #f5f5f5;
+	border-color: #ddd #bbb #bbb #ddd;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px 1px 2px;
+	color: #000;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: .2em .5em;
+	white-space: nowrap;
 }
 
-#vimgolf-link {
-	display: block;
-	margin: 1em;
+kbd.kbd-i {
+	background-color: #99a969;
+	border-color: #99a969;
+}
+
+kbd.kbd-p {
+	background-color: #1c758e;
+	border-color: #1c758e;
+}
+
+kbd.kbd-l {
+	background-color: #999;
+	border-color: #999;
+}
+
+dt {
+	clear: left;
+	float: left;
+}
+
+dd {
+	margin-bottom: 1em;
+	margin-left: 11em;
 }
 
 #in, #out {
