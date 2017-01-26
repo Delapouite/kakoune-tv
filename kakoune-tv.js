@@ -387,72 +387,83 @@ var annotate = function (tokens) {
 	return logs
 }
 
-var buildDl = function (keys) {
+var createDl = function (keys) {
 	var tokens = tokenize(keys)
 	var annotations = annotate(tokens)
 	var dl = document.createElement('dl')
 
 	annotations.forEach(function (a) {
-		var dt = document.createElement('dt')
-
-		// count
-		if (a[3]) {
-			var kbd = document.createElement('kbd')
-			kbd.textContent = a[3]
-			kbd.classList.add(`kbd-d`)
-			dt.appendChild(kbd)
-		}
-
-		if (typeof a[0] === 'string') {
-			var kbd = document.createElement('kbd')
-			kbd.textContent = a[0]
-			if (a[2]) {
-				kbd.classList.add(`kbd-${a[2]}`)
-			}
-			dt.appendChild(kbd)
-		} else {
-			a[0].forEach(function (k, i) {
-				var kbd = document.createElement('kbd')
-				if (!k) return
-				kbd.textContent = k
-				if (i === 1) {
-					kbd.classList.add(`kbd-${a[2]}`)
-				}
-				if (i === 2) {
-					kbd.classList.add(`kbd-l`)
-				}
-				dt.appendChild(kbd)
-			})
-		}
-		dl.appendChild(dt)
-
-		var dd = document.createElement('dd')
-		if (a[2] !== 'i' && a[2] !== 'p' && a[2] !== 'c') {
-			dd.textContent = a[1]
-		} else {
-			var m = a[1].split('[text]')
-			var pre = document.createElement('span')
-			pre.textContent = m[0]
-
-			var text = document.createElement('em')
-			text.textContent = a[0][1]
-
-			var post = document.createElement('span')
-			post.textContent = m[1]
-
-			dd.appendChild(pre)
-			dd.appendChild(text)
-			dd.appendChild(post)
-		}
-		if (a[3]) {
-			var count = document.createElement('strong')
-			count.textContent = ` (${a[3]} times)`
-			dd.appendChild(count)
-		}
-		dl.appendChild(dd)
+		dl.appendChild(createDt(a))
+		dl.appendChild(createDd(a))
 	})
 
 	return dl
+}
+
+// left part with keys
+function createDt (a) {
+	var dt = document.createElement('dt')
+	var kbd
+
+	// count
+	if (a[3]) {
+		kbd = document.createElement('kbd')
+		kbd.textContent = a[3]
+		kbd.classList.add(`kbd-d`)
+		dt.appendChild(kbd)
+	}
+
+	if (typeof a[0] === 'string') {
+		kbd = document.createElement('kbd')
+		kbd.textContent = a[0]
+		if (a[2]) {
+			kbd.classList.add(`kbd-${a[2]}`)
+		}
+		dt.appendChild(kbd)
+	} else {
+		a[0].forEach(function (k, i) {
+			var kbd = document.createElement('kbd')
+			if (!k) return
+			kbd.textContent = k
+			if (i === 1) {
+				kbd.classList.add(`kbd-${a[2]}`)
+			}
+			if (i === 2) {
+				kbd.classList.add(`kbd-l`)
+			}
+			dt.appendChild(kbd)
+		})
+	}
+
+	return dt
+}
+
+// right part with english translation
+function createDd (a) {
+	var dd = document.createElement('dd')
+	if (a[2] !== 'i' && a[2] !== 'p' && a[2] !== 'c') {
+		dd.textContent = a[1]
+	} else {
+		var m = a[1].split('[text]')
+		var pre = document.createElement('span')
+		pre.textContent = m[0]
+
+		var text = document.createElement('em')
+		text.textContent = a[0][1]
+
+		var post = document.createElement('span')
+		post.textContent = m[1]
+
+		dd.appendChild(pre)
+		dd.appendChild(text)
+		dd.appendChild(post)
+	}
+	if (a[3]) {
+		var count = document.createElement('strong')
+		count.textContent = ` (${a[3]} times)`
+		dd.appendChild(count)
+	}
+	return dd
 }
 
 var strip = function (keys) {
@@ -466,7 +477,7 @@ player.setAttribute('src', 'asciicasts/' + id + '.json')
 
 // populate keys
 keys.textContent = strip(asciicast.keys)
-annotations.appendChild(buildDl(asciicast.keys))
+annotations.appendChild(createDl(asciicast.keys))
 
 // populate selector
 asciicasts.forEach(function (a) {
