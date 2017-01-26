@@ -38,6 +38,7 @@ var annotate = function (tokens) {
 	var logs = []
 	var insertSwitch
 	var promptSwitch
+	var chooseSwitch
 	// triggered by <a-;>
 	var oneShot = false
 
@@ -51,7 +52,7 @@ var annotate = function (tokens) {
 			continue
 		}
 		if (mode === 'c') {
-			logs.push([t, 'typed in prompt', 'p'])
+			logs.push([[chooseSwitch[0], t], chooseSwitch[1], 'c'])
 			mode = 'n'
 			continue
 		}
@@ -135,6 +136,32 @@ var annotate = function (tokens) {
 				mode = 'n'
 				break
 
+			// choose mode (like prompt but with no <ret>)
+			case 'f':
+				chooseSwitch = [t, 'select onto next [text] character']
+				mode = 'c'
+				break
+
+			case '<a-f>':
+				chooseSwitch = [t, 'select to previous [text] character included']
+				mode = 'c'
+				break
+
+			case 'g':
+				chooseSwitch = [t, 'goto [text]']
+				mode = 'c'
+				break
+
+			case 't':
+				chooseSwitch = [t, 'select to next [text] character']
+				mode = 'c'
+				break
+
+			case '"':
+				chooseSwitch = [t, 'select [text] register']
+				mode = 'c'
+				break
+
 			case '0':
 			case '1':
 			case '2':
@@ -166,21 +193,6 @@ var annotate = function (tokens) {
 
 			case 'e':
 				logs.push([t, 'select to next word end'])
-				break
-
-			case 'f':
-				logs.push([t, 'select onto next character'])
-				mode = 'c'
-				break
-
-			case '<a-f>':
-				logs.push([t, 'select to previous character included'])
-				mode = 'c'
-				break
-
-			case 'g':
-				logs.push([t, 'goto'])
-				mode = 'c'
 				break
 
 			case 'h':
@@ -254,11 +266,6 @@ var annotate = function (tokens) {
 
 			case '<a-s>':
 				logs.push([t, 'split selected text on line ends'])
-				break
-
-			case 't':
-				logs.push([t, 'select to next character'])
-				mode = 'c'
 				break
 
 			case 'u':
@@ -337,11 +344,6 @@ var annotate = function (tokens) {
 				logs.push([t, 'set search pattern to main selection content'])
 				break
 
-			case '"':
-				logs.push([t, 'select register'])
-				mode = 'c'
-				break
-
 			case '%':
 				logs.push([t, 'select whole buffer'])
 				break
@@ -416,7 +418,7 @@ var buildDl = function (keys) {
 		dl.appendChild(dt)
 
 		var dd = document.createElement('dd')
-		if (a[2] !== 'i' && a[2] !== 'p') {
+		if (a[2] !== 'i' && a[2] !== 'p' && a[2] !== 'c') {
 			dd.textContent = a[1]
 		} else {
 			var m = a[1].split('[text]')

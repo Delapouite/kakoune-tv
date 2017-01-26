@@ -69,7 +69,7 @@ kbd.kbd-i {
 }
 
 /* prompt */
-kbd.kbd-p {
+kbd.kbd-p, kbd.kbd-c {
 	background-color: #1c758e;
 	border-color: #1c758e;
 }
