@@ -6,6 +6,7 @@
 var $ = document.querySelector.bind(document)
 
 var player = $('#player')
+var score = $('#score')
 var keys = $('#keys')
 var annotations = $('#annotations')
 var sel = $('#episode-selector')
@@ -18,13 +19,12 @@ var asciicast = asciicasts.filter(function (a) {
 	return a.id === id
 })[0]
 
-
-// remove ,q
 var tokenize = function (keys) {
 	return keys
 		.replace(/\n/, '\\n')
 		.replace(/<((c-.|a-.)|(c-|a-)?(ret|space|tab|lt|gt|backspace|esc|up|down|left|right|pageup|pagedown|home|end|backtab|del))>|./g, '¤$&')
 		.split('¤')
+		// remove ,q
 		.slice(1, -2)
 }
 
@@ -395,8 +395,7 @@ var annotate = function (tokens) {
 	return logs
 }
 
-var createDl = function (keys) {
-	var tokens = tokenize(keys)
+var createDl = function (tokens) {
 	var annotations = annotate(tokens)
 	var dl = document.createElement('dl')
 
@@ -485,7 +484,10 @@ player.setAttribute('src', 'asciicasts/' + id + '.json')
 
 // populate keys
 keys.textContent = strip(asciicast.keys)
-annotations.appendChild(createDl(asciicast.keys))
+
+var tokens = tokenize(asciicast.keys)
+score.textContent = tokens.length
+annotations.appendChild(createDl(tokens))
 
 // populate selector
 asciicasts.forEach(function (a) {
