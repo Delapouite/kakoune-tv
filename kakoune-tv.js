@@ -100,9 +100,14 @@ var annotate = function (tokens) {
 				break
 
 			case '<esc>':
-				logs.push([[insertSwitch[0], insertBuffer.join(''), t], insertSwitch[1], 'i'])
-				insertBuffer = []
-				mode = 'n'
+				if (mode === 'i') {
+					logs.push([[insertSwitch[0], insertBuffer.join(''), t], insertSwitch[1], 'i'])
+					insertBuffer = []
+					mode = 'n'
+				} else if (macroRecording) {
+					logs.push([t, 'stop macro recording'])
+					macroRecording = !macroRecording
+				}
 				break
 
 			// prompt mode
