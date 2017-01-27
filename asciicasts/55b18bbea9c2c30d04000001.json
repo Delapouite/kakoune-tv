@@ -1,0 +1,1230 @@
+{
+  "version": 1,
+  "width": 120,
+  "height": 30,
+  "duration": 36.800399,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "screen-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.227349,
+      "\u001bPtmux;\u001b\u001b]4;0;rgb:28/21/1c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;1;rgb:cf/6a/4c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;2;rgb:54/be/0d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;3;rgb:f9/ee/98\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;4;rgb:5e/a6/ea\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;5;rgb:9b/85/9d\u001b\u001b\\\u001b\\"
+    ],
+    [
+      3.3e-05,
+      "\u001bPtmux;\u001b\u001b]4;6;rgb:af/c4/db\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;7;rgb:8a/89/86\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;8;rgb:66/66/66\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;9;rgb:cf/6a/4c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;10;rgb:54/be/0d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;11;rgb:f9/ee/98\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;12;rgb:5e/a6/ea\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;13;rgb:9b/85/9d\u001b\u001b\\\u001b\\"
+    ],
+    [
+      1.5e-05,
+      "\u001bPtmux;\u001b\u001b]4;14;rgb:af/c4/db\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.000152,
+      "\u001bPtmux;\u001b\u001b]4;15;rgb:ba/ae/9e\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;16;rgb:cf/7d/34\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;17;rgb:93/71/21\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;18;rgb:36/31/2e\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;19;rgb:5e/5d/5c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;20;rgb:79/79/77\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;21;rgb:9d/9b/97\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.000191,
+      "\u001bPtmux;\u001b\u001b]10;rgb:8a/89/86\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]11;rgb:28/21/1c\u001b\u001b\\\u001b\\"
+    ],
+    [
+      1.9e-05,
+      "\u001bPtmux;\u001b\u001b]12;7\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.017536,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
+    ],
+    [
+      0.052777,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jλ kakoune-tv \u001b[K\u001b[?2004h"
+    ],
+    [
+      0.634522,
+      "\u001b[32mk\u001b[39m"
+    ],
+    [
+      0.02632,
+      "\b\u001b[1m\u001b[31mk\u001b[1m\u001b[31ma\u001b[0m\u001b[39m"
+    ],
+    [
+      0.024231,
+      "\b\b\u001b[0m\u001b[32mk\u001b[0m\u001b[32ma\u001b[32mk\u001b[39m"
+    ],
+    [
+      0.025608,
+      " "
+    ],
+    [
+      0.025409,
+      "-"
+    ],
+    [
+      0.025371,
+      "n"
+    ],
+    [
+      0.025422,
+      " "
+    ],
+    [
+      0.025907,
+      "-"
+    ],
+    [
+      0.025234,
+      "e"
+    ],
+    [
+      0.025314,
+      " "
+    ],
+    [
+      0.02567,
+      "\u001b[33m'\u001b[39m"
+    ],
+    [
+      0.025287,
+      "\b\u001b[33m'\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025315,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.02578,
+      "\b\u001b[33me\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025154,
+      "\b\u001b[33mt\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025505,
+      "\b\u001b[33m \u001b[33mg\u001b[39m"
+    ],
+    [
+      0.025164,
+      "\b\u001b[33mg\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025338,
+      "\b\u001b[33ml\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.027046,
+      "\b\u001b[33mo\u001b[33mb\u001b[39m"
+    ],
+    [
+      0.024757,
+      "\b\u001b[33mb\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025662,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025612,
+      "\b\u001b[33ml\u001b[33m \u001b[39m"
+    ],
+    [
+      0.02578,
+      "\b\u001b[33m \u001b[33mu\u001b[39m"
+    ],
+    [
+      0.025694,
+      "\b\u001b[33mu\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.02577,
+      "\b\u001b[33mi\u001b[33m_\u001b[39m"
+    ],
+    [
+      0.02545,
+      "\b\u001b[33m_\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025661,
+      "\b\u001b[33mo\u001b[33mp\u001b[39m"
+    ],
+    [
+      0.025448,
+      "\b\u001b[33mp\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025776,
+      "\b\u001b[33mt\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025966,
+      "\b\u001b[33mi\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025732,
+      "\b\u001b[33mo\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025925,
+      "\b\u001b[33mn\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025848,
+      "\b\u001b[33ms\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025583,
+      "\b\u001b[33m \u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025976,
+      "\b\u001b[33mn\u001b[33mc\u001b[39m"
+    ],
+    [
+      0.025159,
+      "\b\u001b[33mc\u001b[33mu\u001b[39m"
+    ],
+    [
+      0.025461,
+      "\b\u001b[33mu\u001b[33mr\u001b[39m"
+    ],
+    [
+      0.025519,
+      "\b\u001b[33mr\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.026119,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025566,
+      "\b\u001b[33me\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025769,
+      "\b\u001b[33ms\u001b[33m_\u001b[39m"
+    ],
+    [
+      0.025681,
+      "\b\u001b[33m_\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025718,
+      "\b\u001b[33ma\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025618,
+      "\b\u001b[33ms\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.02566,
+      "\b\u001b[33ms\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025283,
+      "\b\u001b[33mi\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.02538,
+      "\b\u001b[33ms\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.028404,
+      "\b\u001b[33mt\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.024332,
+      "\b\u001b[33ma\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025418,
+      "\b\u001b[33mn\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025483,
+      "\b\u001b[33mt\u001b[33m=\u001b[39m"
+    ],
+    [
+      0.025888,
+      "\b\u001b[33m=\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025628,
+      "\b\u001b[33mn\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025827,
+      "\b\u001b[33mo\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025644,
+      "\b\u001b[33mn\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025653,
+      "\b\u001b[33me\u001b[33m;\u001b[39m"
+    ],
+    [
+      0.025576,
+      "\b\u001b[33m;\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025697,
+      "\b\u001b[33m \u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025824,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025684,
+      "\b\u001b[33me\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025833,
+      "\b\u001b[33mt\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025147,
+      "\b\u001b[33m \u001b[33mg\u001b[39m"
+    ],
+    [
+      0.026034,
+      "\b\u001b[33mg\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025028,
+      "\b\u001b[33ml\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025395,
+      "\b\u001b[33mo\u001b[33mb\u001b[39m"
+    ],
+    [
+      0.025808,
+      "\b\u001b[33mb\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.02514,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025424,
+      "\b\u001b[33ml\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025547,
+      "\b\u001b[33m \u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025583,
+      "\b\u001b[33ma\u001b[33mu\u001b[39m"
+    ],
+    [
+      0.025275,
+      "\b\u001b[33mu\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025852,
+      "\b\u001b[33mt\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025323,
+      "\b\u001b[33mo\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025766,
+      "\b\u001b[33mi\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025578,
+      "\b\u001b[33mn\u001b[33mf\u001b[39m"
+    ],
+    [
+      0.025509,
+      "\b\u001b[33mf\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025676,
+      "\b\u001b[33mo\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025812,
+      "\b\u001b[33m \u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025558,
+      "\b\u001b[33mn\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025776,
+      "\b\u001b[33mo\u001b[33mr\u001b[39m"
+    ],
+    [
+      0.025446,
+      "\b\u001b[33mr\u001b[33mm\u001b[39m"
+    ],
+    [
+      0.025679,
+      "\b\u001b[33mm\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025079,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.028263,
+      "\b\u001b[33ml\u001b[33m'\u001b[39m"
+    ],
+    [
+      0.024996,
+      " "
+    ],
+    [
+      0.025354,
+      "\u001b[4m5\u001b[24m"
+    ],
+    [
+      0.024849,
+      "\b\u001b[4m5\u001b[4m5\u001b[24m"
+    ],
+    [
+      0.024761,
+      "\b\u001b[4m5\u001b[4mb\u001b[24m"
+    ],
+    [
+      0.026805,
+      "\b\u001b[4mb\u001b[4m1\u001b[24m"
+    ],
+    [
+      0.0244,
+      "\b\u001b[4m1\u001b[4m8\u001b[24m"
+    ],
+    [
+      0.026616,
+      "\b\u001b[4m8\u001b[4mb\u001b[24m"
+    ],
+    [
+      0.024473,
+      "\b\u001b[4mb\u001b[4mb\u001b[24m"
+    ],
+    [
+      0.026055,
+      "\b\u001b[4mb\u001b[4me\u001b[24m"
+    ],
+    [
+      0.025458,
+      "\b\u001b[4me\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.025037,
+      "\b\u001b[4ma\u001b[4m9\u001b[24m"
+    ],
+    [
+      0.025395,
+      "\b\u001b[4m9\u001b[4mc\u001b[24m"
+    ],
+    [
+      0.025522,
+      "\b\u001b[4mc\u001b[4m2\u001b[24m"
+    ],
+    [
+      0.02538,
+      "\b\u001b[4m2\u001b[4mc\u001b[24m"
+    ],
+    [
+      0.025804,
+      "\b\u001b[4mc\u001b[4m3\u001b[24m"
+    ],
+    [
+      0.025675,
+      "\b\u001b[4m3\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025782,
+      "\b\u001b[4m0\u001b[4md\u001b[24m"
+    ],
+    [
+      0.025561,
+      "\b\u001b[4md\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025724,
+      "\b\u001b[4m0\u001b[4m4\u001b[24m"
+    ],
+    [
+      0.025675,
+      "\b\u001b[4m4\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025477,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025461,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025536,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m \r\u001b[K"
+    ],
+    [
+      0.025653,
+      "\u001bM\u001b[119C\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025643,
+      "\r\u001b[4m0\u001b[4m1\u001b[24m"
+    ],
+    [
+      0.026009,
+      "\r\u001b[4m0\u001b[4m1\u001b[4m/\u001b[24m"
+    ],
+    [
+      0.025912,
+      "\b\u001b[4m/\u001b[4mi\u001b[24m"
+    ],
+    [
+      0.025774,
+      "\b\u001b[4mi\u001b[4mn\u001b[24m"
+    ],
+    [
+      0.028361,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.006683,
+      "\u001b(B\u001b)0\u001b[?1049h\u001b[1;30r\u001b[m\u000f\u001b[4l\u001b[?25l\u001b[39;49m\u001b[?1000h\u001b[?1002h\u001b[?1004h"
+    ],
+    [
+      5.6e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000424,
+      "\u001b[39;49m\u001b[m\u000f\u001b[H\u001b[J"
+    ],
+    [
+      0.000427,
+      "\u001b[1;31r\u001b]2;55b18bbea9c2c30d04000001/in 1:1  1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000401,
+      "\u001b[30m\u001b[47m*\u001b[39;49mtemp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H                                                                                                                        \u001b[8;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[9;"
+    ],
+    [
+      2.3e-05,
+      "1H                                                                                                                        \u001b[10;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[11;1H\u001b[34m~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;1H~"
+    ],
+    [
+      1.4e-05,
+      "                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~        "
+    ],
+    [
+      1.1e-05,
+      "                                                                                                               \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                               55b18bbea9c2c30d04000001/in 1:1  \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.007741,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 1:1  1 sel param=6 - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000462,
+      "\u001b[H\u001b[30m\u001b[47m*\u001b[39;49mtemp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H                                                                                                                        \u001b[8;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b"
+    ],
+    [
+      1.2e-05,
+      "[9;1H                                                                                                                        \u001b[10;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[11;1H\u001b[34m~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      1.2e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      1e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                       55b18bbea9c2c30d04000001/in 1:1  \u001b[34m1 sel param=\u001b[32m6\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.016728,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 6:13  1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000562,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H\u001b[37m\u001b[44m*temp var6 0\u001b[30m\u001b[47m \u001b[39;49m                                                                                                           \u001b[7;1H                                                                                                                        \u001b[8;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find somet"
+    ],
+    [
+      1.9e-05,
+      "hing I ne\u001b[9;1H                                                                                                                        \u001b[10;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[11;1H\u001b[34m~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                  "
+    ],
+    [
+      1.4e-05,
+      "     \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[2"
+    ],
+    [
+      1.9e-05,
+      "5;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                        \u001b[30m\u001b[43m╭─────┤x├─────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                        \u001b[30m\u001b[43m│ select line │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                        \u001b[30m\u001b[43m╰─────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                              55b18bbea9c2c30d04000001/in 6:13  \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.007068,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 6:13  1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000279,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H\u001b[37m\u001b[44m*temp var6 0\u001b[30m\u001b[47m \u001b[39;49m                                                                                                           \u001b[7;1H                                                                                                                        \u001b[8;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find somet"
+    ],
+    [
+      2e-05,
+      "hing I ne\u001b[9;1H                                                                                                                        \u001b[10;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[11;1H\u001b[34m~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                  "
+    ],
+    [
+      1e-05,
+      "     \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[2"
+    ],
+    [
+      1.6e-05,
+      "5;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                 \u001b[30m\u001b[43m╭────────┤y├─────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                 \u001b[30m\u001b[43m│ yank selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                 \u001b[30m\u001b[43m╰────────────────────╯\u001b[30;1Hyanked 1 selections to register \"\u001b[39;49m\u001b[36m                             55b18bbea9c2c30d04000001/in 6:13  \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.019184,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 7:13 [+] 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000738,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H\u001b[37m\u001b[44m*temp var6 0\u001b[30m\u001b[47m \u001b[39;49m                                                                                                           \u001b[8;1H                                                                                                               "
+    ],
+    [
+      5.6e-05,
+      "         \u001b[9;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[12;1H\u001b[34m~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                  "
+    ],
+    [
+      3e-05,
+      "     \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[2"
+    ],
+    [
+      4e-05,
+      "5;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                         \u001b[30m\u001b[43m╭────────────┤P├─────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                         \u001b[30m\u001b[43m│ paste before selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                         \u001b[30m\u001b[43m╰────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                           55b18bbea9c2c30d04000001/in 7:13 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.017152,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 7:12 [+] 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000745,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var6 \u001b[30m\u001b[47m0\u001b[39;49m                                                                                                            \u001b[8;1H                                                                                                                        \u001b"
+    ],
+    [
+      2.8e-05,
+      "[9;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[12;1H\u001b[34m~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      3.1e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      2.8e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                          \u001b[30m\u001b[43m╭────┤h├────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                          \u001b[30m\u001b[43m│ move left │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                          \u001b[30m\u001b[43m╰───────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                           55b18bbea9c2c30d04000001/in 7:12 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.011886,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 7:12 [+] enter key - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.00026,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var6 \u001b[30m\u001b[47m0\u001b[39;49m                                                                                                            \u001b[8;1H                                                                                                                        \u001b"
+    ],
+    [
+      2.4e-05,
+      "[9;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[12;1H\u001b[34m~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      2e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      2.6e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                             \u001b[30m\u001b[43m╭──────────┤r├───────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                             \u001b[30m\u001b[43m│ replace with character │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                             \u001b[30m\u001b[43m╰────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                       55b18bbea9c2c30d04000001/in 7:12 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33menter key\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.016376,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 7:12 [+] 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000434,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var6 \u001b[30m\u001b[47m1\u001b[39;49m                                                                                                            \u001b[8;1H                                                                                                                        \u001b"
+    ],
+    [
+      4.1e-05,
+      "[9;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[12;1H\u001b[34m~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      4.8e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      3.5e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                           55b18bbea9c2c30d04000001/in 7:12 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.015182,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 7:12 [+] 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000413,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var6 \u001b[30m\u001b[47m1\u001b[39;49m                                                                                                            \u001b[8;1H                                                                                                                        \u001b"
+    ],
+    [
+      4.2e-05,
+      "[9;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[12;1H\u001b[34m~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      4.3e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      4.2e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                 \u001b[30m\u001b[43m╭────────┤y├─────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                 \u001b[30m\u001b[43m│ yank selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                 \u001b[30m\u001b[43m╰────────────────────╯\u001b[30;1Hyanked 1 selections to register \"\u001b[39;49m\u001b[36m                          55b18bbea9c2c30d04000001/in 7:12 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.013297,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 7:13 [+] 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000277,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var6 1\u001b[30m\u001b[47m1\u001b[39;49m                                                                                                           \u001b[8;1H                                                                                                                        \u001b"
+    ],
+    [
+      3.1e-05,
+      "[9;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[12;1H\u001b[34m~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      2.5e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      3.6e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                         \u001b[30m\u001b[43m╭────────────┤P├─────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                         \u001b[30m\u001b[43m│ paste before selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                         \u001b[30m\u001b[43m╰────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                           55b18bbea9c2c30d04000001/in 7:13 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.012182,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 7:13 [+] 1 sel param=3 - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000268,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var6 1\u001b[30m\u001b[47m1\u001b[39;49m                                                                                                           \u001b[8;1H                                                                                                                        \u001b"
+    ],
+    [
+      2.8e-05,
+      "[9;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[12;1H\u001b[34m~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      1.7e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      2.5e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                         \u001b[30m\u001b[43m╭────────────┤P├─────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                         \u001b[30m\u001b[43m│ paste before selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                         \u001b[30m\u001b[43m╰────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                   55b18bbea9c2c30d04000001/in 7:13 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m1 sel param=\u001b[32m3\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.014298,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 7:10 [+] 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000253,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var\u001b[30m\u001b[47m6\u001b[39;49m 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b"
+    ],
+    [
+      2.3e-05,
+      "[9;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[12;1H\u001b[34m~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      2e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      2.9e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                          \u001b[30m\u001b[43m╭────┤h├────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                          \u001b[30m\u001b[43m│ move left │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                          \u001b[30m\u001b[43m╰───────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                           55b18bbea9c2c30d04000001/in 7:10 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.010587,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 7:10 [+] enter key - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000172,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var\u001b[30m\u001b[47m6\u001b[39;49m 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b"
+    ],
+    [
+      1.6e-05,
+      "[9;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[12;1H\u001b[34m~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      1.7e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      1.6e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                             \u001b[30m\u001b[43m╭──────────┤r├───────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                             \u001b[30m\u001b[43m│ replace with character │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                             \u001b[30m\u001b[43m╰────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                       55b18bbea9c2c30d04000001/in 7:10 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33menter key\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.017101,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 7:10 [+] 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000568,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var\u001b[30m\u001b[47m7\u001b[39;49m 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b"
+    ],
+    [
+      4.4e-05,
+      "[9;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[12;1H\u001b[34m~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      3.6e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      3e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                           55b18bbea9c2c30d04000001/in 7:10 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.017037,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 7:10 [+] 1 sel param=3 - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000535,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var\u001b[30m\u001b[47m7\u001b[39;49m 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b"
+    ],
+    [
+      6.2e-05,
+      "[9;1HSimple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[12;1H\u001b[34m~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      4.5e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      4e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                   55b18bbea9c2c30d04000001/in 7:10 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m1 sel param=\u001b[32m3\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.017266,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 10:1 [+] 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000813,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      5.2e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[11;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[12;1H\u001b[34m~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      3.3e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      3.9e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                          \u001b[30m\u001b[43m╭────┤j├────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                          \u001b[30m\u001b[43m│ move down │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                          \u001b[30m\u001b[43m╰───────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                           55b18bbea9c2c30d04000001/in 10:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.017631,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 11:1 [+] insert 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000344,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      3.2e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[12;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[13;1H\u001b[34m~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      3.6e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      2.4e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                           \u001b[30m\u001b[43m╭───────────┤o├────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m│ insert on new line below │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m╰──────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                    55b18bbea9c2c30d04000001/in 11:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.014239,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 11:2 [+] insert 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000524,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      2.8e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HN\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                      \u001b[12;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[13;1H\u001b[34m~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      2.2e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      2.4e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                           \u001b[30m\u001b[43m╭───────────┤o├────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m│ insert on new line below │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m╰──────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                    55b18bbea9c2c30d04000001/in 11:2 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.017485,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 11:3 [+] insert 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000504,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      5.2e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNe\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                     \u001b[12;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[13;1H\u001b[34m~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      2.6e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      3.3e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                           \u001b[30m\u001b[43m╭───────────┤o├────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m│ insert on new line below │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m╰──────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                    55b18bbea9c2c30d04000001/in 11:3 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.018282,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 11:4 [+] insert 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000504,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      4.6e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                    \u001b[12;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[13;1H\u001b[34m~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      4.7e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      3.5e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                           \u001b[30m\u001b[43m╭───────────┤o├────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m│ insert on new line below │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m╰──────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                    55b18bbea9c2c30d04000001/in 11:4 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.018472,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 11:5 [+] insert 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000558,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      5.6e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew \u001b[30m\u001b[47m \u001b[39;49m                                                                                                                   \u001b[12;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[13;1H\u001b[34m~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      4.3e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      3.6e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                           \u001b[30m\u001b[43m╭───────────┤o├────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m│ insert on new line below │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m╰──────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                    55b18bbea9c2c30d04000001/in 11:5 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.018725,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 11:6 [+] insert 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000489,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      5.7e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew t\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                  \u001b[12;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[13;1H\u001b[34m~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      3.8e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      3.2e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                           \u001b[30m\u001b[43m╭───────────┤o├────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m│ insert on new line below │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m╰──────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                    55b18bbea9c2c30d04000001/in 11:6 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.050201,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      5.6e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew t\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                  \u001b[12;1HThis\u001b[34m\u001b[47mtemp       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49md entering text at a certain place.                                          \u001b[13;1H\u001b[34m~   \u001b[34m\u001b[47mtext       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[14;1H~   \u001b[34m\u001b[47mthe        \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[15;1H~   \u001b[34m\u001b[47mthings     \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                  "
+    ],
+    [
+      2.7e-05,
+      "                                           \u001b[16;1H~   \u001b[34m\u001b[47mtime       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[17;1H~   \u001b[34m\u001b[47mto         \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m░\u001b[39;49m\u001b[34m                                                                             \u001b[18;1H~   \u001b[34m\u001b[47mThere      \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m░\u001b[39;49m\u001b[34m                                                                             \u001b[19;1H~   \u001b[34m\u001b[47mThis       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m░\u001b[39;49m\u001b[34m                                                                             \u001b[20;1H~   \u001b[34m\u001b[47mat         \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m░\u001b[39;49m\u001b[34m                                                                             \u001b[21;1H~   \u001b[34m\u001b[47mbetter     \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m░\u001b[39;49m\u001b[34m                          "
+    ],
+    [
+      2.4e-05,
+      "                                                   \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                           \u001b[30m\u001b[43m╭───────────┤o├────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m│ insert on new line be"
+    ],
+    [
+      2.2e-05,
+      "low │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m╰──────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                    55b18bbea9c2c30d04000001/in 11:6 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.968871,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 11:7 [+] insert 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000926,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      5.1e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew te\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                 \u001b[12;1HThis\u001b[34m\u001b[47mtemp       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49md entering text at a certain place.                                          \u001b[13;1H\u001b[34m~   \u001b[34m\u001b[47mtext       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[14;1H~   \u001b[34m\u001b[47mthe        \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[15;1H~   \u001b[34m\u001b[47mthings     \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                  "
+    ],
+    [
+      4.7e-05,
+      "                                           \u001b[16;1H~   \u001b[34m\u001b[47mtime       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[17;1H~   \u001b[34m\u001b[47mto         \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m░\u001b[39;49m\u001b[34m                                                                             \u001b[18;1H~   \u001b[34m\u001b[47mThere      \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m░\u001b[39;49m\u001b[34m                                                                             \u001b[19;1H~   \u001b[34m\u001b[47mThis       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m░\u001b[39;49m\u001b[34m                                                                             \u001b[20;1H~   \u001b[34m\u001b[47mat         \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m░\u001b[39;49m\u001b[34m                                                                             \u001b[21;1H~   \u001b[34m\u001b[47mbetter     \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m░\u001b[39;49m\u001b[34m                          "
+    ],
+    [
+      3.1e-05,
+      "                                                   \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                           \u001b[30m\u001b[43m╭───────────┤o├────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m│ insert on new line be"
+    ],
+    [
+      2.9e-05,
+      "low │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                           \u001b[30m\u001b[43m╰──────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                    55b18bbea9c2c30d04000001/in 11:7 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.049694,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      5.4e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew te\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                 \u001b[12;1HThis\u001b[34m\u001b[47mtemp       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49md entering text at a certain place.                                          \u001b[13;1H\u001b[34m~   \u001b[34m\u001b[47mtext       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[14;1H~   \u001b[34m\u001b[47mentering   \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[15;1H~   \u001b[34m\u001b[47mbetter     \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                  "
+    ],
+    [
+      2.8e-05,
+      "                                           \u001b[16;1H~   \u001b[34m\u001b[47mthe        \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[17;1H~   \u001b[34m\u001b[47mThere      \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[18;1H~   \u001b[34m\u001b[47mtime       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[19;1H~   \u001b[34m\u001b[47msometimes  \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[20;1H~   \u001b[34m\u001b[47mkeystrokes \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[21;1H~                                                                                                                 "
+    ],
+    [
+      1.9e-05,
+      "      \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b["
+    ],
+    [
+      2.4e-05,
+      "30;1H\u001b[36m                                                    55b18bbea9c2c30d04000001/in 11:7 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[20;43H\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.967225,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 11:8 [+] insert 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000479,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      6.1e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew tex\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                \u001b[12;1HThis\u001b[34m\u001b[47mtemp       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49md entering text at a certain place.                                          \u001b[13;1H\u001b[34m~   \u001b[34m\u001b[47mtext       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[14;1H~   \u001b[34m\u001b[47mentering   \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[15;1H~   \u001b[34m\u001b[47mbetter     \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                  "
+    ],
+    [
+      5.3e-05,
+      "                                           \u001b[16;1H~   \u001b[34m\u001b[47mthe        \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[17;1H~   \u001b[34m\u001b[47mThere      \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[18;1H~   \u001b[34m\u001b[47mtime       \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[19;1H~   \u001b[34m\u001b[47msometimes  \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[20;1H~   \u001b[34m\u001b[47mkeystrokes \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49m\u001b[34m                                                                             \u001b[21;1H~                                                                                                                 "
+    ],
+    [
+      3.2e-05,
+      "      \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b["
+    ],
+    [
+      2.9e-05,
+      "30;1H\u001b[36m                                                    55b18bbea9c2c30d04000001/in 11:8 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[20;43H\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.04948,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      4.3e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew tex\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                \u001b[12;1HThis\u001b[34m\u001b[47mtext \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49ment and entering text at a certain place.                                          \u001b[13;1H\u001b[34m~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                    "
+    ],
+    [
+      1.9e-05,
+      "                                   \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                            "
+    ],
+    [
+      1.7e-05,
+      "                           \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                    55b18bbea9c2c30d04000001/in 11:8 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[12;37H\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.96154,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 11:9 [+] insert 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000285,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      1.7e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew text\u001b[30m\u001b[47m \u001b[39;49m                                                                                                               \u001b[12;1HThis\u001b[34m\u001b[47mtext \u001b[36m\u001b[47m55b18bbea9c2c30d04000001/in\u001b[34m\u001b[47m█\u001b[39;49ment and entering text at a certain place.                                          \u001b[13;1H\u001b[34m~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                    "
+    ],
+    [
+      1e-05,
+      "                                   \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                            "
+    ],
+    [
+      1e-05,
+      "                           \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                    55b18bbea9c2c30d04000001/in 11:9 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[12;37H\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.050066,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      2.6e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew text\u001b[30m\u001b[47m \u001b[39;49m                                                                                                               \u001b[12;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[13;1H\u001b[34m~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      1.5e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      1.5e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                    55b18bbea9c2c30d04000001/in 11:9 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.967994,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 11:10 [+] insert 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000722,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      2.1e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew text.\u001b[30m\u001b[47m \u001b[39;49m                                                                                                              \u001b[12;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[13;1H\u001b[34m~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      1.7e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      1.7e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                   55b18bbea9c2c30d04000001/in 11:10 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.012669,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 12:1 [+] insert 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000543,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      6.2e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew text.                                                                                                               \u001b[12;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[13;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      4.5e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      4.6e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                    55b18bbea9c2c30d04000001/in 12:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33minsert \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.044329,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 12:1 [+] 1 sel - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000622,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      4.9e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew text.                                                                                                               \u001b[12;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[13;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      2.6e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      2.7e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                           55b18bbea9c2c30d04000001/in 12:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m1 sel\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      2.000316,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 12:1 [+] prompt - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000837,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      4.8e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew text.                                                                                                               \u001b[12;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[13;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      5.1e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                               \u001b[30m\u001b[43m╭─────────┤:├──────────╮\u001b[20;1H\u001b[39;49m\u001b[34m~                                                                                               \u001b[30m\u001b[43m│ enter command prompt │\u001b[21;1H\u001b[39;49m\u001b[34m~                                                                                               \u001b[30m\u001b[43m╰──────────────────────╯\u001b[22;1H\u001b[34m\u001b[47madd-highlighter    alias              buffer             buffer-next        buffer-previous    change-directory        █\u001b[23;1Hdebug              declare-option     define-command     delete-buffer      delete-buffer!    "
+    ],
+    [
+      4.9e-05,
+      " echo                    █\u001b[24;1Hedit               edit!              eval               exec               hook               info                    █\u001b[25;1Hkill               kill!              map                menu               nop                on-key                  █\u001b[26;1Hprompt             quit               quit!              remove-highlighter remove-hooks       rename-buffer           █\u001b[27;1Hrename-client      rename-session     select             set-face           set-option         set-register            █\u001b[28;1Hsource             try                unalias            unmap              unset-option       write                   █\u001b[29;1Hwrite-all          write-all-quit     write-quit         write-quit!                                                   █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                        55b18bbea9c2c30d04000001/in 12:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001b[9A\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.49906,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 12:1 [+] prompt - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000382,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      1.9e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew text.                                                                                                               \u001b[12;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[13;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      1.5e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      2.3e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H\u001b[34m\u001b[47mquit             quit!            write-quit       write-quit!      write-all-quit                                     █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                       55b18bbea9c2c30d04000001/in 12:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.501961,
+      "\u001b]2;55b18bbea9c2c30d04000001/in 12:1 [+] prompt - unnamed0@[15913] - Kakoune\u0007"
+    ],
+    [
+      0.000989,
+      "\u001b[H*temp var1 0                                                                                                            \u001b[2;1H*temp var2 \"hi\"                                                                                                         \u001b[3;1H*temp var3 -1                                                                                                           \u001b[4;1H*temp var4 42                                                                                                           \u001b[5;1H*temp var5 \"asdf\"                                                                                                       \u001b[6;1H*temp var6 0                                                                                                            \u001b[7;1H*temp var7 11                                                                                                           \u001b[8;1H                                                                                                                        \u001b[9;1HSimple things"
+    ],
+    [
+      5.1e-05,
+      " we do all the time should be able to be done with very few keystrokes, but sometimes I find something I ne\u001b[10;1H                                                                                                                        \u001b[11;1HNew text.                                                                                                               \u001b[12;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[13;1HThis challenge is just a simple movement and entering text at a certain place.                                          \u001b[14;1H\u001b[34m~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                                       \u001b[17;"
+    ],
+    [
+      3.9e-05,
+      "1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~     "
+    ],
+    [
+      6.1e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H\u001b[34m\u001b[47mquit!        write-quit!                                                                                               █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq!\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                      55b18bbea9c2c30d04000001/in 12:1 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[15913\b]\b\u001b[1@3\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.505189,
+      "\u001b[?1000l\u001b[?1004l\u001b[?1002l\u001b[30;1H\u001b[34h\u001b[?25h"
+    ],
+    [
+      3.7e-05,
+      "\u001b[?1049l\r\u001b[?1l\u001b>"
+    ],
+    [
+      0.000978,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
+    ],
+    [
+      0.057582,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jλ kakoune-tv \u001b[K\u001b[?2004h"
+    ],
+    [
+      0.964732,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

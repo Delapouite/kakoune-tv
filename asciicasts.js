@@ -666,6 +666,68 @@ Thank you
 very much.`, out: `LINE 1
 LINE 2
 LINE 3`},
+{id: '55771cc4750ef86573003b83', keys: '%s=<ret>&i<space><esc>,q', in: `foo {
+    a   => "a",
+    bc  => "bc",
+    def => "def",
+    ghij => "ghij",
+    k => "k",
+    lmn => "lmn",
+    opqrst => "opqrst",
+    uvw => "uvw",
+    xyz => "xyz",
+}`, out: `foo {
+    a       => "a",
+    bc      => "bc",
+    def     => "def",
+    ghij    => "ghij",
+    k       => "k",
+    lmn     => "lmn",
+    opqrst  => "opqrst",
+    uvw     => "uvw",
+    xyz     => "xyz",
+}`},
+{id: '559c30948ef59c0eb7000002', keys: '4CLd<a-J>r,,q', in: `* item1
+* item2
+* item3
+* item4
+* item5`, out: `item1,item2,item3,item4,item5`},
+{id: '55b18bbea9c2c30d04000001', keys: '6xyPhr1yP3hr73joNew text.<ret><esc>,q', in: `*temp var1 0
+*temp var2 "hi"
+*temp var3 -1
+*temp var4 42
+*temp var5 "asdf"
+*temp var6 0
+
+Simple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I need to do makes me go, "There MUST be a better way."
+
+This challenge is just a simple movement and entering text at a certain place.`, out: `*temp var1 0
+*temp var2 "hi"
+*temp var3 -1
+*temp var4 42
+*temp var5 "asdf"
+*temp var6 0
+*temp var7 11
+
+Simple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I need to do makes me go, "There MUST be a better way."
+
+New text.
+
+This challenge is just a simple movement and entering text at a certain place.`},
+{id: '56fb2e75ccffcc0009026473', keys: 'J<a-L>dd%S\d+<ret>R,q', in: `- One number per line -
+-----------------------
+2,3,5,7,
+11,13,17,
+19,23,29,`, out: `2
+3
+5
+7
+11
+13
+17
+19
+23
+29`},
 {id: '571808767dd9d30009000001', keys: '%s,<ret>&,q', in: `just = make,
        all,
        the,

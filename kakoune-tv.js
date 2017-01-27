@@ -276,6 +276,10 @@ var annotate = function (tokens) {
 				logs.push([t, 'select to line end'])
 				break
 
+			case '<a-L>':
+				logs.push([t, 'extend to line end'])
+				break
+
 			case 'm':
 				logs.push([t, 'select to matching character'])
 				break
