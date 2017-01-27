@@ -62,28 +62,29 @@ kbd {
 	white-space: nowrap;
 }
 
-/* insert mode */
-kbd.kbd-i {
+kbd.kbd-count {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+kbd.kbd-insert {
 	background-color: #99a969;
 	border-color: #99a969;
 }
 
-/* prompt */
-kbd.kbd-p, kbd.kbd-c {
+kbd.kbd-prompt {
 	background-color: #1c758e;
 	border-color: #1c758e;
 }
 
-/* leave */
-kbd.kbd-l {
-	background-color: #999;
-	border-color: #999;
+kbd.kbd-reg {
+	background-color: #ddaf3c;
+	border-color: #ddaf3c;
 }
 
-/* digits (count) */
-kbd.kbd-d {
-	background-color: #fff;
-	border-color: #fff;
+kbd.kbd-validator {
+	background-color: #999;
+	border-color: #999;
 }
 
 dt {

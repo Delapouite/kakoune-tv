@@ -29,35 +29,64 @@ var tokenize = function (keys) {
 }
 
 var annotate = function (tokens) {
-	var t
+	var t // current token
 	var mode = 'n'
 
 	var insertBuffer = []
 	var promptBuffer = []
 	var countBuffer = []
 
-	var insertSwitch
-	var promptSwitch
-	var chooseSwitch
+	var insertOp
+	var promptOp
+	var chooseOp
 
+	var usingRegister = false
 	var macroRecording = false
 	// triggered by <a-;>
 	var oneShot = false
 
-	// returned
+	/* will be filled with log object like this
+	{
+		// left
+		count: *
+		reg: ?
+		op: ?
+		key: ?
+		insert: *
+		prompt: *
+		validator: ? <ret> / <esc>
+		// right
+		dt: *
+	} */
 	var logs = []
 
+	// shortcut
+	function push(key, dt) {
+		logs.push({ key, dt })
+	}
+
 	while (t = tokens.shift()) {
+		// insert mode
 		if (mode === 'i' && t !== '<esc>' && t !== '<a-;>' && t !== '<home>' && t !== '<end>') {
 			insertBuffer.push(t)
 			continue
 		}
+		// prompt mode
 		if (mode === 'p' && t !== '<ret>') {
 			promptBuffer.push(t)
 			continue
 		}
+		// choose mode
 		if (mode === 'c') {
-			logs.push([[chooseSwitch[0], t], chooseSwitch[1], 'c'])
+			if (!usingRegister) {
+				logs.push({
+					op: chooseOp[0],
+					prompt: t,
+					dt: chooseOp[1]
+				})
+			} else {
+				usingRegister = t
+			}
 			mode = 'n'
 			continue
 		}
@@ -65,126 +94,136 @@ var annotate = function (tokens) {
 		switch (t) {
 			// insert mode
 			case 'a':
-				insertSwitch = [t, 'insert [text] after selected text']
+				insertOp = [t, 'insert [text] after selected text']
 				mode = 'i'
 				break
 
 			case 'A':
-				insertSwitch = [t, 'insert [text] at line end']
+				insertOp = [t, 'insert [text] at line end']
 				mode = 'i'
 				break
 
 			case 'c':
-				insertSwitch = [t, 'change selected text to [text]']
+				insertOp = [t, 'change selected text to [text]']
 				mode = 'i'
 				break
 
 			case 'i':
-				insertSwitch = [t, 'insert [text] before selected text']
+				insertOp = [t, 'insert [text] before selected text']
 				mode = 'i'
 				break
 
 			case 'I':
-				insertSwitch = [t, 'insert [text] at line begin']
+				insertOp = [t, 'insert [text] at line begin']
 				mode = 'i'
 				break
 
 			case 'o':
-				insertSwitch = [t, 'insert [text] on new line below']
+				insertOp = [t, 'insert [text] on new line below']
 				mode = 'i'
 				break
 
 			case 'O':
-				insertSwitch = [t, 'insert [text] on new line above']
+				insertOp = [t, 'insert [text] on new line above']
 				mode = 'i'
 				break
 
 			case '<esc>':
 				if (mode === 'i') {
-					logs.push([[insertSwitch[0], insertBuffer.join(''), t], insertSwitch[1], 'i'])
+					logs.push({
+						op: insertOp[0],
+						insert: insertBuffer.join(''),
+						validator: t,
+						dt: insertOp[1]
+					})
 					insertBuffer = []
 					mode = 'n'
 				} else if (macroRecording) {
-					logs.push([t, 'stop macro recording'])
+					push(t, 'stop macro recording')
 					macroRecording = !macroRecording
 				}
 				break
 
 			// prompt mode
 			case '<a-k>':
-				promptSwitch = [t, 'keep selections matching regex [text]']
+				promptOp = [t, 'keep selections matching regex [text]']
 				mode = 'p'
 				break
 
 			case '<a-K>':
-				promptSwitch = [t, 'keep selections not matching regex [text]']
+				promptOp = [t, 'keep selections not matching regex [text]']
 				mode = 'p'
 				break
 
 			case 's':
-				promptSwitch = [t, 'select regex [text] matches in selected text']
+				promptOp = [t, 'select regex [text] matches in selected text']
 				mode = 'p'
 				break
 
 			case 'S':
-				promptSwitch = [t, 'split selected text on regex [text] matches']
+				promptOp = [t, 'split selected text on regex [text] matches']
 				mode = 'p'
 				break
 
 			case '/':
-				promptSwitch = [t, 'select next given regex [text] match']
+				promptOp = [t, 'select next given regex [text] match']
 				mode = 'p'
 				break
 
 			case '<a-/>':
-				promptSwitch = [t, 'select previous given regex [text] match']
+				promptOp = [t, 'select previous given regex [text] match']
 				mode = 'p'
 				break
 
 			case '<ret>':
-				logs.push([[promptSwitch[0], promptBuffer.join(''), t], promptSwitch[1], 'p'])
+				logs.push({
+					op: promptOp[0],
+					prompt: promptBuffer.join(''),
+					validator: t,
+					dt: promptOp[1]
+				})
 				promptBuffer = []
 				mode = 'n'
 				break
 
 			// choose mode (like prompt but with no <ret>)
 			case 'f':
-				chooseSwitch = [t, 'select onto next [text] character']
+				chooseOp = [t, 'select onto next [text] character']
 				mode = 'c'
 				break
 
 			case '<a-f>':
-				chooseSwitch = [t, 'select to previous [text] character included']
+				chooseOp = [t, 'select to previous [text] character included']
 				mode = 'c'
 				break
 
 			case 'g':
-				chooseSwitch = [t, 'go to [text]']
+				chooseOp = [t, 'go to [text]']
 				mode = 'c'
 				break
 
 			case 'G':
-				chooseSwitch = [t, 'extend to [text]']
+				chooseOp = [t, 'extend to [text]']
 				mode = 'c'
 				break
 
 			case 'r':
-				chooseSwitch = [t, 'replace with character [text]']
+				chooseOp = [t, 'replace with character [text]']
 				mode = 'c'
 				break
 
 			case 't':
-				chooseSwitch = [t, 'select to next [text] character']
+				chooseOp = [t, 'select to next [text] character']
 				mode = 'c'
 				break
 
 			case '"':
-				chooseSwitch = [t, 'select [text] register']
+				usingRegister = true
 				mode = 'c'
-				break
+				continue
 
 			case '<a-i>':
-				chooseSwitch = [t, 'select inner object [text]']
+				chooseOp = [t, 'select inner object [text]']
 				mode = 'c'
 				break
 
@@ -202,247 +241,259 @@ var annotate = function (tokens) {
 				break
 
 			case 'b':
-				logs.push([t, 'select to previous word start'])
+				push(t, 'select to previous word start')
 				break
 
 			case 'B':
-				logs.push([t, 'extend to previous word start'])
+				push(t, 'extend to previous word start')
 				break
 
 			case '<a-b>':
-				logs.push([t, 'select to previous WORD start'])
+				push(t, 'select to previous WORD start')
 				break
 
 			case 'C':
-				logs.push([t, 'copy selection on next lines'])
+				push(t, 'copy selection on next lines')
 				break
 
 			case '<a-C>':
-				logs.push([t, 'copy selection on previous lines'])
+				push(t, 'copy selection on previous lines')
 				break
 
 			case 'd':
-				logs.push([t, 'delete selected text'])
+				push(t, 'delete selected text')
 				break
 
 			case 'e':
-				logs.push([t, 'select to next word end'])
+				push(t, 'select to next word end')
 				break
 
 			case 'E':
-				logs.push([t, 'extend to next word end'])
+				push(t, 'extend to next word end')
 				break
 
 			case 'h':
-				logs.push([t, 'move left ←'])
+				push(t, 'move left ←')
 				break
 
 			case 'H':
-				logs.push([t, 'extend left ⇐'])
+				push(t, 'extend left ⇐')
 				break
 
 			case '<a-h>':
-				logs.push([t, 'select to line begin'])
+				push(t, 'select to line begin')
 				break
 
 			case 'j':
-				logs.push([t, 'move down ↓'])
+				push(t, 'move down ↓')
 				break
 
 			case 'J':
-				logs.push([t, 'extend down ⇓'])
+				push(t, 'extend down ⇓')
 				break
 
 			case '<a-j>':
-				logs.push([t, 'join lines'])
+				push(t, 'join lines')
 				break
 
 			case '<a-J>':
-				logs.push([t, 'join lines and select spaces'])
+				push(t, 'join lines and select spaces')
 				break
 
 			case 'k':
-				logs.push([t, 'move up ↑'])
+				push(t, 'move up ↑')
 				break
 
 			case 'K':
-				logs.push([t, 'extend up ⇑'])
+				push(t, 'extend up ⇑')
 				break
 
 			case 'l':
-				logs.push([t, 'move right →'])
+				push(t, 'move right →')
 				break
 
 			case 'L':
-				logs.push([t, 'extend right ⇒'])
+				push(t, 'extend right ⇒')
 				break
 
 			case '<a-l>':
-				logs.push([t, 'select to line end'])
+				push(t, 'select to line end')
 				break
 
 			case '<a-L>':
-				logs.push([t, 'extend to line end'])
+				push(t, 'extend to line end')
 				break
 
 			case 'm':
-				logs.push([t, 'select to matching character'])
+				push(t, 'select to matching character')
 				break
 
 			case 'n':
-				logs.push([t, 'select next current search pattern match'])
+				push(t, 'select next current search pattern match')
 				break
 
 			case 'N':
-				logs.push([t, 'extend with next current search pattern match'])
+				push(t, 'extend with next current search pattern match')
 				break
 
 			case '<a-n>':
-				logs.push([t, 'select previous current search pattern match'])
+				push(t, 'select previous current search pattern match')
 				break
 
 			case 'p':
-				logs.push([t, 'paste before selected text'])
+				push(t, 'paste [text] before selected text')
 				break
 
 			case 'P':
-				logs.push([t, 'paste after selected text'])
+				push(t, 'paste [text] after selected text')
 				break
 
 			case '<a-p>':
-				logs.push([t, 'paste every yanked selection after selected text'])
+				push(t, 'paste every yanked selection after selected text')
 				break
 
 			case 'q':
-				logs.push([t, 'replay recorded macro'])
+				push(t, 'replay recorded macro')
 				break
 
 			case 'Q':
-				logs.push([t, `${macroRecording ? 'stop' : 'start'} macro recording`])
+				push(t, `${macroRecording ? 'stop' : 'start'} macro recording`)
 				macroRecording = !macroRecording
 				break
 
 			case 'R':
-				logs.push([t, 'replace selected text with yanked text'])
+				push(t, 'replace selected text with yanked text')
 				break
 
 			case '<a-R>':
-				logs.push([t, 'replace selected text with yanked text'])
+				push(t, 'replace selected text with yanked text')
 				break
 
 			case '<a-s>':
-				logs.push([t, 'split selected text on line ends'])
+				push(t, 'split selected text on line ends')
 				break
 
 			case 'u':
-				logs.push([t, 'undo'])
+				push(t, 'undo')
 				break
 
 			case 'w':
-				logs.push([t, 'select to next word start'])
+				push(t, 'select to next word start')
 				break
 
 			case '<a-w>':
-				logs.push([t, 'select to next WORD start'])
+				push(t, 'select to next WORD start')
 				break
 
 			case 'x':
-				logs.push([t, 'select line'])
+				push(t, 'select line')
 				break
 
 			case 'X':
-				logs.push([t, 'extend line'])
+				push(t, 'extend line')
 				break
 
 			case '<a-x>':
-				logs.push([t, 'extend selections to whole lines'])
+				push(t, 'extend selections to whole lines')
 				break
 
 			case '<a-X>':
-				logs.push([t, 'crop selections to whole lines'])
+				push(t, 'crop selections to whole lines')
 				break
 
 			case 'y':
-				logs.push([t, 'yank selected text'])
+				push(t, 'yank selected text')
 				break
 
 			case 'z':
-				logs.push([t, 'restore selections from register'])
+				push(t, 'restore selections from register')
 				break
 
 			case 'Z':
-				logs.push([t, 'save selections on register'])
+				push(t, 'save selections on register')
 				break
 
 			case '<a-z>':
-				logs.push([t, 'append selections from register'])
+				push(t, 'append selections from register')
 				break
 
 			case '<home>':
 				if (insertBuffer.length) {
-					logs.push([[insertSwitch[0], insertBuffer.join('')], insertSwitch[1], 'i'])
+					logs.push({
+						op: insertOp[0],
+						insert: insertBuffer.join(''),
+						dt: insertOp[1]
+					})
 					insertBuffer = []
 				}
-				logs.push([t, 'select to line begin'])
+				push(t, 'select to line begin')
 				break
 
 			case '<end>':
 				if (insertBuffer.length) {
-					logs.push([[insertSwitch[0], insertBuffer.join('')], insertSwitch[1], 'i'])
+					logs.push({
+						op: insertOp[0],
+						insert: insertBuffer.join(''),
+						dt: insertOp[1]
+					})
 					insertBuffer = []
 				}
-				logs.push([t, 'select to line end'])
+				push(t, 'select to line end')
 				break
 
 			case '<space>':
-				logs.push([t, 'remove all selections except main'])
+				push(t, 'remove all selections except main')
 				break
 
 			case '<a-space>':
-				logs.push([t, 'remove main selection'])
+				push(t, 'remove main selection')
 				break
 
 			case '&':
-				logs.push([t, 'align selection cursors'])
+				push(t, 'align selection cursors')
 				break
 
 			case '~':
-				logs.push([t, 'convert to upper case in selections'])
+				push(t, 'convert to upper case in selections')
 				break
 
 			case '*':
-				logs.push([t, 'set search pattern to main selection content'])
+				push(t, 'set search pattern to main selection content')
 				break
 
 			case '%':
-				logs.push([t, 'select whole buffer'])
+				push(t, 'select whole buffer')
 				break
 
 			case '.':
-				logs.push([t, 'repeat last insert command'])
+				push(t, 'repeat last insert command')
 				break
 
 			case '<':
-				logs.push([t, 'dedent'])
+				push(t, 'dedent')
 				break
 
 			case '>':
-				logs.push([t, 'indent'])
+				push(t, 'indent')
 				break
 
 			case '<a-&>':
-				logs.push([t, 'copy indentation'])
+				push(t, 'copy indentation')
 				break
 
 			case '<a-`>':
-				logs.push([t, 'swap case in selections'])
+				push(t, 'swap case in selections')
 				break
 
 			case '<a-;>':
-				logs.push([[insertSwitch[0], insertBuffer.join('')], insertSwitch[1], 'i'])
-				insertSwitch = ['', 'insert [text]']
+				logs.push({
+					op: insertOp[0],
+					insert: insertBuffer.join(''),
+					dt: insertOp[1]
+				})
+				insertOp = ['', 'insert [text]']
 				insertBuffer = []
-				logs.push([t, 'escape to normal mode for a single command'])
+				push(t, 'escape to normal mode for a single command')
 				mode = 'n'
 				oneShot = true
 				continue
@@ -456,9 +507,15 @@ var annotate = function (tokens) {
 			mode = 'i'
 		}
 
+		// append count
 		if (countBuffer.length && isNaN(Number(t))) {
-			logs[logs.length - 1][3] = countBuffer.join('')
+			logs[logs.length - 1].count = countBuffer.join('')
 			countBuffer = []
+		}
+
+		if (usingRegister) {
+			logs[logs.length - 1].reg = usingRegister
+			usingRegister = false
 		}
 	}
 	return logs
@@ -481,35 +538,25 @@ function createDt (a) {
 	var dt = document.createElement('dt')
 	var kbd
 
-	// count
-	if (a[3]) {
+	function createKbd (c, k) {
 		kbd = document.createElement('kbd')
-		kbd.textContent = a[3]
-		kbd.classList.add(`kbd-d`)
+		kbd.textContent = c
+		if (k) {
+			kbd.classList.add(`kbd-${k}`)
+		}
 		dt.appendChild(kbd)
 	}
 
-	if (typeof a[0] === 'string') {
-		kbd = document.createElement('kbd')
-		kbd.textContent = a[0]
-		if (a[2]) {
-			kbd.classList.add(`kbd-${a[2]}`)
-		}
-		dt.appendChild(kbd)
-	} else {
-		a[0].forEach(function (k, i) {
-			var kbd = document.createElement('kbd')
-			if (!k) return
-			kbd.textContent = k
-			if (i === 1) {
-				kbd.classList.add(`kbd-${a[2]}`)
-			}
-			if (i === 2) {
-				kbd.classList.add(`kbd-l`)
-			}
-			dt.appendChild(kbd)
-		})
+	if (a.count) createKbd(a.count, 'count')
+	if (a.reg) {
+		createKbd('"')
+		createKbd(a.reg, 'reg')
 	}
+	if (a.key) createKbd(a.key)
+	if (a.op) createKbd(a.op)
+	if (a.insert) createKbd(a.insert, 'insert')
+	if (a.prompt) createKbd(a.prompt, 'prompt')
+	if (a.validator) createKbd(a.validator, 'validator')
 
 	return dt
 }
@@ -517,15 +564,15 @@ function createDt (a) {
 // right part with english translation
 function createDd (a) {
 	var dd = document.createElement('dd')
-	if (a[2] !== 'i' && a[2] !== 'p' && a[2] !== 'c') {
-		dd.textContent = a[1]
+	if (!a.insert && !a.prompt && !a.reg) {
+		dd.textContent = a.dt
 	} else {
-		var m = a[1].split('[text]')
+		var m = a.dt.split('[text]')
 		var pre = document.createElement('span')
 		pre.textContent = m[0]
 
 		var text = document.createElement('em')
-		text.textContent = a[0][1]
+		text.textContent = a.insert || a.prompt || `content of ${a.reg} register`
 
 		var post = document.createElement('span')
 		post.textContent = m[1]
@@ -534,9 +581,9 @@ function createDd (a) {
 		dd.appendChild(text)
 		dd.appendChild(post)
 	}
-	if (a[3]) {
+	if (a.count) {
 		var count = document.createElement('strong')
-		count.textContent = ` (${a[3]} times)`
+		count.textContent = ` (${a.count} times)`
 		dd.appendChild(count)
 	}
 	return dd
