@@ -573,6 +573,99 @@ attr_accessor :spaces,
               :challenge
 # vim: set expandtab:`},
 {id: '52c3cb0d9b8634000200000e', keys: '3wEcNEW<esc>9lr4,q', in: `A HAPPY END WITH YEAR 2013 !`, out: `A HAPPY NEW YEAR 2014 !`},
+{id: '53369b712a09c1000223fb57', keys: 't[a[2]<esc>o{<esc>m>>lr,jt{dm>>a<ret>}<esc>,q', in: `/* Frame (32 bytes) */
+static const unsigned char pkt1[32] = {
+0x08, 0x60, 0x6e, 0xf1, 0x3c, 0xb9, 0x9c, 0xc7, /* .\`n.<... */
+0xa6, 0x35, 0x08, 0x12, 0x08, 0x00, 0x45, 0x00, /* .5....E. */
+0x05, 0xdc, 0x1b, 0xe3, 0x40, 0x00, 0x31, 0x06, /* ....@.1. */
+0xe8, 0xc8, 0xcb, 0xd9, 0x00, 0xda, 0xc0, 0xa8  /* ........ */
+};
+
+/* Frame (32 bytes) */
+static const unsigned char pkt2[32] = {
+0x08, 0x60, 0x6e, 0xf1, 0x3c, 0xb9, 0x9c, 0xc7, /* .\`n.<... */
+0xa6, 0x35, 0x08, 0x12, 0x08, 0x00, 0x45, 0x00, /* .5....E. */
+0x05, 0xdc, 0x6b, 0x98, 0x40, 0x00, 0x31, 0x06, /* ..k.@.1. */
+0x99, 0x13, 0xcb, 0xd9, 0x00, 0xda, 0xc0, 0xa8, /* ........ */
+};`, out: `/* Frame (32 bytes) */
+static const unsigned char pkt1[2][32] = {
+        {
+        0x08, 0x60, 0x6e, 0xf1, 0x3c, 0xb9, 0x9c, 0xc7, /* .\`n.<... */
+        0xa6, 0x35, 0x08, 0x12, 0x08, 0x00, 0x45, 0x00, /* .5....E. */
+        0x05, 0xdc, 0x1b, 0xe3, 0x40, 0x00, 0x31, 0x06, /* ....@.1. */
+        0xe8, 0xc8, 0xcb, 0xd9, 0x00, 0xda, 0xc0, 0xa8  /* ........ */
+        },
+        {
+        0x08, 0x60, 0x6e, 0xf1, 0x3c, 0xb9, 0x9c, 0xc7, /* .\`n.<... */
+        0xa6, 0x35, 0x08, 0x12, 0x08, 0x00, 0x45, 0x00, /* .5....E. */
+        0x05, 0xdc, 0x6b, 0x98, 0x40, 0x00, 0x31, 0x06, /* ..k.@.1. */
+        0x99, 0x13, 0xcb, 0xd9, 0x00, 0xda, 0xc0, 0xa8, /* ........ */
+        }
+};`},
+{id: '536cfa23fcccd100025678bd', keys: 'fuf}dOf=f;<esc>P,q', in: `attr("y",function(v){return v})`, out: `f=function(v){return v};
+attr("y",f)`},
+{id: '537a553282aa3e000222048a', keys: 'jGjK>><a-X>>>s"><ret>&a<space><esc>t<lt>l&,q', in: `<table>
+<thead>
+<th>
+<th id="first_name">First Name</th>
+<th id="last_name">Last Name</th>
+<th id="address">Address</th>
+<th id="city">City</th>
+<th id="state">State</th>
+<th id="zip_postal">Zip</th>
+<th id="country">Country</th>
+<th id="phone">Phone</th>
+</th>
+</thead>
+</table>`, out: `<table>
+        <thead>
+                <th>
+                <th id="first_name"> First Name</th>
+                <th id="last_name "> Last Name </th>
+                <th id="address   "> Address   </th>
+                <th id="city      "> City      </th>
+                <th id="state     "> State     </th>
+                <th id="zip_postal"> Zip       </th>
+                <th id="country   "> Country   </th>
+                <th id="phone     "> Phone     </th>
+                </th>
+        </thead>
+</table>`},
+{id: '53d93fc3768e280002124f23', keys: '%ri,q', in: `VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV`, out: `iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii`},
+{id: '54595b13128576000257a3c1', keys: '%<a-s><a-h>ec<c-r>#0<esc>,q', in: `10 PRINT "The actual"
+15 PRINT "code doesn't"
+16 PRINT "really matter."
+20 PRINT "Just take"
+25 PRINT "care of"
+30 PRINT "the numbers."`, out: `10 PRINT "The actual"
+20 PRINT "code doesn't"
+30 PRINT "really matter."
+40 PRINT "Just take"
+50 PRINT "care of"
+60 PRINT "the numbers."`},
+{id: '5462e3f41198b80002512673', keys: '%<a-s>a"<esc>bh.,q', in: `foo = a
+      ab
+      abc`, out: `foo = "a"
+      "ab"
+      "abc"`},
+{id: '54698da795f6da00020d85ed', keys: 'j<a-i>i<a-J>Ec,<esc>,q', in: `enum PlaybackRequestType {
+    case Next
+    case Previous
+    case Play
+    case Stop
+}`, out: `enum PlaybackRequestType {
+    case Next, Previous, Play, Stop
+}`},
+{id: '54862fbb3f90ac0002904cf5', keys: '%<a-s><a-K>I<ret>d,q', in: `Leave only the
+numbered lines.
+LINE 1
+LINE 2
+LINE 3
+That's all.
+Thank you
+very much.`, out: `LINE 1
+LINE 2
+LINE 3`},
 {id: '571808767dd9d30009000001', keys: '%s,<ret>&,q', in: `just = make,
        all,
        the,
