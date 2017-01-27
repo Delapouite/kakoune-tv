@@ -522,8 +522,9 @@ annotations.appendChild(createDl(tokens))
 // populate selector
 asciicasts.forEach(function (a) {
 	var opt = document.createElement('option')
+	var l = tokenize(a.keys).length
 	opt.value = a.id
-	opt.textContent = a.id
+	opt.textContent = `${l} keys – ${a.id}`
 	opt.selected = a.id === id
 	sel.appendChild(opt)
 })
