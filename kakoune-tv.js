@@ -154,7 +154,12 @@ var annotate = function (tokens) {
 				break
 
 			case 'g':
-				chooseSwitch = [t, 'goto [text]']
+				chooseSwitch = [t, 'go to [text]']
+				mode = 'c'
+				break
+
+			case 'G':
+				chooseSwitch = [t, 'extend to [text]']
 				mode = 'c'
 				break
 
@@ -173,6 +178,11 @@ var annotate = function (tokens) {
 				mode = 'c'
 				break
 
+			case '<a-i>':
+				chooseSwitch = [t, 'select inner object [text]']
+				mode = 'c'
+				break
+
 			case '0':
 			case '1':
 			case '2':
@@ -188,6 +198,10 @@ var annotate = function (tokens) {
 
 			case 'b':
 				logs.push([t, 'select to previous word start'])
+				break
+
+			case 'B':
+				logs.push([t, 'extend to previous word start'])
 				break
 
 			case '<a-b>':
@@ -210,12 +224,20 @@ var annotate = function (tokens) {
 				logs.push([t, 'select to next word end'])
 				break
 
+			case 'E':
+				logs.push([t, 'extend to next word end'])
+				break
+
 			case 'h':
 				logs.push([t, 'move left ←'])
 				break
 
 			case 'H':
 				logs.push([t, 'extend left ⇐'])
+				break
+
+			case '<a-h>':
+				logs.push([t, 'select to line begin'])
 				break
 
 			case 'j':
@@ -228,6 +250,10 @@ var annotate = function (tokens) {
 
 			case '<a-j>':
 				logs.push([t, 'join lines'])
+				break
+
+			case '<a-J>':
+				logs.push([t, 'join lines and select spaces'])
 				break
 
 			case 'k':
@@ -321,6 +347,10 @@ var annotate = function (tokens) {
 
 			case '<a-x>':
 				logs.push([t, 'extend selections to whole lines'])
+				break
+
+			case '<a-X>':
+				logs.push([t, 'crop selections to whole lines'])
 				break
 
 			case 'y':
