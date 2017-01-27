@@ -1,0 +1,966 @@
+{
+  "version": 1,
+  "width": 120,
+  "height": 30,
+  "duration": 23.603486,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "screen-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.22349,
+      "\u001bPtmux;\u001b\u001b]4;0;rgb:28/21/1c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;1;rgb:cf/6a/4c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;2;rgb:54/be/0d\u001b\u001b\\\u001b\\"
+    ],
+    [
+      5e-05,
+      "\u001bPtmux;\u001b\u001b]4;3;rgb:f9/ee/98\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;4;rgb:5e/a6/ea\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;5;rgb:9b/85/9d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;6;rgb:af/c4/db\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;7;rgb:8a/89/86\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.5e-05,
+      "\u001bPtmux;\u001b\u001b]4;8;rgb:66/66/66\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.000105,
+      "\u001bPtmux;\u001b\u001b]4;9;rgb:cf/6a/4c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;10;rgb:54/be/0d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;11;rgb:f9/ee/98\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;12;rgb:5e/a6/ea\u001b\u001b\\\u001b\\"
+    ],
+    [
+      2.1e-05,
+      "\u001bPtmux;\u001b\u001b]4;13;rgb:9b/85/9d\u001b\u001b\\\u001b\\"
+    ],
+    [
+      5.6e-05,
+      "\u001bPtmux;\u001b\u001b]4;14;rgb:af/c4/db\u001b\u001b\\\u001b\\"
+    ],
+    [
+      1.9e-05,
+      "\u001bPtmux;\u001b\u001b]4;15;rgb:ba/ae/9e\u001b\u001b\\\u001b\\"
+    ],
+    [
+      5.7e-05,
+      "\u001bPtmux;\u001b\u001b]4;16;rgb:cf/7d/34\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;17;rgb:93/71/21\u001b\u001b\\\u001b\\"
+    ],
+    [
+      5.7e-05,
+      "\u001bPtmux;\u001b\u001b]4;18;rgb:36/31/2e\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;19;rgb:5e/5d/5c\u001b\u001b\\\u001b\\"
+    ],
+    [
+      6.3e-05,
+      "\u001bPtmux;\u001b\u001b]4;20;rgb:79/79/77\u001b\u001b\\\u001b\\"
+    ],
+    [
+      1.3e-05,
+      "\u001bPtmux;\u001b\u001b]4;21;rgb:9d/9b/97\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.000209,
+      "\u001bPtmux;\u001b\u001b]10;rgb:8a/89/86\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]11;rgb:28/21/1c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]12;7\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.017947,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
+    ],
+    [
+      0.05494,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jλ kakoune-tv \u001b[K\u001b[?2004h"
+    ],
+    [
+      0.6171,
+      "\u001b[32mk\u001b[39m"
+    ],
+    [
+      0.026489,
+      "\b\u001b[1m\u001b[31mk\u001b[1m\u001b[31ma\u001b[0m\u001b[39m"
+    ],
+    [
+      0.025241,
+      "\b\b\u001b[0m\u001b[32mk\u001b[0m\u001b[32ma\u001b[32mk\u001b[39m"
+    ],
+    [
+      0.025336,
+      " "
+    ],
+    [
+      0.025338,
+      "-"
+    ],
+    [
+      0.025765,
+      "n"
+    ],
+    [
+      0.025597,
+      " "
+    ],
+    [
+      0.025277,
+      "-"
+    ],
+    [
+      0.025382,
+      "e"
+    ],
+    [
+      0.025339,
+      " "
+    ],
+    [
+      0.026093,
+      "\u001b[33m'\u001b[39m"
+    ],
+    [
+      0.025695,
+      "\b\u001b[33m'\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025645,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025407,
+      "\b\u001b[33me\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025584,
+      "\b\u001b[33mt\u001b[33m \u001b[39m"
+    ],
+    [
+      0.026019,
+      "\b\u001b[33m \u001b[33mg\u001b[39m"
+    ],
+    [
+      0.024991,
+      "\b\u001b[33mg\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025266,
+      "\b\u001b[33ml\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.026356,
+      "\b\u001b[33mo\u001b[33mb\u001b[39m"
+    ],
+    [
+      0.02569,
+      "\b\u001b[33mb\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025964,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.02617,
+      "\b\u001b[33ml\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025916,
+      "\b\u001b[33m \u001b[33mu\u001b[39m"
+    ],
+    [
+      0.025601,
+      "\b\u001b[33mu\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.026155,
+      "\b\u001b[33mi\u001b[33m_\u001b[39m"
+    ],
+    [
+      0.026343,
+      "\b\u001b[33m_\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025907,
+      "\b\u001b[33mo\u001b[33mp\u001b[39m"
+    ],
+    [
+      0.025964,
+      "\b\u001b[33mp\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.026235,
+      "\b\u001b[33mt\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025816,
+      "\b\u001b[33mi\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025935,
+      "\b\u001b[33mo\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.026207,
+      "\b\u001b[33mn\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025903,
+      "\b\u001b[33ms\u001b[33m \u001b[39m"
+    ],
+    [
+      0.026265,
+      "\b\u001b[33m \u001b[33mn\u001b[39m"
+    ],
+    [
+      0.02583,
+      "\b\u001b[33mn\u001b[33mc\u001b[39m"
+    ],
+    [
+      0.025866,
+      "\b\u001b[33mc\u001b[33mu\u001b[39m"
+    ],
+    [
+      0.026066,
+      "\b\u001b[33mu\u001b[33mr\u001b[39m"
+    ],
+    [
+      0.026094,
+      "\b\u001b[33mr\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025856,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025749,
+      "\b\u001b[33me\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.026176,
+      "\b\u001b[33ms\u001b[33m_\u001b[39m"
+    ],
+    [
+      0.025766,
+      "\b\u001b[33m_\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.02581,
+      "\b\u001b[33ma\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025901,
+      "\b\u001b[33ms\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025412,
+      "\b\u001b[33ms\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.026524,
+      "\b\u001b[33mi\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.024784,
+      "\b\u001b[33ms\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025585,
+      "\b\u001b[33mt\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025082,
+      "\b\u001b[33ma\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.026,
+      "\b\u001b[33mn\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025971,
+      "\b\u001b[33mt\u001b[33m=\u001b[39m"
+    ],
+    [
+      0.0267,
+      "\b\u001b[33m=\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025249,
+      "\b\u001b[33mn\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025798,
+      "\b\u001b[33mo\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025651,
+      "\b\u001b[33mn\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025947,
+      "\b\u001b[33me\u001b[33m;\u001b[39m"
+    ],
+    [
+      0.025628,
+      "\b\u001b[33m;\u001b[33m \u001b[39m"
+    ],
+    [
+      0.026392,
+      "\b\u001b[33m \u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025767,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025315,
+      "\b\u001b[33me\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.026522,
+      "\b\u001b[33mt\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025692,
+      "\b\u001b[33m \u001b[33mg\u001b[39m"
+    ],
+    [
+      0.025887,
+      "\b\u001b[33mg\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.026203,
+      "\b\u001b[33ml\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025925,
+      "\b\u001b[33mo\u001b[33mb\u001b[39m"
+    ],
+    [
+      0.025804,
+      "\b\u001b[33mb\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.026024,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025827,
+      "\b\u001b[33ml\u001b[33m \u001b[39m"
+    ],
+    [
+      0.02604,
+      "\b\u001b[33m \u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025837,
+      "\b\u001b[33ma\u001b[33mu\u001b[39m"
+    ],
+    [
+      0.025301,
+      "\b\u001b[33mu\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025661,
+      "\b\u001b[33mt\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.026197,
+      "\b\u001b[33mo\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025609,
+      "\b\u001b[33mi\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025852,
+      "\b\u001b[33mn\u001b[33mf\u001b[39m"
+    ],
+    [
+      0.025507,
+      "\b\u001b[33mf\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025361,
+      "\b\u001b[33mo\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025531,
+      "\b\u001b[33m \u001b[33mn\u001b[39m"
+    ],
+    [
+      0.026037,
+      "\b\u001b[33mn\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.02549,
+      "\b\u001b[33mo\u001b[33mr\u001b[39m"
+    ],
+    [
+      0.025465,
+      "\b\u001b[33mr\u001b[33mm\u001b[39m"
+    ],
+    [
+      0.0258,
+      "\b\u001b[33mm\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025367,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.026169,
+      "\b\u001b[33ml\u001b[33m'\u001b[39m"
+    ],
+    [
+      0.025756,
+      " "
+    ],
+    [
+      0.026206,
+      "\u001b[4m5\u001b[24m"
+    ],
+    [
+      0.026082,
+      "\b\u001b[4m5\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025712,
+      "\b\u001b[4m0\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.025856,
+      "\b\u001b[4ma\u001b[4md\u001b[24m"
+    ],
+    [
+      0.025387,
+      "\b\u001b[4md\u001b[4m2\u001b[24m"
+    ],
+    [
+      0.026245,
+      "\b\u001b[4m2\u001b[4mc\u001b[24m"
+    ],
+    [
+      0.025102,
+      "\b\u001b[4mc\u001b[4mb\u001b[24m"
+    ],
+    [
+      0.02569,
+      "\b\u001b[4mb\u001b[4m1\u001b[24m"
+    ],
+    [
+      0.025331,
+      "\b\u001b[4m1\u001b[4m6\u001b[24m"
+    ],
+    [
+      0.026295,
+      "\b\u001b[4m6\u001b[4m5\u001b[24m"
+    ],
+    [
+      0.025658,
+      "\b\u001b[4m5\u001b[4mb\u001b[24m"
+    ],
+    [
+      0.025848,
+      "\b\u001b[4mb\u001b[4m8\u001b[24m"
+    ],
+    [
+      0.02535,
+      "\b\u001b[4m8\u001b[4md\u001b[24m"
+    ],
+    [
+      0.025427,
+      "\b\u001b[4md\u001b[4mb\u001b[24m"
+    ],
+    [
+      0.025523,
+      "\b\u001b[4mb\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.026257,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025275,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.026183,
+      "\b\u001b[4m0\u001b[4m2\u001b[24m"
+    ],
+    [
+      0.025862,
+      "\b\u001b[4m2\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025924,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025982,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025894,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m \r\u001b[K"
+    ],
+    [
+      0.026019,
+      "\u001bM\u001b[119C\u001b[4m0\u001b[4m2\u001b[24m"
+    ],
+    [
+      0.026072,
+      "\r\u001b[4m2\u001b[4m9\u001b[24m"
+    ],
+    [
+      0.025196,
+      "\r\u001b[4m2\u001b[4m9\u001b[4m/\u001b[24m"
+    ],
+    [
+      0.025535,
+      "\b\u001b[4m/\u001b[4mi\u001b[24m"
+    ],
+    [
+      0.025503,
+      "\b\u001b[4mi\u001b[4mn\u001b[24m"
+    ],
+    [
+      0.027743,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.022699,
+      "\u001b(B\u001b)0\u001b[?1049h\u001b[1;30r\u001b[m\u000f\u001b[4l\u001b[?25l"
+    ],
+    [
+      3e-05,
+      "\u001b[39;49m\u001b[?1000h\u001b[?1002h\u001b[?1004h"
+    ],
+    [
+      1.6e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000265,
+      "\u001b[39;49m\u001b[m\u000f\u001b[H\u001b[J"
+    ],
+    [
+      0.000829,
+      "\u001b[1;31r\u001b]2;50ad2cb165b8db0002000029/in 1:1  1 sel - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000313,
+      "\u001b[30m\u001b[47m>\u001b[39;49m \"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium                                           \u001b[2;1H> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore                                           \u001b[3;1H> veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim                                            \u001b[4;1H> ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.                                                     \u001b[5;1H                                                                                                                        \u001b[6;1HLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor                                         \u001b[7;1Hincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis                                              \u001b[8;1Hnostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                                           \u001b[9;"
+    ],
+    [
+      1.7e-05,
+      "1H                                                                                                                        \u001b[10;1H> Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi                                                  \u001b[11;1H> nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,                                            \u001b[12;1H> consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt                                          \u001b[13;1H> ut labore et dolore magnam aliquam quaerat voluptatem.                                                                \u001b[14;1H                                                                                                                        \u001b[15;1HUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit                                           \u001b[16;1Hlaboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure                                          \u001b[17;1Hrepreh"
+    ],
+    [
+      8e-06,
+      "enderit qui in ea voluptate velit esse quam nihil molestiae consequatur,                                          \u001b[18;1Hvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"                                                          \u001b[19;1H\u001b[34m~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~        "
+    ],
+    [
+      9e-06,
+      "                                                                                                               \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                                50ad2cb165b8db0002000029/in 1:1  \u001b[34m1 sel\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.992852,
+      "\u001b]2;50ad2cb165b8db0002000029/in 18:63  1 sel - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.00028,
+      "\u001b[H\u001b[37m\u001b[44m> \"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium \u001b[39;49m                                          \u001b[2;1H\u001b[37m\u001b[44m> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore \u001b[39;49m                                          \u001b[3;1H\u001b[37m\u001b[44m> veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim \u001b[39;49m                                           \u001b[4;1H\u001b[37m\u001b[44m> ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. \u001b[39;49m                                                    \u001b[5;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[6;1H\u001b[37m\u001b[44mLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor \u001b[39;49m                                        \u001b[7;1H\u001b[37m\u001b[44mincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis \u001b[39;49m                                             \u001b[8;1H\u001b[37m\u001b[44mnos"
+    ],
+    [
+      1.1e-05,
+      "trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \u001b[39;49m                                          \u001b[9;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[10;1H\u001b[37m\u001b[44m> Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi \u001b[39;49m                                                 \u001b[11;1H\u001b[37m\u001b[44m> nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, \u001b[39;49m                                           \u001b[12;1H\u001b[37m\u001b[44m> consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt \u001b[39;49m                                         \u001b[13;1H\u001b[37m\u001b[44m> ut labore et dolore magnam aliquam quaerat voluptatem. \u001b[39;49m                                                               \u001b[14;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[15;1H\u001b[37m\u001b[44mUt enim ad mi"
+    ],
+    [
+      1.1e-05,
+      "nima veniam, quis nostrum exercitationem ullam corporis suscipit \u001b[39;49m                                          \u001b[16;1H\u001b[37m\u001b[44mlaboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure \u001b[39;49m                                         \u001b[17;1H\u001b[37m\u001b[44mreprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \u001b[39;49m                                         \u001b[18;1H\u001b[37m\u001b[44mvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"\u001b[30m\u001b[47m \u001b[39;49m                                                         \u001b[19;1H\u001b[34m~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                      "
+    ],
+    [
+      1.2e-05,
+      "                                                 \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                \u001b[30m\u001b[43m╭─────────┤%├─────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                \u001b[30m\u001b[43m│ select whole buffer │\u001b[29;1H\u001b[39;49m\u001b[34m~                                              "
+    ],
+    [
+      1.5e-05,
+      "                                                  \u001b[30m\u001b[43m╰─────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                              50ad2cb165b8db0002000029/in 18:63  \u001b[34m1 sel\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.015852,
+      "\u001b]2;50ad2cb165b8db0002000029/in 18:63  prompt - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000437,
+      "\u001b[H\u001b[37m\u001b[44m> \"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium \u001b[39;49m                                          \u001b[2;1H\u001b[37m\u001b[44m> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore \u001b[39;49m                                          \u001b[3;1H\u001b[37m\u001b[44m> veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim \u001b[39;49m                                           \u001b[4;1H\u001b[37m\u001b[44m> ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. \u001b[39;49m                                                    \u001b[5;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[6;1H\u001b[37m\u001b[44mLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor \u001b[39;49m                                        \u001b[7;1H\u001b[37m\u001b[44mincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis \u001b[39;49m                                             \u001b[8;1H\u001b[37m\u001b[44mnos"
+    ],
+    [
+      5.4e-05,
+      "trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \u001b[39;49m                                          \u001b[9;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[10;1H\u001b[37m\u001b[44m> Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi \u001b[39;49m                                                 \u001b[11;1H\u001b[37m\u001b[44m> nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, \u001b[39;49m                                           \u001b[12;1H\u001b[37m\u001b[44m> consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt \u001b[39;49m                                         \u001b[13;1H\u001b[37m\u001b[44m> ut labore et dolore magnam aliquam quaerat voluptatem. \u001b[39;49m                                                               \u001b[14;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[15;1H\u001b[37m\u001b[44mUt enim ad mi"
+    ],
+    [
+      2.2e-05,
+      "nima veniam, quis nostrum exercitationem ullam corporis suscipit \u001b[39;49m                                          \u001b[16;1H\u001b[37m\u001b[44mlaboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure \u001b[39;49m                                         \u001b[17;1H\u001b[37m\u001b[44mreprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \u001b[39;49m                                         \u001b[18;1H\u001b[37m\u001b[44mvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"\u001b[30m\u001b[47m \u001b[39;49m                                                         \u001b[19;1H\u001b[34m~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                      "
+    ],
+    [
+      3.3e-05,
+      "                                                 \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                               \u001b[30m\u001b[43m╭─────────────────┤S├──────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                               \u001b[30m\u001b[43m│ split selected text on regex matches │\u001b[29;1H\u001b[39;49m\u001b[34m~            "
+    ],
+    [
+      7.9e-05,
+      "                                                                   \u001b[30m\u001b[43m╰──────────────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[33msplit:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                      50ad2cb165b8db0002000029/in 18:63  \u001b[33mprompt\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.021253,
+      "\u001b]2;50ad2cb165b8db0002000029/in 18:63  prompt - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000465,
+      "\u001b[H\u001b[37m\u001b[44m> \"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium \u001b[39;49m                                          \u001b[2;1H\u001b[37m\u001b[44m> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore \u001b[39;49m                                          \u001b[3;1H\u001b[37m\u001b[44m> veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim \u001b[39;49m                                           \u001b[4;1H\u001b[37m\u001b[44m> ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. \u001b[39;49m                                                    \u001b[5;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[6;1H\u001b[37m\u001b[44mLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor \u001b[39;49m                                        \u001b[7;1H\u001b[37m\u001b[44mincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis \u001b[39;49m                                             \u001b[8;1H\u001b[37m\u001b[44mnos"
+    ],
+    [
+      4.2e-05,
+      "trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \u001b[39;49m                                          \u001b[9;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[10;1H\u001b[37m\u001b[44m> Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi \u001b[39;49m                                                 \u001b[11;1H\u001b[37m\u001b[44m> nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, \u001b[39;49m                                           \u001b[12;1H\u001b[37m\u001b[44m> consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt \u001b[39;49m                                         \u001b[13;1H\u001b[37m\u001b[44m> ut labore et dolore magnam aliquam quaerat voluptatem. \u001b[39;49m                                                               \u001b[14;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[15;1H\u001b[37m\u001b[44mUt enim ad mi"
+    ],
+    [
+      4.3e-05,
+      "nima veniam, quis nostrum exercitationem ullam corporis suscipit \u001b[39;49m                                          \u001b[16;1H\u001b[37m\u001b[44mlaboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure \u001b[39;49m                                         \u001b[17;1H\u001b[37m\u001b[44mreprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \u001b[39;49m                                         \u001b[18;1H\u001b[37m\u001b[44mvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"\u001b[30m\u001b[47m \u001b[39;49m                                                         \u001b[19;1H\u001b[34m~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                      "
+    ],
+    [
+      4.5e-05,
+      "                                                 \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                               \u001b[30m\u001b[43m╭─────────────────┤S├──────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                               \u001b[30m\u001b[43m│ split selected text on regex matches │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                             "
+    ],
+    [
+      3.1e-05,
+      "  \u001b[30m\u001b[43m╰──────────────────────────────────────╯\u001b[30;1H\u001b[30m\u001b[41msplit:\u001b[39;49m\u001b[36m\\\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                     50ad2cb165b8db0002000029/in 18:63  \u001b[33mprompt\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.016489,
+      "\u001b]2;50ad2cb165b8db0002000029/in 18:62  prompt - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.00048,
+      "\u001b[H\u001b[30m\u001b[44m> \"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiu\u001b[30m\u001b[47mm\u001b[39;49m                                           \u001b[2;1H\u001b[30m\u001b[44m> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventor\u001b[30m\u001b[47me\u001b[39;49m                                           \u001b[3;1H\u001b[30m\u001b[44m> veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo eni\u001b[30m\u001b[47mm\u001b[39;49m                                            \u001b[4;1H\u001b[30m\u001b[44m> ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit\u001b[30m\u001b[47m.\u001b[39;49m                                                     \u001b[5;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[6;1H\u001b[30m\u001b[44mLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo\u001b[30m\u001b[47mr\u001b[39;49m                                         \u001b[7;1H\u001b[30m\u001b[44mincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui\u001b[30m\u001b[47ms\u001b[39;49m     "
+    ],
+    [
+      4.2e-05,
+      "                                         \u001b[8;1H\u001b[30m\u001b[44mnostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat\u001b[30m\u001b[47m.\u001b[39;49m                                           \u001b[9;1H\u001b[30m\u001b[47m \u001b[39;49m                                                                                                                       \u001b[10;1H\u001b[30m\u001b[44m> Sed quia consequuntur magni dolores eos qui ratione voluptatem sequ\u001b[30m\u001b[47mi\u001b[39;49m                                                  \u001b[11;1H\u001b[30m\u001b[44m> nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet\u001b[30m\u001b[47m,\u001b[39;49m                                            \u001b[12;1H\u001b[30m\u001b[44m> consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun\u001b[30m\u001b[47mt\u001b[39;49m                                          \u001b[13;1H\u001b[30m\u001b[44m> ut labore et dolore magnam aliquam quaerat voluptatem\u001b[30m\u001b[47m.\u001b[39;49m                                                                \u001b[14;1H\u001b[30m\u001b[47m \u001b[39;49m                                       "
+    ],
+    [
+      3.4e-05,
+      "                                                                                \u001b[15;1H\u001b[30m\u001b[44mUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipi\u001b[30m\u001b[47mt\u001b[39;49m                                           \u001b[16;1H\u001b[30m\u001b[44mlaboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iur\u001b[30m\u001b[47me\u001b[39;49m                                          \u001b[17;1H\u001b[30m\u001b[44mreprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur\u001b[30m\u001b[47m,\u001b[39;49m                                          \u001b[18;1H\u001b[37m\u001b[44mvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\u001b[30m\u001b[47m\"\u001b[39;49m                                                          \u001b[19;1H\u001b[34m~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                         "
+    ],
+    [
+      4.8e-05,
+      "                                                              \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                               \u001b[30m\u001b[43m╭─────────────────┤S├──────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                          "
+    ],
+    [
+      3.3e-05,
+      "                                                     \u001b[30m\u001b[43m│ split selected text on regex matches │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                               \u001b[30m\u001b[43m╰──────────────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[33msplit:\u001b[36m\\n\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                    50ad2cb165b8db0002000029/in 18:62  \u001b[33mprompt\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.013807,
+      "\u001b]2;50ad2cb165b8db0002000029/in 18:63  prompt - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000368,
+      "\u001b[H\u001b[37m\u001b[44m> \"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium \u001b[39;49m                                          \u001b[2;1H\u001b[37m\u001b[44m> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore \u001b[39;49m                                          \u001b[3;1H\u001b[37m\u001b[44m> veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim \u001b[39;49m                                           \u001b[4;1H\u001b[37m\u001b[44m> ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. \u001b[39;49m                                                    \u001b[5;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[6;1H\u001b[37m\u001b[44mLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor \u001b[39;49m                                        \u001b[7;1H\u001b[37m\u001b[44mincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis \u001b[39;49m                                             \u001b[8;1H\u001b[37m\u001b[44mnos"
+    ],
+    [
+      4.2e-05,
+      "trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \u001b[39;49m                                          \u001b[9;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[10;1H\u001b[37m\u001b[44m> Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi \u001b[39;49m                                                 \u001b[11;1H\u001b[37m\u001b[44m> nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, \u001b[39;49m                                           \u001b[12;1H\u001b[37m\u001b[44m> consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt \u001b[39;49m                                         \u001b[13;1H\u001b[37m\u001b[44m> ut labore et dolore magnam aliquam quaerat voluptatem. \u001b[39;49m                                                               \u001b[14;1H\u001b[37m\u001b[44m \u001b[39;49m                                                                                                                       \u001b[15;1H\u001b[37m\u001b[44mUt enim ad mi"
+    ],
+    [
+      3.2e-05,
+      "nima veniam, quis nostrum exercitationem ullam corporis suscipit \u001b[39;49m                                          \u001b[16;1H\u001b[37m\u001b[44mlaboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure \u001b[39;49m                                         \u001b[17;1H\u001b[37m\u001b[44mreprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \u001b[39;49m                                         \u001b[18;1H\u001b[37m\u001b[44mvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"\u001b[30m\u001b[47m \u001b[39;49m                                                         \u001b[19;1H\u001b[34m~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                      "
+    ],
+    [
+      3.6e-05,
+      "                                                 \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                               \u001b[30m\u001b[43m╭─────────────────┤S├──────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                               \u001b[30m\u001b[43m│ split selected text on regex matches │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                             "
+    ],
+    [
+      2.2e-05,
+      "  \u001b[30m\u001b[43m╰──────────────────────────────────────╯\u001b[30;1H\u001b[30m\u001b[41msplit:\u001b[39;49m\u001b[36m\\n\\\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                   50ad2cb165b8db0002000029/in 18:63  \u001b[33mprompt\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.013377,
+      "\u001b]2;50ad2cb165b8db0002000029/in 18:63  prompt - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000255,
+      "\u001b[H\u001b[30m\u001b[44m> \"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium \u001b[39;49m                                          \u001b[2;1H\u001b[30m\u001b[44m> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore \u001b[39;49m                                          \u001b[3;1H\u001b[30m\u001b[44m> veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim \u001b[39;49m                                           \u001b[4;1H\u001b[30m\u001b[44m> ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit\u001b[30m\u001b[47m.\u001b[39;49m                                                     \u001b[5;1H                                                                                                                        \u001b[6;1H\u001b[30m\u001b[44mLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor \u001b[39;49m                                        \u001b[7;1H\u001b[30m\u001b[44mincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis \u001b[39;49m                                             \u001b[8;1H\u001b[30m\u001b[44mnostrud exe"
+    ],
+    [
+      2.4e-05,
+      "rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat\u001b[30m\u001b[47m.\u001b[39;49m                                           \u001b[9;1H                                                                                                                        \u001b[10;1H\u001b[30m\u001b[44m> Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi \u001b[39;49m                                                 \u001b[11;1H\u001b[30m\u001b[44m> nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, \u001b[39;49m                                           \u001b[12;1H\u001b[30m\u001b[44m> consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt \u001b[39;49m                                         \u001b[13;1H\u001b[30m\u001b[44m> ut labore et dolore magnam aliquam quaerat voluptatem\u001b[30m\u001b[47m.\u001b[39;49m                                                                \u001b[14;1H                                                                                                                        \u001b[15;1H\u001b[37m\u001b[44mUt enim ad minima veniam, quis nostru"
+    ],
+    [
+      2.1e-05,
+      "m exercitationem ullam corporis suscipit \u001b[39;49m                                          \u001b[16;1H\u001b[37m\u001b[44mlaboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure \u001b[39;49m                                         \u001b[17;1H\u001b[37m\u001b[44mreprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \u001b[39;49m                                         \u001b[18;1H\u001b[37m\u001b[44mvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"\u001b[30m\u001b[47m \u001b[39;49m                                                         \u001b[19;1H\u001b[34m~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                              "
+    ],
+    [
+      3.2e-05,
+      "                         \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                               \u001b[30m\u001b[43m╭─────────────────┤S├──────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                               \u001b[30m\u001b[43m│ split selected text on regex matches │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                               \u001b[30m\u001b[43m╰───"
+    ],
+    [
+      2.8e-05,
+      "───────────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[33msplit:\u001b[36m\\n\\n\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                  50ad2cb165b8db0002000029/in 18:63  \u001b[33mprompt\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.012831,
+      "\u001b]2;50ad2cb165b8db0002000029/in 18:63  4 sel - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000552,
+      "\u001b[H\u001b[30m\u001b[44m> \"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium \u001b[39;49m                                          \u001b[2;1H\u001b[30m\u001b[44m> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore \u001b[39;49m                                          \u001b[3;1H\u001b[30m\u001b[44m> veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim \u001b[39;49m                                           \u001b[4;1H\u001b[30m\u001b[44m> ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit\u001b[30m\u001b[47m.\u001b[39;49m                                                     \u001b[5;1H                                                                                                                        \u001b[6;1H\u001b[30m\u001b[44mLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor \u001b[39;49m                                        \u001b[7;1H\u001b[30m\u001b[44mincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis \u001b[39;49m                                             \u001b[8;1H\u001b[30m\u001b[44mnostrud exe"
+    ],
+    [
+      5.8e-05,
+      "rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat\u001b[30m\u001b[47m.\u001b[39;49m                                           \u001b[9;1H                                                                                                                        \u001b[10;1H\u001b[30m\u001b[44m> Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi \u001b[39;49m                                                 \u001b[11;1H\u001b[30m\u001b[44m> nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, \u001b[39;49m                                           \u001b[12;1H\u001b[30m\u001b[44m> consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt \u001b[39;49m                                         \u001b[13;1H\u001b[30m\u001b[44m> ut labore et dolore magnam aliquam quaerat voluptatem\u001b[30m\u001b[47m.\u001b[39;49m                                                                \u001b[14;1H                                                                                                                        \u001b[15;1H\u001b[37m\u001b[44mUt enim ad minima veniam, quis nostru"
+    ],
+    [
+      5.4e-05,
+      "m exercitationem ullam corporis suscipit \u001b[39;49m                                          \u001b[16;1H\u001b[37m\u001b[44mlaboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure \u001b[39;49m                                         \u001b[17;1H\u001b[37m\u001b[44mreprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \u001b[39;49m                                         \u001b[18;1H\u001b[37m\u001b[44mvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"\u001b[30m\u001b[47m \u001b[39;49m                                                         \u001b[19;1H\u001b[34m~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                              "
+    ],
+    [
+      4.5e-05,
+      "                         \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                              50ad2cb165b8db0002000029/in 18:63  \u001b"
+    ],
+    [
+      4.4e-05,
+      "[34m4 sel\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.024894,
+      "\u001b]2;50ad2cb165b8db0002000029/in 7:299 [+] 4 sel - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000213,
+      "\u001b[H\u001b[30m\u001b[44mchitecto beatae vitae dicta sunt explicabo. Nemo enim > ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit\u001b[2;1H\u001b[39;49m                                                                                                                        \u001b[3;1H\u001b[30m\u001b[44mamco laboris nisi ut aliquip ex ea commodo consequat\u001b[30m\u001b[47m.\u001b[39;49m                                                                   \u001b[4;1H                                                                                                                        \u001b[5;1H\u001b[30m\u001b[44msed quia non numquam eius modi tempora incidunt > ut labore et dolore magnam aliquam quaerat voluptatem\u001b[30m\u001b[47m.\u001b[39;49m                \u001b[6;1H                                                                                                                        \u001b[7;1H\u001b[37m\u001b[44ma voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"\u001b[30m\u001b[47m \u001b[8;1H\u001b[39;49m\u001b[34m~                               "
+    ],
+    [
+      2.1e-05,
+      "                                                                                        \u001b[9;1H~                                                                                                                       \u001b[10;1H~                                                                                                                       \u001b[11;1H~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                        "
+    ],
+    [
+      2.3e-05,
+      "                                                                               \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                "
+    ],
+    [
+      2.1e-05,
+      "                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                         \u001b[30m\u001b[43m╭──┤<a-j>├───╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                         \u001b[30m\u001b[43m│ join lines │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                         \u001b[30m\u001b[43m╰────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                           50ad2cb165b8db0002000029/in 7:299 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m4 sel\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.035704,
+      "\u001b]2;50ad2cb165b8db0002000029/in 7:299 [+] 4 sel - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000756,
+      "\u001b[H\u001b[30m\u001b[44mchitecto beatae vitae dicta sunt explicabo. Nemo enim > ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit\u001b[2;1H\u001b[39;49m                                                                                                                        \u001b[3;1H\u001b[30m\u001b[44mamco laboris nisi ut aliquip ex ea commodo consequat.\u001b[30m\u001b[47m \u001b[39;49m                                                                  \u001b[4;1H                                                                                                                        \u001b[5;1H\u001b[30m\u001b[44msed quia non numquam eius modi tempora incidunt > ut labore et dolore magnam aliquam quaerat voluptatem.\u001b[30m\u001b[47m \u001b[39;49m               \u001b[6;1H                                                                                                                        \u001b[7;1H\u001b[37m\u001b[44ma voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"\u001b[30m\u001b[47m \u001b[8;1H\u001b[39;49m\u001b[34m~                               "
+    ],
+    [
+      4.4e-05,
+      "                                                                                        \u001b[9;1H~                                                                                                                       \u001b[10;1H~                                                                                                                       \u001b[11;1H~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                        "
+    ],
+    [
+      3.1e-05,
+      "                                                                               \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                "
+    ],
+    [
+      4.5e-05,
+      "                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                        \u001b[30m\u001b[43m╭─────┤X├─────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                        \u001b[30m\u001b[43m│ extend line │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                        \u001b[30m\u001b[43m╰─────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                           50ad2cb165b8db0002000029/in 7:299 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b"
+    ],
+    [
+      8.3e-05,
+      "[36m \u001b[34m4 sel\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.010172,
+      "\u001b]2;50ad2cb165b8db0002000029/in 7:299 [+] prompt - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000718,
+      "\u001b[H\u001b[30m\u001b[44mchitecto beatae vitae dicta sunt explicabo. Nemo enim > ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit\u001b[2;1H\u001b[39;49m                                                                                                                        \u001b[3;1H\u001b[30m\u001b[44mamco laboris nisi ut aliquip ex ea commodo consequat.\u001b[30m\u001b[47m \u001b[39;49m                                                                  \u001b[4;1H                                                                                                                        \u001b[5;1H\u001b[30m\u001b[44msed quia non numquam eius modi tempora incidunt > ut labore et dolore magnam aliquam quaerat voluptatem.\u001b[30m\u001b[47m \u001b[39;49m               \u001b[6;1H                                                                                                                        \u001b[7;1H\u001b[37m\u001b[44ma voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"\u001b[30m\u001b[47m \u001b[8;1H\u001b[39;49m\u001b[34m~                               "
+    ],
+    [
+      2.8e-05,
+      "                                                                                        \u001b[9;1H~                                                                                                                       \u001b[10;1H~                                                                                                                       \u001b[11;1H~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                        "
+    ],
+    [
+      3.8e-05,
+      "                                                                               \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                "
+    ],
+    [
+      3.8e-05,
+      "                                                                       \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                              \u001b[30m\u001b[43m╭──────────────────┤s├──────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m│ select regex matches in selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m╰───────────────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[33mselect:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                             "
+    ],
+    [
+      2.7e-05,
+      "     50ad2cb165b8db0002000029/in 7:299 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.022022,
+      "\u001b]2;50ad2cb165b8db0002000029/in 7:288 [+] prompt - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000594,
+      "\u001b[Hchitecto\u001b[30m\u001b[47m \u001b[39;49mbeatae\u001b[30m\u001b[47m \u001b[39;49mvitae\u001b[30m\u001b[47m \u001b[39;49mdicta\u001b[30m\u001b[47m \u001b[39;49msunt\u001b[30m\u001b[47m \u001b[39;49mexplicabo.\u001b[30m\u001b[47m \u001b[39;49mNemo\u001b[30m\u001b[47m \u001b[39;49menim\u001b[30m\u001b[47m \u001b[39;49m>\u001b[30m\u001b[47m \u001b[39;49mipsam\u001b[30m\u001b[47m \u001b[39;49mvoluptatem\u001b[30m\u001b[47m \u001b[39;49mquia\u001b[30m\u001b[47m \u001b[39;49mvoluptas\u001b[30m\u001b[47m \u001b[39;49msit\u001b[30m\u001b[47m \u001b[39;49maspernatur\u001b[30m\u001b[47m \u001b[39;49maut\u001b[30m\u001b[47m \u001b[39;49modit\u001b[30m\u001b[47m \u001b[39;49maut\u001b[30m\u001b[47m \u001b[39;49mfugit\u001b[2;1H                                                                                                                        \u001b[3;1Hamco\u001b[30m\u001b[47m \u001b[39;49mlaboris\u001b[30m\u001b[47m \u001b[39;49mnisi\u001b[30m\u001b[47m \u001b[39;49mut\u001b[30m\u001b[47m \u001b[39;49maliquip\u001b[30m\u001b[47m \u001b[39;49mex\u001b[30m\u001b[47m \u001b[39;49mea\u001b[30m\u001b[47m \u001b[39;49mcommodo\u001b[30m\u001b[47m \u001b[39;49mconsequat.                                                                   \u001b[4;1H                                                                                                                        \u001b[5;1Hsed\u001b[30m\u001b[47m \u001b[39;49mquia\u001b[30m\u001b[47m \u001b[39;49mnon\u001b"
+    ],
+    [
+      2.6e-05,
+      "[30m\u001b[47m \u001b[39;49mnumquam\u001b[30m\u001b[47m \u001b[39;49meius\u001b[30m\u001b[47m \u001b[39;49mmodi\u001b[30m\u001b[47m \u001b[39;49mtempora\u001b[30m\u001b[47m \u001b[39;49mincidunt\u001b[30m\u001b[47m \u001b[39;49m>\u001b[30m\u001b[47m \u001b[39;49mut\u001b[30m\u001b[47m \u001b[39;49mlabore\u001b[30m\u001b[47m \u001b[39;49met\u001b[30m\u001b[47m \u001b[39;49mdolore\u001b[30m\u001b[47m \u001b[39;49mmagnam\u001b[30m\u001b[47m \u001b[39;49maliquam\u001b[30m\u001b[47m \u001b[39;49mquaerat\u001b[30m\u001b[47m \u001b[39;49mvoluptatem.                \u001b[6;1H                                                                                                                        \u001b[7;1Ha\u001b[30m\u001b[47m \u001b[39;49mvoluptate\u001b[30m\u001b[47m \u001b[39;49mvelit\u001b[30m\u001b[47m \u001b[39;49messe\u001b[30m\u001b[47m \u001b[39;49mquam\u001b[30m\u001b[47m \u001b[39;49mnihil\u001b[30m\u001b[47m \u001b[39;49mmolestiae\u001b[30m\u001b[47m \u001b[39;49mconsequatur,\u001b[30m\u001b[47m \u001b[39;49mvel\u001b[30m\u001b[47m \u001b[39;49millum\u001b[30m\u001b[47m \u001b[39;49mqui\u001b[30m\u001b[47m \u001b[39;49mdolorem\u001b[30m\u001b[47m \u001b[39;49meum\u001b[30m\u001b[47m \u001b[39;49mfugiat\u001b[30m\u001b[47m \u001b[39;49mquo\u001b[30m\u001b[47m \u001b[39;49mvoluptas\u001b[30m\u001b[47m \u001b[39;49mnulla\u001b[30m\u001b[47m \u001b[39;49mpariatur?\" \u001b[8;1H\u001b[34m~                                                                                               "
+    ],
+    [
+      1.8e-05,
+      "                        \u001b[9;1H~                                                                                                                       \u001b[10;1H~                                                                                                                       \u001b[11;1H~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                        "
+    ],
+    [
+      1.9e-05,
+      "               \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                               "
+    ],
+    [
+      8.2e-05,
+      "                                                                        \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                              \u001b[30m\u001b[43m╭──────────────────┤s├──────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m│ select regex matches in selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m╰───────────────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[33mselect:\u001b[36m \u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                      "
+    ],
+    [
+      3.6e-05,
+      "           50ad2cb165b8db0002000029/in 7:288 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.011388,
+      "\u001b]2;50ad2cb165b8db0002000029/in 5:228 [+] prompt - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000775,
+      "\u001b[Hchitecto beatae vitae dicta sunt explicabo. Nemo enim\u001b[30m\u001b[44m \u001b[30m\u001b[47m>\u001b[39;49m ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit\u001b[2;1H                                                                                                                        \u001b[3;1Hamco laboris nisi ut aliquip ex ea commodo consequat.                                                                   \u001b[4;1H                                                                                                                        \u001b[5;1Hsed quia non numquam eius modi tempora incidunt\u001b[37m\u001b[44m \u001b[30m\u001b[47m>\u001b[39;49m ut labore et dolore magnam aliquam quaerat voluptatem.                \u001b[6;1H                                                                                                                        \u001b[7;1Ha voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\" \u001b[8;1H\u001b[34m~                                                                             "
+    ],
+    [
+      5.5e-05,
+      "                                          \u001b[9;1H~                                                                                                                       \u001b[10;1H~                                                                                                                       \u001b[11;1H~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                      "
+    ],
+    [
+      2.9e-05,
+      "                                 \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                              "
+    ],
+    [
+      4.2e-05,
+      "                         \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                              \u001b[30m\u001b[43m╭──────────────────┤s├──────────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m│ select regex matches in selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                              \u001b[30m\u001b[43m╰───────────────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[33mselect:\u001b[36m >\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                   "
+    ],
+    [
+      7.8e-05,
+      "                             50ad2cb165b8db0002000029/in 5:228 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.007522,
+      "\u001b]2;50ad2cb165b8db0002000029/in 5:228 [+] 6 sel - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000222,
+      "\u001b[Hchitecto beatae vitae dicta sunt explicabo. Nemo enim\u001b[30m\u001b[44m \u001b[30m\u001b[47m>\u001b[39;49m ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit\u001b[2;1H                                                                                                                        \u001b[3;1Hamco laboris nisi ut aliquip ex ea commodo consequat.                                                                   \u001b[4;1H                                                                                                                        \u001b[5;1Hsed quia non numquam eius modi tempora incidunt\u001b[37m\u001b[44m \u001b[30m\u001b[47m>\u001b[39;49m ut labore et dolore magnam aliquam quaerat voluptatem.                \u001b[6;1H                                                                                                                        \u001b[7;1Ha voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\" \u001b[8;1H\u001b[34m~                                                                             "
+    ],
+    [
+      2.2e-05,
+      "                                          \u001b[9;1H~                                                                                                                       \u001b[10;1H~                                                                                                                       \u001b[11;1H~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                      "
+    ],
+    [
+      2.5e-05,
+      "                                 \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                              "
+    ],
+    [
+      2e-05,
+      "                         \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                           50ad2cb165b8db0002000029/in 5:228 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m6 sel\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.02337,
+      "\u001b]2;50ad2cb165b8db0002000029/in 5:223 [+] 6 sel - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000379,
+      "\u001b[Hecto beatae vitae dicta sunt explicabo. Nemo enim\u001b[30m\u001b[47m \u001b[39;49mipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.     \u001b[2;1H                                                                                                                        \u001b[3;1Hamco laboris nisi ut aliquip ex ea commodo consequat.                                                                   \u001b[4;1H                                                                                                                        \u001b[5;1Hquia non numquam eius modi tempora incidunt\u001b[30m\u001b[47m \u001b[39;49mut labore et dolore magnam aliquam quaerat voluptatem.                      \u001b[6;1H                                                                                                                        \u001b[7;1Ha voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\" \u001b[8;1H\u001b[34m~                                                                                                 "
+    ],
+    [
+      4.4e-05,
+      "                      \u001b[9;1H~                                                                                                                       \u001b[10;1H~                                                                                                                       \u001b[11;1H~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                          "
+    ],
+    [
+      5.1e-05,
+      "             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                  "
+    ],
+    [
+      4.4e-05,
+      "     \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                \u001b[30m\u001b[43m╭─────────┤d├─────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                \u001b[30m\u001b[43m│ erase selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                                \u001b[30m\u001b[43m╰─────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                           50ad2cb165b8db0002000029/in 5:223 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m6 sel\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      2.016201,
+      "\u001b]2;50ad2cb165b8db0002000029/in 5:223 [+] prompt - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000756,
+      "\u001b[Hecto beatae vitae dicta sunt explicabo. Nemo enim\u001b[30m\u001b[47m \u001b[39;49mipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.     \u001b[2;1H                                                                                                                        \u001b[3;1Hamco laboris nisi ut aliquip ex ea commodo consequat.                                                                   \u001b[4;1H                                                                                                                        \u001b[5;1Hquia non numquam eius modi tempora incidunt\u001b[30m\u001b[47m \u001b[39;49mut labore et dolore magnam aliquam quaerat voluptatem.                      \u001b[6;1H                                                                                                                        \u001b[7;1Ha voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\" \u001b[8;1H\u001b[34m~                                                                                                 "
+    ],
+    [
+      3.7e-05,
+      "                      \u001b[9;1H~                                                                                                                       \u001b[10;1H~                                                                                                                       \u001b[11;1H~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                          "
+    ],
+    [
+      3.4e-05,
+      "             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                               \u001b[30m\u001b[43m╭─────────┤:├──────────╮\u001b[20;1H\u001b[39;49m\u001b[34m~                                                                                               \u001b[30m\u001b[43m│ enter command prompt │\u001b[21;1H\u001b[39;49m\u001b[34m~                                                                                               \u001b[30m\u001b[43m╰──────────────────────╯\u001b[22;1H\u001b[34m\u001b[47madd-highlighter    alias              buffer             buffer-next        buffer-previous    change-directory        █\u001b[23;1Hdebug              declare-option     define-command     delete-buffer      "
+    ],
+    [
+      2.6e-05,
+      "delete-buffer!     echo                    █\u001b[24;1Hedit               edit!              eval               exec               hook               info                    █\u001b[25;1Hkill               kill!              map                menu               nop                on-key                  █\u001b[26;1Hprompt             quit               quit!              remove-highlighter remove-hooks       rename-buffer           █\u001b[27;1Hrename-client      rename-session     select             set-face           set-option         set-register            █\u001b[28;1Hsource             try                unalias            unmap              unset-option       write                   █\u001b[29;1Hwrite-all          write-all-quit     write-quit         write-quit!                                                   █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                        50ad2cb165b8db0002000029/in 5:223 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001b"
+    ],
+    [
+      2.2e-05,
+      "[9A\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.499025,
+      "\u001b]2;50ad2cb165b8db0002000029/in 5:223 [+] prompt - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000431,
+      "\u001b[Hecto beatae vitae dicta sunt explicabo. Nemo enim\u001b[30m\u001b[47m \u001b[39;49mipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.     \u001b[2;1H                                                                                                                        \u001b[3;1Hamco laboris nisi ut aliquip ex ea commodo consequat.                                                                   \u001b[4;1H                                                                                                                        \u001b[5;1Hquia non numquam eius modi tempora incidunt\u001b[30m\u001b[47m \u001b[39;49mut labore et dolore magnam aliquam quaerat voluptatem.                      \u001b[6;1H                                                                                                                        \u001b[7;1Ha voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\" \u001b[8;1H\u001b[34m~                                                                                                 "
+    ],
+    [
+      1.8e-05,
+      "                      \u001b[9;1H~                                                                                                                       \u001b[10;1H~                                                                                                                       \u001b[11;1H~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                          "
+    ],
+    [
+      1.9e-05,
+      "             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                  "
+    ],
+    [
+      2e-05,
+      "     \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H\u001b[34m\u001b[47mquit             quit!            write-quit       write-quit!      write-all-quit                                     █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                       50ad2cb165b8db0002000029/in 5:223 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.502177,
+      "\u001b]2;50ad2cb165b8db0002000029/in 5:223 [+] prompt - unnamed0@[8496] - Kakoune\u0007"
+    ],
+    [
+      0.000553,
+      "\u001b[Hecto beatae vitae dicta sunt explicabo. Nemo enim\u001b[30m\u001b[47m \u001b[39;49mipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.     \u001b[2;1H                                                                                                                        \u001b[3;1Hamco laboris nisi ut aliquip ex ea commodo consequat.                                                                   \u001b[4;1H                                                                                                                        \u001b[5;1Hquia non numquam eius modi tempora incidunt\u001b[30m\u001b[47m \u001b[39;49mut labore et dolore magnam aliquam quaerat voluptatem.                      \u001b[6;1H                                                                                                                        \u001b[7;1Ha voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\" \u001b[8;1H\u001b[34m~                                                                                                 "
+    ],
+    [
+      7.5e-05,
+      "                      \u001b[9;1H~                                                                                                                       \u001b[10;1H~                                                                                                                       \u001b[11;1H~                                                                                                                       \u001b[12;1H~                                                                                                                       \u001b[13;1H~                                                                                                                       \u001b[14;1H~                                                                                                                       \u001b[15;1H~                                                                                                                       \u001b[16;1H~                                                                                                          "
+    ],
+    [
+      4.9e-05,
+      "             \u001b[17;1H~                                                                                                                       \u001b[18;1H~                                                                                                                       \u001b[19;1H~                                                                                                                       \u001b[20;1H~                                                                                                                       \u001b[21;1H~                                                                                                                       \u001b[22;1H~                                                                                                                       \u001b[23;1H~                                                                                                                       \u001b[24;1H~                                                                                                                  "
+    ],
+    [
+      6.2e-05,
+      "     \u001b[25;1H~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H\u001b[34m\u001b[47mquit!        write-quit!                                                                                               █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq!\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                      50ad2cb165b8db0002000029/in 5:223 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[8496\b]\b\u001b[1@6\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.503128,
+      "\u001b[?1000l\u001b[?1004l\u001b[?1002l\u001b[30;1H\u001b[34h\u001b[?25h\u001b[?1049l\r\u001b[?1l\u001b>"
+    ],
+    [
+      0.001959,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
+    ],
+    [
+      0.058197,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jλ kakoune-tv \u001b[K\u001b[?2004h"
+    ],
+    [
+      0.961917,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

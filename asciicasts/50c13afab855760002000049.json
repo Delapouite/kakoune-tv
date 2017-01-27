@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "width": 120,
+  "height": 30,
+  "duration": 21.572448,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "screen-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.226019,
+      "\u001bPtmux;\u001b\u001b]4;0;rgb:28/21/1c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;1;rgb:cf/6a/4c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;2;rgb:54/be/0d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;3;rgb:f9/ee/98\u001b\u001b\\\u001b\\"
+    ],
+    [
+      4.5e-05,
+      "\u001bPtmux;\u001b\u001b]4;4;rgb:5e/a6/ea\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;5;rgb:9b/85/9d\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;6;rgb:af/c4/db\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;7;rgb:8a/89/86\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;8;rgb:66/66/66\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;9;rgb:cf/6a/4c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;10;rgb:54/be/0d\u001b\u001b\\\u001b\\"
+    ],
+    [
+      1.8e-05,
+      "\u001bPtmux;\u001b\u001b]4;11;rgb:f9/ee/98\u001b\u001b\\\u001b\\"
+    ],
+    [
+      1.3e-05,
+      "\u001bPtmux;\u001b\u001b]4;12;rgb:5e/a6/ea\u001b\u001b\\\u001b\\"
+    ],
+    [
+      1.1e-05,
+      "\u001bPtmux;\u001b\u001b]4;13;rgb:9b/85/9d\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.000133,
+      "\u001bPtmux;\u001b\u001b]4;14;rgb:af/c4/db\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;15;rgb:ba/ae/9e\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;16;rgb:cf/7d/34\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;17;rgb:93/71/21\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;18;rgb:36/31/2e\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;19;rgb:5e/5d/5c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;20;rgb:79/79/77\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]4;21;rgb:9d/9b/97\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.000135,
+      "\u001bPtmux;\u001b\u001b]10;rgb:8a/89/86\u001b\u001b\\\u001b\\"
+    ],
+    [
+      6.6e-05,
+      "\u001bPtmux;\u001b\u001b]11;rgb:28/21/1c\u001b\u001b\\\u001b\\\u001bPtmux;\u001b\u001b]12;7\u001b\u001b\\\u001b\\"
+    ],
+    [
+      0.018075,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
+    ],
+    [
+      0.054604,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jλ kakoune-tv \u001b[K\u001b[?2004h"
+    ],
+    [
+      0.630057,
+      "\u001b[32mk\u001b[39m"
+    ],
+    [
+      0.025965,
+      "\b\u001b[1m\u001b[31mk\u001b[1m\u001b[31ma\u001b[0m\u001b[39m"
+    ],
+    [
+      0.025072,
+      "\b\b\u001b[0m\u001b[32mk\u001b[0m\u001b[32ma\u001b[32mk\u001b[39m"
+    ],
+    [
+      0.025979,
+      " "
+    ],
+    [
+      0.026143,
+      "-"
+    ],
+    [
+      0.025713,
+      "n"
+    ],
+    [
+      0.025819,
+      " "
+    ],
+    [
+      0.026035,
+      "-"
+    ],
+    [
+      0.02575,
+      "e"
+    ],
+    [
+      0.025997,
+      " "
+    ],
+    [
+      0.028204,
+      "\u001b[33m'\u001b[39m"
+    ],
+    [
+      0.025655,
+      "\b\u001b[33m'\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.023902,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.02535,
+      "\b\u001b[33me\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025739,
+      "\b\u001b[33mt\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025331,
+      "\b\u001b[33m \u001b[33mg\u001b[39m"
+    ],
+    [
+      0.025687,
+      "\b\u001b[33mg\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.02613,
+      "\b\u001b[33ml\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025248,
+      "\b\u001b[33mo\u001b[33mb\u001b[39m"
+    ],
+    [
+      0.026149,
+      "\b\u001b[33mb\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025791,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025817,
+      "\b\u001b[33ml\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025968,
+      "\b\u001b[33m \u001b[33mu\u001b[39m"
+    ],
+    [
+      0.025257,
+      "\b\u001b[33mu\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025921,
+      "\b\u001b[33mi\u001b[33m_\u001b[39m"
+    ],
+    [
+      0.025553,
+      "\b\u001b[33m_\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025667,
+      "\b\u001b[33mo\u001b[33mp\u001b[39m"
+    ],
+    [
+      0.025012,
+      "\b\u001b[33mp\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.028305,
+      "\b\u001b[33mt\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025804,
+      "\b\u001b[33mi\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025275,
+      "\b\u001b[33mo\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025517,
+      "\b\u001b[33mn\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025281,
+      "\b\u001b[33ms\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025244,
+      "\b\u001b[33m \u001b[33mn\u001b[39m"
+    ],
+    [
+      0.026052,
+      "\b\u001b[33mn\u001b[33mc\u001b[39m"
+    ],
+    [
+      0.025574,
+      "\b\u001b[33mc\u001b[33mu\u001b[39m"
+    ],
+    [
+      0.026026,
+      "\b\u001b[33mu\u001b[33mr\u001b[39m"
+    ],
+    [
+      0.025124,
+      "\b\u001b[33mr\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025203,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025433,
+      "\b\u001b[33me\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025825,
+      "\b\u001b[33ms\u001b[33m_\u001b[39m"
+    ],
+    [
+      0.026271,
+      "\b\u001b[33m_\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025239,
+      "\b\u001b[33ma\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025369,
+      "\b\u001b[33ms\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.026067,
+      "\b\u001b[33ms\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025561,
+      "\b\u001b[33mi\u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025987,
+      "\b\u001b[33ms\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.026141,
+      "\b\u001b[33mt\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025351,
+      "\b\u001b[33ma\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025277,
+      "\b\u001b[33mn\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.026196,
+      "\b\u001b[33mt\u001b[33m=\u001b[39m"
+    ],
+    [
+      0.025556,
+      "\b\u001b[33m=\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.025449,
+      "\b\u001b[33mn\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025387,
+      "\b\u001b[33mo\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.026002,
+      "\b\u001b[33mn\u001b[33me\u001b[39m"
+    ],
+    [
+      0.026092,
+      "\b\u001b[33me\u001b[33m;\u001b[39m"
+    ],
+    [
+      0.025341,
+      "\b\u001b[33m;\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025495,
+      "\b\u001b[33m \u001b[33ms\u001b[39m"
+    ],
+    [
+      0.025389,
+      "\b\u001b[33ms\u001b[33me\u001b[39m"
+    ],
+    [
+      0.025457,
+      "\b\u001b[33me\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025438,
+      "\b\u001b[33mt\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025408,
+      "\b\u001b[33m \u001b[33mg\u001b[39m"
+    ],
+    [
+      0.025345,
+      "\b\u001b[33mg\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025482,
+      "\b\u001b[33ml\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025538,
+      "\b\u001b[33mo\u001b[33mb\u001b[39m"
+    ],
+    [
+      0.026322,
+      "\b\u001b[33mb\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025145,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.025531,
+      "\b\u001b[33ml\u001b[33m \u001b[39m"
+    ],
+    [
+      0.025374,
+      "\b\u001b[33m \u001b[33ma\u001b[39m"
+    ],
+    [
+      0.026338,
+      "\b\u001b[33ma\u001b[33mu\u001b[39m"
+    ],
+    [
+      0.025856,
+      "\b\u001b[33mu\u001b[33mt\u001b[39m"
+    ],
+    [
+      0.025376,
+      "\b\u001b[33mt\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.026333,
+      "\b\u001b[33mo\u001b[33mi\u001b[39m"
+    ],
+    [
+      0.025903,
+      "\b\u001b[33mi\u001b[33mn\u001b[39m"
+    ],
+    [
+      0.026153,
+      "\b\u001b[33mn\u001b[33mf\u001b[39m"
+    ],
+    [
+      0.025257,
+      "\b\u001b[33mf\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.025372,
+      "\b\u001b[33mo\u001b[33m \u001b[39m"
+    ],
+    [
+      0.026315,
+      "\b\u001b[33m \u001b[33mn\u001b[39m"
+    ],
+    [
+      0.024585,
+      "\b\u001b[33mn\u001b[33mo\u001b[39m"
+    ],
+    [
+      0.026332,
+      "\b\u001b[33mo\u001b[33mr\u001b[39m"
+    ],
+    [
+      0.025113,
+      "\b\u001b[33mr\u001b[33mm\u001b[39m"
+    ],
+    [
+      0.025617,
+      "\b\u001b[33mm\u001b[33ma\u001b[39m"
+    ],
+    [
+      0.025781,
+      "\b\u001b[33ma\u001b[33ml\u001b[39m"
+    ],
+    [
+      0.026092,
+      "\b\u001b[33ml\u001b[33m'\u001b[39m"
+    ],
+    [
+      0.025745,
+      " "
+    ],
+    [
+      0.026366,
+      "\u001b[4m5\u001b[24m"
+    ],
+    [
+      0.025885,
+      "\b\u001b[4m5\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.026228,
+      "\b\u001b[4m0\u001b[4mc\u001b[24m"
+    ],
+    [
+      0.025723,
+      "\b\u001b[4mc\u001b[4m1\u001b[24m"
+    ],
+    [
+      0.026353,
+      "\b\u001b[4m1\u001b[4m3\u001b[24m"
+    ],
+    [
+      0.025534,
+      "\b\u001b[4m3\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.026114,
+      "\b\u001b[4ma\u001b[4mf\u001b[24m"
+    ],
+    [
+      0.026214,
+      "\b\u001b[4mf\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.025651,
+      "\b\u001b[4ma\u001b[4mb\u001b[24m"
+    ],
+    [
+      0.026219,
+      "\b\u001b[4mb\u001b[4m8\u001b[24m"
+    ],
+    [
+      0.025786,
+      "\b\u001b[4m8\u001b[4m5\u001b[24m"
+    ],
+    [
+      0.025981,
+      "\b\u001b[4m5\u001b[4m5\u001b[24m"
+    ],
+    [
+      0.026254,
+      "\b\u001b[4m5\u001b[4m7\u001b[24m"
+    ],
+    [
+      0.025647,
+      "\b\u001b[4m7\u001b[4m6\u001b[24m"
+    ],
+    [
+      0.025726,
+      "\b\u001b[4m6\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025407,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025513,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025552,
+      "\b\u001b[4m0\u001b[4m2\u001b[24m"
+    ],
+    [
+      0.026041,
+      "\b\u001b[4m2\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025714,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025868,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m"
+    ],
+    [
+      0.025714,
+      "\b\u001b[4m0\u001b[4m0\u001b[24m \r\u001b[K"
+    ],
+    [
+      0.026231,
+      "\u001bM\u001b[119C\u001b[4m0\u001b[4m4\u001b[24m"
+    ],
+    [
+      0.025857,
+      "\r\u001b[4m4\u001b[4m9\u001b[24m"
+    ],
+    [
+      0.025941,
+      "\r\u001b[4m4\u001b[4m9\u001b[4m/\u001b[24m"
+    ],
+    [
+      0.025573,
+      "\b\u001b[4m/\u001b[4mi\u001b[24m"
+    ],
+    [
+      0.025966,
+      "\b\u001b[4mi\u001b[4mn\u001b[24m"
+    ],
+    [
+      0.027907,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.006265,
+      "\u001b(B\u001b)0\u001b[?1049h\u001b[1;30r\u001b[m\u000f\u001b[4l\u001b[?25l\u001b[39;49m\u001b[?1000h\u001b[?1002h\u001b[?1004h"
+    ],
+    [
+      8.1e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.00017,
+      "\u001b[39;49m\u001b[m\u000f\u001b[H\u001b[J"
+    ],
+    [
+      0.001103,
+      "\u001b[1;31r\u001b]2;50c13afab855760002000049/in 1:1  1 sel - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000273,
+      "\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[2;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[3;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[4;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[5;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[6;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[7;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[8;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[9;"
+    ],
+    [
+      1.6e-05,
+      "1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[10;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[11;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[12;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[13;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[14;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[15;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[16;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[17;1Ha b c "
+    ],
+    [
+      1.5e-05,
+      "d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[18;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[19;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[20;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[21;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[22;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[23;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[24;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[25;1H\u001b[34m~        "
+    ],
+    [
+      1.1e-05,
+      "                                                                                                               \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                               50c13afab855760002000049/in 1:1  \u001b[34m1 sel\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.019764,
+      "\u001b]2;50c13afab855760002000049/in 1:1  1 sel param=2 - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000556,
+      "\u001b[H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[2;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[3;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[4;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[5;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[6;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[7;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[8;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b"
+    ],
+    [
+      3.2e-05,
+      "[9;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[10;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[11;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[12;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[13;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[14;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[15;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[16;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[17;1Ha b"
+    ],
+    [
+      2.1e-05,
+      " c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[18;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[19;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[20;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[21;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[22;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[23;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[24;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[25;1H\u001b[34m~     "
+    ],
+    [
+      2e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                       50c13afab855760002000049/in 1:1  \u001b[34m1 sel param=\u001b[32m2\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.014586,
+      "\u001b]2;50c13afab855760002000049/in 1:1  1 sel param=23 - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000705,
+      "\u001b[H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[2;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[3;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[4;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[5;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[6;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[7;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[8;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b"
+    ],
+    [
+      2.9e-05,
+      "[9;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[10;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[11;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[12;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[13;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[14;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[15;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[16;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[17;1Ha b"
+    ],
+    [
+      3e-05,
+      " c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[18;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[19;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[20;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[21;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[22;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[23;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[24;1Ha b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[25;1H\u001b[34m~     "
+    ],
+    [
+      2.6e-05,
+      "                                                                                                                  \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H~                                                                                                                       \u001b[30;1H\u001b[36m                                                      50c13afab855760002000049/in 1:1  \u001b[34m1 sel param=\u001b[32m23\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.024206,
+      "\u001b]2;50c13afab855760002000049/in 24:1  24 sel - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000885,
+      "\u001b[H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[2;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[3;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[4;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[5;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[6;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[7;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[8;1H\u001b[30m\u001b[47ma\u001b["
+    ],
+    [
+      5.4e-05,
+      "39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[9;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[10;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[11;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[12;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[13;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[14;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[15;1H\u001b[30m\u001b[47ma\u001b[39;49m b c"
+    ],
+    [
+      8.3e-05,
+      " d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[16;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[17;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[18;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[19;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[20;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[21;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[22;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g "
+    ],
+    [
+      5.5e-05,
+      "h i j k l m n o p q r s t u v w x y z                                                                     \u001b[23;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[24;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[25;1H\u001b[34m~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                       \u001b[30m\u001b[43m╭─────────────┤C├──────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                    "
+    ],
+    [
+      7.2e-05,
+      "   \u001b[30m\u001b[43m│ copy selection on next lines │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                       \u001b[30m\u001b[43m╰──────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                             50c13afab855760002000049/in 24:1  \u001b[34m24 sel\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.005655,
+      "\u001b]2;50c13afab855760002000049/in 24:1 [recording (@)] 24 sel - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000325,
+      "\u001b[H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[2;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[3;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[4;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[5;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[6;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[7;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[8;1H\u001b[30m\u001b[47ma\u001b["
+    ],
+    [
+      1.7e-05,
+      "39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[9;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[10;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[11;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[12;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[13;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[14;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[15;1H\u001b[30m\u001b[47ma\u001b[39;49m b c"
+    ],
+    [
+      1.4e-05,
+      " d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[16;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[17;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[18;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[19;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[20;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[21;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[22;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g "
+    ],
+    [
+      1.5e-05,
+      "h i j k l m n o p q r s t u v w x y z                                                                     \u001b[23;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[24;1H\u001b[30m\u001b[47ma\u001b[39;49m b c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[25;1H\u001b[34m~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                       \u001b[30m\u001b[43m╭─────────────┤Q├──────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                       \u001b[30m\u001b[43m│ start or end macro recording │\u001b[29;1H\u001b[39;49m\u001b"
+    ],
+    [
+      1.1e-05,
+      "[34m~                                                                                       \u001b[30m\u001b[43m╰──────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                              50c13afab855760002000049/in 24:1 \u001b[30m\u001b[43m[recording (@)]\u001b[39;49m\u001b[36m \u001b[34m24 sel\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.019364,
+      "\u001b]2;50c13afab855760002000049/in 24:2 [recording (@)] 24 sel - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000778,
+      "\u001b[Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[2;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[3;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[4;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[5;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[6;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[7;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[8;1Ha\u001b[30m\u001b[47m \u001b"
+    ],
+    [
+      3.5e-05,
+      "[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[9;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[10;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[11;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[12;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[13;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[14;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[15;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c"
+    ],
+    [
+      2.2e-05,
+      " d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[16;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[17;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[18;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[19;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[20;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[21;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[22;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g "
+    ],
+    [
+      3.7e-05,
+      "h i j k l m n o p q r s t u v w x y z                                                                     \u001b[23;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[24;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[25;1H\u001b[34m~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                          \u001b[30m\u001b[43m╭────────────┤w├────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                          \u001b[30m\u001b[43m│ select to next word start │\u001b[29;1H\u001b[39;49m\u001b[34m~ "
+    ],
+    [
+      2.6e-05,
+      "                                                                                         \u001b[30m\u001b[43m╰───────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                              50c13afab855760002000049/in 24:2 \u001b[30m\u001b[43m[recording (@)]\u001b[39;49m\u001b[36m \u001b[34m24 sel\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.01608,
+      "\u001b]2;50c13afab855760002000049/in 24:2 [recording (@)] 24 sel - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.00095,
+      "\u001b[Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[2;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[3;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[4;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[5;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[6;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[7;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[8;1Ha\u001b[30m\u001b[47m \u001b"
+    ],
+    [
+      4.8e-05,
+      "[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[9;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[10;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[11;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[12;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[13;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[14;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[15;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c"
+    ],
+    [
+      4.7e-05,
+      " d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[16;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[17;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[18;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[19;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[20;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[21;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[22;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g "
+    ],
+    [
+      4.1e-05,
+      "h i j k l m n o p q r s t u v w x y z                                                                     \u001b[23;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[24;1Ha\u001b[30m\u001b[47m \u001b[39;49mb c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[25;1H\u001b[34m~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                 \u001b[30m\u001b[43m╭────────┤y├─────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                                 \u001b[30m\u001b[43m│ yank selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~               "
+    ],
+    [
+      4.1e-05,
+      "                                                                                  \u001b[30m\u001b[43m╰────────────────────╯\u001b[30;1Hyanked 24 selections to register \"\u001b[39;49m\u001b[36m            50c13afab855760002000049/in 24:2 \u001b[30m\u001b[43m[recording (@)]\u001b[39;49m\u001b[36m \u001b[34m24 sel\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.01393,
+      "\u001b]2;50c13afab855760002000049/in 24:3 [recording (@)] 24 sel - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000347,
+      "\u001b[Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[2;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[3;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[4;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[5;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[6;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[7;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[8;1Ha \u001b[30m\u001b[47mb"
+    ],
+    [
+      1.8e-05,
+      "\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[9;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[10;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[11;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[12;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[13;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[14;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[15;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c"
+    ],
+    [
+      1.2e-05,
+      " d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[16;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[17;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[18;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[19;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[20;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[21;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[22;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g "
+    ],
+    [
+      1.7e-05,
+      "h i j k l m n o p q r s t u v w x y z                                                                     \u001b[23;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[24;1Ha \u001b[30m\u001b[47mb\u001b[39;49m c d e f g h i j k l m n o p q r s t u v w x y z                                                                     \u001b[25;1H\u001b[34m~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                            \u001b[30m\u001b[43m╭───────────┤e├───────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                            \u001b["
+    ],
+    [
+      1.8e-05,
+      "30m\u001b[43m│ select to next word end │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                            \u001b[30m\u001b[43m╰─────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                              50c13afab855760002000049/in 24:3 \u001b[30m\u001b[43m[recording (@)]\u001b[39;49m\u001b[36m \u001b[34m24 sel\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.013761,
+      "\u001b]2;50c13afab855760002000049/in 24:3 [+][recording (@)] 24 sel - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.0004,
+      "\u001b[Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[2;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[3;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[4;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[5;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[6;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[7;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[8;1Ha \u001b[30m\u001b[47mb"
+    ],
+    [
+      3.8e-05,
+      "\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[9;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[10;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[11;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[12;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[13;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[14;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[15;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  "
+    ],
+    [
+      3.7e-05,
+      "c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[16;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[17;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[18;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[19;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[20;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[21;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[22;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g"
+    ],
+    [
+      3.5e-05,
+      " h i j k l m n o p q r s t u v w x y z                                                                    \u001b[23;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[24;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[25;1H\u001b[34m~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                          \u001b[30m\u001b[43m╭────────────┤p├────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                          \u001b[30m\u001b[43m│ paste after selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~ "
+    ],
+    [
+      2.9e-05,
+      "                                                                                         \u001b[30m\u001b[43m╰───────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                           50c13afab855760002000049/in 24:3 \u001b[30m\u001b[43m[+][recording (@)]\u001b[39;49m\u001b[36m \u001b[34m24 sel\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.017041,
+      "\u001b]2;50c13afab855760002000049/in 24:3 [+] 24 sel - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000904,
+      "\u001b[Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[2;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[3;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[4;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[5;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[6;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[7;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[8;1Ha \u001b[30m\u001b[47mb"
+    ],
+    [
+      4.7e-05,
+      "\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[9;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[10;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[11;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[12;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[13;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[14;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[15;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  "
+    ],
+    [
+      3.2e-05,
+      "c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[16;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[17;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[18;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[19;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[20;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[21;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[22;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g"
+    ],
+    [
+      5e-05,
+      " h i j k l m n o p q r s t u v w x y z                                                                    \u001b[23;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[24;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[25;1H\u001b[34m~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                       \u001b[30m\u001b[43m╭─────────────┤Q├──────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                    "
+    ],
+    [
+      4.9e-05,
+      "   \u001b[30m\u001b[43m│ start or end macro recording │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                       \u001b[30m\u001b[43m╰──────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                          50c13afab855760002000049/in 24:3 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m24 sel\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.019943,
+      "\u001b]2;50c13afab855760002000049/in 24:3 [+] 24 sel param=2 - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000559,
+      "\u001b[Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[2;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[3;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[4;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[5;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[6;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[7;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[8;1Ha \u001b[30m\u001b[47mb"
+    ],
+    [
+      4.9e-05,
+      "\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[9;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[10;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[11;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[12;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[13;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[14;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[15;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  "
+    ],
+    [
+      5.4e-05,
+      "c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[16;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[17;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[18;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[19;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[20;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[21;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[22;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g"
+    ],
+    [
+      4.9e-05,
+      " h i j k l m n o p q r s t u v w x y z                                                                    \u001b[23;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[24;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[25;1H\u001b[34m~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                       \u001b[30m\u001b[43m╭─────────────┤Q├──────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                    "
+    ],
+    [
+      5.9e-05,
+      "   \u001b[30m\u001b[43m│ start or end macro recording │\u001b[29;1H\u001b[39;49m\u001b[34m~                                                                                       \u001b[30m\u001b[43m╰──────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                  50c13afab855760002000049/in 24:3 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m24 sel param=\u001b[32m2\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.015184,
+      "\u001b]2;50c13afab855760002000049/in 24:3 [+] 24 sel param=23 - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000304,
+      "\u001b[Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[2;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[3;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[4;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[5;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[6;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[7;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[8;1Ha \u001b[30m\u001b[47mb"
+    ],
+    [
+      3.1e-05,
+      "\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[9;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[10;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[11;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[12;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[13;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[14;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[15;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  "
+    ],
+    [
+      3.5e-05,
+      "c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[16;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[17;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[18;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[19;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[20;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[21;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[22;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g"
+    ],
+    [
+      3.6e-05,
+      " h i j k l m n o p q r s t u v w x y z                                                                    \u001b[23;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[24;1Ha \u001b[30m\u001b[47mb\u001b[39;49m  c d e f g h i j k l m n o p q r s t u v w x y z                                                                    \u001b[25;1H\u001b[34m~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                       \u001b[30m\u001b[43m╭─────────────┤Q├──────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                       \u001b[30m\u001b[43m│ start or end macro recording │\u001b[29;1H\u001b[39;49m\u001b"
+    ],
+    [
+      2.9e-05,
+      "[34m~                                                                                       \u001b[30m\u001b[43m╰──────────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                 50c13afab855760002000049/in 24:3 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m24 sel param=\u001b[32m23\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.021279,
+      "\u001b]2;50c13afab855760002000049/in 24:325 [+] 24 sel - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000142,
+      "\u001b[H    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[2;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[3;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[4;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[5;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[6;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[7;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[8;1H\u001b[39;49m    t        "
+    ],
+    [
+      1.6e-05,
+      "            u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[9;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[10;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[11;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[12;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[13;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[14;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[15;1H\u001b[39;49m    t                  "
+    ],
+    [
+      1.6e-05,
+      "  u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[16;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[17;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[18;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[19;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[20;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[21;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[22;1H\u001b[39;49m    t                    u      "
+    ],
+    [
+      1.7e-05,
+      "               v                      w                       x                        \u001b[30m\u001b[47my\u001b[23;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[24;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[25;1H\u001b[39;49m\u001b[34m~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                          \u001b[30m\u001b[43m╭────────────┤p├────────────╮\u001b[28;1H\u001b[39;49m\u001b[34m~                                                                                          \u001b[30m\u001b[43m│ paste after selected text │\u001b[29;1H\u001b[39;49m\u001b[34m~ "
+    ],
+    [
+      1.4e-05,
+      "                                                                                         \u001b[30m\u001b[43m╰───────────────────────────╯\u001b[30;1H\u001b[39;49m\u001b[36m                                                        50c13afab855760002000049/in 24:325 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[34m24 sel\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      2.002928,
+      "\u001b]2;50c13afab855760002000049/in 24:325 [+] prompt - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000303,
+      "\u001b[H    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[2;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[3;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[4;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[5;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[6;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[7;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[8;1H\u001b[39;49m    t        "
+    ],
+    [
+      2.8e-05,
+      "            u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[9;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[10;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[11;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[12;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[13;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[14;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[15;1H\u001b[39;49m    t                  "
+    ],
+    [
+      3.6e-05,
+      "  u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[16;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[17;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[18;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[19;1H\u001b[39;49m    t                    u                     v                      w                       x \u001b[30m\u001b[43m╭─────────┤:├──────────╮\u001b[20;1H\u001b[39;49m    t                    u                     v                      w                       x \u001b[30m\u001b[43m│ enter command prompt │\u001b[21;1H\u001b[39;49m    t                    u                     v                      w                       x \u001b[30m\u001b[43m╰──────"
+    ],
+    [
+      3.2e-05,
+      "────────────────╯\u001b[22;1H\u001b[34m\u001b[47madd-highlighter    alias              buffer             buffer-next        buffer-previous    change-directory        █\u001b[23;1Hdebug              declare-option     define-command     delete-buffer      delete-buffer!     echo                    █\u001b[24;1Hedit               edit!              eval               exec               hook               info                    █\u001b[25;1Hkill               kill!              map                menu               nop                on-key                  █\u001b[26;1Hprompt             quit               quit!              remove-highlighter remove-hooks       rename-buffer           █\u001b[27;1Hrename-client      rename-session     select             set-face           set-option         set-register            █\u001b[28;1Hsource             try                unalias            unmap              unset-option       write                   █\u001b[29;1Hwrite-all          write-all-quit     write-quit     "
+    ],
+    [
+      3.3e-05,
+      "    write-quit!                                                   █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                      50c13afab855760002000049/in 24:325 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001b[9A\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.501184,
+      "\u001b]2;50c13afab855760002000049/in 24:325 [+] prompt - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000447,
+      "\u001b[H    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[2;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[3;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[4;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[5;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[6;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[7;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[8;1H\u001b[39;49m    t        "
+    ],
+    [
+      4.7e-05,
+      "            u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[9;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[10;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[11;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[12;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[13;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[14;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[15;1H\u001b[39;49m    t                  "
+    ],
+    [
+      3.7e-05,
+      "  u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[16;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[17;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[18;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[19;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[20;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[21;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[22;1H\u001b[39;49m    t                    u      "
+    ],
+    [
+      4.8e-05,
+      "               v                      w                       x                        \u001b[30m\u001b[47my\u001b[23;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[24;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[25;1H\u001b[39;49m\u001b[34m~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H\u001b[34m\u001b[47mquit             quit!            write-quit       write-quit!      write-all-quit                "
+    ],
+    [
+      5e-05,
+      "                     █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                     50c13afab855760002000049/in 24:325 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      0.500815,
+      "\u001b]2;50c13afab855760002000049/in 24:325 [+] prompt - unnamed0@[24074] - Kakoune\u0007"
+    ],
+    [
+      0.000572,
+      "\u001b[H    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[2;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[3;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[4;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[5;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[6;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[7;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[8;1H\u001b[39;49m    t        "
+    ],
+    [
+      6.2e-05,
+      "            u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[9;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[10;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[11;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[12;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[13;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[14;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[15;1H\u001b[39;49m    t                  "
+    ],
+    [
+      6.9e-05,
+      "  u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[16;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[17;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[18;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[19;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[20;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[21;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[22;1H\u001b[39;49m    t                    u      "
+    ],
+    [
+      4.3e-05,
+      "               v                      w                       x                        \u001b[30m\u001b[47my\u001b[23;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[24;1H\u001b[39;49m    t                    u                     v                      w                       x                        \u001b[30m\u001b[47my\u001b[25;1H\u001b[39;49m\u001b[34m~                                                                                                                       \u001b[26;1H~                                                                                                                       \u001b[27;1H~                                                                                                                       \u001b[28;1H~                                                                                                                       \u001b[29;1H\u001b[34m\u001b[47mquit!        write-quit!                                                                          "
+    ],
+    [
+      5.1e-05,
+      "                     █\u001b[30;1H\u001b[39;49m\u001b[33m:\u001b[36mq!\u001b[30m\u001b[46m \u001b[39;49m\u001b[36m                                                    50c13afab855760002000049/in 24:325 \u001b[30m\u001b[43m[+]\u001b[39;49m\u001b[36m \u001b[33mprompt\u001b[36m - unnamed0@[24074\b]\b\u001b[1@4\u001bM\u001b[39m\u001b[m\u000f"
+    ],
+    [
+      1.506186,
+      "\u001b[?1000l\u001b[?1004l\u001b[?1002l"
+    ],
+    [
+      5.4e-05,
+      "\u001b[30;1H\u001b[34h\u001b[?25h\u001b[?1049l\r\u001b[?1l\u001b>"
+    ],
+    [
+      0.001746,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
+    ],
+    [
+      0.081769,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jλ kakoune-tv \u001b[K\u001b[?2004h"
+    ],
+    [
+      0.942588,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

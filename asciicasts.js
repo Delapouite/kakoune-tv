@@ -438,6 +438,106 @@ setw -g automatic-rename`},
     Vertex('y'): Edge(Vertex('w'), Vertex('y'))
   }
 }`},
+{id: '50ad2cb165b8db0002000029', keys: '%S\n\n<ret><a-j>Xs ><ret>d,q', in: `> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+> veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+> ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+> Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+> nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+> consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
+> ut labore et dolore magnam aliquam quaerat voluptatem.
+
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
+reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`, out: `> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+> Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`},
+{id: '50ae009b65b8db0002000047', keys: '3CdpL<a-`>,q', in: `Ivm is an awesome text editor based on
+Iv, and is used to play a game called
+Ivmgolf. A challenge, simple for many
+Ivmgolfers, can still hide secrets.`, out: `Vim is an awesome text editor based on
+Vi, and is used to play a game called
+Vimgolf. A challenge, simple for many
+Vimgolfers, can still hide secrets.`},
+{id: '50c13afab855760002000049', keys: '23CQwyepQ23q,q', in: `a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z`, out: `a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z
+a b  c   d    e     f      g       h        i         j          k           l            m             n              o               p                q                 r                  s                   t                    u                     v                      w                       x                        y                         z`},
+{id: '50c2c246b0544c000200003f', keys: '%<a-s>hyQ10hRQ6q,q', in: `01234567890123456789012345678901234567890123456789012345678901234567890123456789
+1                                                                              0
+2                                                                              1
+3                                                                              2
+4                                                                              3
+5                                                                              4
+6                                                                              5
+7                                                                              6
+8                                                                              7
+9                                                                              8
+01234567890123456789012345678901234567890123456789012345678901234567890123456789`, out: `01234567890123456789012345678901234567890123456789012345678901234567890123456789
+1        0         0         0         0         0         0         0         0
+2        1         1         1         1         1         1         1         1
+3        2         2         2         2         2         2         2         2
+4        3         3         3         3         3         3         3         3
+5        4         4         4         4         4         4         4         4
+6        5         5         5         5         5         5         5         5
+7        6         6         6         6         6         6         6         6
+8        7         7         7         7         7         7         7         7
+9        8         8         8         8         8         8         8         8
+01234567890123456789012345678901234567890123456789012345678901234567890123456789`},
+{id: '50d0c33daa503f000200000f', keys: '<a-l>S<space><ret>r_,q', in: `(a) (abc) (abcd) (123456)`, out: `___ _____ ______ ________`},
 {id: '571808767dd9d30009000001', keys: '%s,<ret>&,q', in: `just = make,
        all,
        the,
