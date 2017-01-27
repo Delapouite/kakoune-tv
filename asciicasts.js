@@ -538,6 +538,41 @@ a b  c   d    e     f      g       h        i         j          k           l  
 9        8         8         8         8         8         8         8         8
 01234567890123456789012345678901234567890123456789012345678901234567890123456789`},
 {id: '50d0c33daa503f000200000f', keys: '<a-l>S<space><ret>r_,q', in: `(a) (abc) (abcd) (123456)`, out: `___ _____ ______ ________`},
+{id: '51103ad8041832000200003f', keys: 'O<space>v<space><down><ret><space>m<space><esc>%<a-s>Hd22p2<a-space>hd%y6p,q', in: `vim`, out: ` v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v
+vimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvim
+ m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m
+ v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v
+vimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvim
+ m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m
+ v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v
+vimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvim
+ m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m
+ v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v
+vimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvim
+ m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m
+ v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v
+vimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvim
+ m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m
+ v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v
+vimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvim
+ m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m
+ v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v
+vimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvim
+ m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m`},
+{id: '5192f96ad8df110002000002', keys: '%S\s<ret>a)<esc>i(<esc>,q', in: `one two
+three`, out: `(one) (two)
+(three)`},
+{id: '524e1a20b81fe50002000008', keys: 'Qxs,<ret>a<ret><esc><a-x>s:<ret>&<esc><space>jq,q', in: `attr_reader :align, :variables, :with
+attr_accessor :spaces, :to, :complete, :challenge
+# vim: set expandtab:`, out: `attr_reader :align,
+            :variables,
+            :with
+attr_accessor :spaces,
+              :to,
+              :complete,
+              :challenge
+# vim: set expandtab:`},
+{id: '52c3cb0d9b8634000200000e', keys: '3wEcNEW<esc>9lr4,q', in: `A HAPPY END WITH YEAR 2013 !`, out: `A HAPPY NEW YEAR 2014 !`},
 {id: '571808767dd9d30009000001', keys: '%s,<ret>&,q', in: `just = make,
        all,
        the,

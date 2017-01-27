@@ -95,6 +95,7 @@ dt {
 dd {
 	margin-bottom: 1em;
 	margin-left: 11em;
+	white-space: nowrap;
 }
 
 dd em {
