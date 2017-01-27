@@ -21,7 +21,7 @@ var asciicast = asciicasts.filter(function (a) {
 
 var tokenize = function (keys) {
 	return keys
-		.replace(/\n/, '\\n')
+		.replace(/\n/g, '\\n')
 		.replace(/<((c-.|a-.)|(c-|a-)?(ret|space|tab|lt|gt|backspace|esc|up|down|left|right|pageup|pagedown|home|end|backtab|del))>|./g, '¤$&')
 		.split('¤')
 		// remove ,q
@@ -31,17 +31,21 @@ var tokenize = function (keys) {
 var annotate = function (tokens) {
 	var t
 	var mode = 'n'
+
 	var insertBuffer = []
 	var promptBuffer = []
 	var countBuffer = []
-	var macroRecording = false
-	var logs = []
+
 	var insertSwitch
 	var promptSwitch
 	var chooseSwitch
-	var countSwitch
+
+	var macroRecording = false
 	// triggered by <a-;>
 	var oneShot = false
+
+	// returned
+	var logs = []
 
 	while (t = tokens.shift()) {
 		if (mode === 'i' && t !== '<esc>' && t !== '<a-;>' && t !== '<home>' && t !== '<end>') {
@@ -117,6 +121,11 @@ var annotate = function (tokens) {
 				mode = 'p'
 				break
 
+			case 'S':
+				promptSwitch = [t, 'split selected text on regex [text] matches']
+				mode = 'p'
+				break
+
 			case '/':
 				promptSwitch = [t, 'select next given regex [text] match']
 				mode = 'p'
@@ -146,6 +155,11 @@ var annotate = function (tokens) {
 
 			case 'g':
 				chooseSwitch = [t, 'goto [text]']
+				mode = 'c'
+				break
+
+			case 'r':
+				chooseSwitch = [t, 'replace with character [text]']
 				mode = 'c'
 				break
 
@@ -180,6 +194,10 @@ var annotate = function (tokens) {
 				logs.push([t, 'select to previous WORD start'])
 				break
 
+			case 'C':
+				logs.push([t, 'copy selection on next lines'])
+				break
+
 			case '<a-C>':
 				logs.push([t, 'copy selection on previous lines'])
 				break
@@ -208,6 +226,10 @@ var annotate = function (tokens) {
 				logs.push([t, 'extend down ⇓'])
 				break
 
+			case '<a-j>':
+				logs.push([t, 'join lines'])
+				break
+
 			case 'k':
 				logs.push([t, 'move up ↑'])
 				break
@@ -222,6 +244,10 @@ var annotate = function (tokens) {
 
 			case 'L':
 				logs.push([t, 'extend right ⇒'])
+				break
+
+			case '<a-l>':
+				logs.push([t, 'select to line end'])
 				break
 
 			case 'm':
@@ -369,6 +395,10 @@ var annotate = function (tokens) {
 				logs.push([t, 'copy indentation'])
 				break
 
+			case '<a-`>':
+				logs.push([t, 'swap case in selections'])
+				break
+
 			case '<a-;>':
 				logs.push([[insertSwitch[0], insertBuffer.join('')], insertSwitch[1], 'i'])
 				insertSwitch = ['', 'insert [text]']
@@ -475,7 +505,7 @@ function createDd (a) {
 
 var strip = function (keys) {
 	return keys
-		.replace(/\n/, '\\n')
+		.replace(/\n/g, '\\n')
 		// remove ,q
 		.slice(0, -2)
 }
