@@ -558,6 +558,7 @@ function createDt (a) {
 		}
 		dt.appendChild(kbd)
 	}
+
 	// macro track
 	if (a.key === 'Q') {
 		if (a.dt.indexOf('start') !== -1) {
@@ -572,6 +573,11 @@ function createDt (a) {
 	} else if (a.macro) {
 		macro = document.createElement('span')
 		macro.textContent = '║'
+		macro.classList.add('macro')
+	}
+	if (a.key === '<esc>') {
+		macro = document.createElement('span')
+		macro.textContent = '╚'
 		macro.classList.add('macro')
 	}
 	if (macro) dt.appendChild(macro)
