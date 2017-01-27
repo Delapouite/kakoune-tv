@@ -62,6 +62,11 @@ kbd {
 	white-space: nowrap;
 }
 
+.macro {
+	left: -1em;
+	position: absolute;
+}
+
 kbd.kbd-count {
 	background-color: #fff;
 	border-color: #fff;
@@ -91,6 +96,7 @@ dt {
 	clear: left;
 	float: left;
 	margin-right: 1em;
+	position: relative;
 }
 
 dd {

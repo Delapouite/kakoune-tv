@@ -47,6 +47,7 @@ var annotate = function (tokens) {
 
 	/* will be filled with log object like this
 	{
+		macro: bool,
 		// left
 		count: *
 		reg: ?
@@ -62,7 +63,7 @@ var annotate = function (tokens) {
 
 	// shortcut
 	function push(key, dt) {
-		logs.push({ key, dt })
+		logs.push({ key, dt, macro: macroRecording })
 	}
 
 	while (t = tokens.shift()) {
@@ -80,6 +81,7 @@ var annotate = function (tokens) {
 		if (mode === 'c') {
 			if (!usingRegister) {
 				logs.push({
+					macro: macroRecording,
 					op: chooseOp[0],
 					prompt: t,
 					dt: chooseOp[1]
@@ -131,6 +133,7 @@ var annotate = function (tokens) {
 			case '<esc>':
 				if (mode === 'i') {
 					logs.push({
+						macro: macroRecording,
 						op: insertOp[0],
 						insert: insertBuffer.join(''),
 						validator: t,
@@ -177,6 +180,7 @@ var annotate = function (tokens) {
 
 			case '<ret>':
 				logs.push({
+					macro: macroRecording,
 					op: promptOp[0],
 					prompt: promptBuffer.join(''),
 					validator: t,
@@ -424,6 +428,7 @@ var annotate = function (tokens) {
 			case '<home>':
 				if (insertBuffer.length) {
 					logs.push({
+						macro: macroRecording,
 						op: insertOp[0],
 						insert: insertBuffer.join(''),
 						dt: insertOp[1]
@@ -436,6 +441,7 @@ var annotate = function (tokens) {
 			case '<end>':
 				if (insertBuffer.length) {
 					logs.push({
+						macro: macroRecording,
 						op: insertOp[0],
 						insert: insertBuffer.join(''),
 						dt: insertOp[1]
@@ -491,6 +497,7 @@ var annotate = function (tokens) {
 
 			case '<a-;>':
 				logs.push({
+					macro: macroRecording,
 					op: insertOp[0],
 					insert: insertBuffer.join(''),
 					dt: insertOp[1]
@@ -541,6 +548,7 @@ var createDl = function (tokens) {
 function createDt (a) {
 	var dt = document.createElement('dt')
 	var kbd
+	var macro
 
 	function createKbd (c, k) {
 		kbd = document.createElement('kbd')
@@ -550,6 +558,23 @@ function createDt (a) {
 		}
 		dt.appendChild(kbd)
 	}
+	// macro track
+	if (a.key === 'Q') {
+		if (a.dt.indexOf('start') !== -1) {
+			macro = document.createElement('span')
+			macro.textContent = '╔'
+			macro.classList.add('macro')
+		} else {
+			macro = document.createElement('span')
+			macro.textContent = '╚'
+			macro.classList.add('macro')
+		}
+	} else if (a.macro) {
+		macro = document.createElement('span')
+		macro.textContent = '║'
+		macro.classList.add('macro')
+	}
+	if (macro) dt.appendChild(macro)
 
 	if (a.count) createKbd(a.count, 'count')
 	if (a.reg) {
@@ -594,7 +619,6 @@ function createDd (a) {
 }
 
 function getRegName (reg, key) {
-	console.log(reg, key)
 	if (!reg) {
 		switch (key) {
 			case 'p':
