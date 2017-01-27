@@ -102,6 +102,7 @@ dd {
 dd em {
 	background: #222;
 	color: #CCC;
+	padding: 0 5px;
 }
 
 #in, #out {

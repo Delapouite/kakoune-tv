@@ -357,7 +357,11 @@ var annotate = function (tokens) {
 				break
 
 			case 'Q':
-				push(t, `${macroRecording ? 'stop' : 'start'} macro recording`)
+				if (macroRecording) {
+					push(t, 'stop macro recording')
+				} else {
+					push(t, 'start macro recording in [text]')
+				}
 				macroRecording = !macroRecording
 				break
 
@@ -564,7 +568,7 @@ function createDt (a) {
 // right part with english translation
 function createDd (a) {
 	var dd = document.createElement('dd')
-	if (!a.insert && !a.prompt && !a.reg) {
+	if (a.dt.indexOf('[text]') === -1) {
 		dd.textContent = a.dt
 	} else {
 		var m = a.dt.split('[text]')
@@ -572,7 +576,7 @@ function createDd (a) {
 		pre.textContent = m[0]
 
 		var text = document.createElement('em')
-		text.textContent = a.insert || a.prompt || `content of ${a.reg} register`
+		text.textContent = a.insert || a.prompt || `${getRegName(a.reg, a.key)} register`
 
 		var post = document.createElement('span')
 		post.textContent = m[1]
@@ -589,7 +593,35 @@ function createDd (a) {
 	return dd
 }
 
-var strip = function (keys) {
+function getRegName (reg, key) {
+	console.log(reg, key)
+	if (!reg) {
+		switch (key) {
+			case 'p':
+			case 'P':
+				return '" (default yank)'
+			case 'q':
+			case 'Q':
+				return '@ (default macro)'
+			case 'z':
+			case 'Z':
+				return '^ (default mark)'
+		}
+	}
+	switch (reg) {
+		case '%': return '% (current buffer name)'
+		case '.': return '. (current selection contents)'
+		case '#': return '# (selection indices)'
+		case '_': return '_ (null)'
+		case '/': return '/ (default search)'
+		case '@': return '@ (default macro)'
+		case '^': return '^ (default mark)'
+		case '|': return '| (default shell)'
+		default: return reg
+	}
+}
+
+function strip (keys) {
 	return keys
 		.replace(/\n/g, '\\n')
 		// remove ,q
