@@ -410,7 +410,7 @@ var annotate = function (tokens) {
 				break
 
 			case 'y':
-				push(t, 'yank selected text')
+				push(t, 'yank selected text to [text]')
 				break
 
 			case 'z':
@@ -643,6 +643,7 @@ function createDd (a) {
 function getRegName (reg, key) {
 	if (!reg) {
 		switch (key) {
+			case 'y':
 			case 'p':
 			case 'P':
 				return '" (default yank)'
