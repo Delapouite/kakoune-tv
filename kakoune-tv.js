@@ -495,6 +495,10 @@ var annotate = function (tokens) {
 				push(t, 'swap case in selections')
 				break
 
+			case "<a-'>":
+				push(t, 'rotate selections content')
+				break
+
 			case '<a-;>':
 				logs.push({
 					macro: macroRecording,

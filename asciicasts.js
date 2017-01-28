@@ -714,6 +714,7 @@ Simple things we do all the time should be able to be done with very few keystro
 New text.
 
 This challenge is just a simple movement and entering text at a certain place.`},
+{id: '55bcdc3ef4219f456102374f', keys: 'xsb|l<ret>2E<a-\'>,q', in: `The quick brown fox jumps over the lazy dog.`, out: `The quick lazy dog jumps over the brown fox.`},
 {id: '56fb2e75ccffcc0009026473', keys: 'J<a-L>dd%S\d+<ret>R,q', in: `- One number per line -
 -----------------------
 2,3,5,7,
