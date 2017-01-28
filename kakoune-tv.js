@@ -142,7 +142,7 @@ var annotate = function (tokens) {
 					insertBuffer = []
 					mode = 'n'
 				} else if (macroRecording) {
-					push(t, 'stop macro recording')
+					push(t, 'stop macro recording ◼')
 					macroRecording = !macroRecording
 				}
 				break
@@ -357,14 +357,14 @@ var annotate = function (tokens) {
 				break
 
 			case 'q':
-				push(t, 'replay recorded macro')
+				push(t, 'replay recorded macro ▶')
 				break
 
 			case 'Q':
 				if (macroRecording) {
-					push(t, 'stop macro recording')
+					push(t, 'stop macro recording ◼')
 				} else {
-					push(t, 'start macro recording in [text]')
+					push(t, 'start macro recording in [text] ⚫')
 				}
 				macroRecording = !macroRecording
 				break
