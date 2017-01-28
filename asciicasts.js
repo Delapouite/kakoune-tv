@@ -124,7 +124,7 @@ Vim has a vi compatibility mode`},
 98
 99 Fizz
 100 Buzz`},
-{id: '4d1a7a05b8cb3409320001b4', keys: '%s<lt><ret>m<a-K>\n<ret>d,q', in: `<h1>What Vim Can Do</h1> 
+{id: '4d1a7a05b8cb3409320001b4', keys: '%s<lt><ret>m<a-K>\\n<ret>d,q', in: `<h1>What Vim Can Do</h1> 
 <p> 
 Vim is an advanced text editor that seeks to provide the power of
 the de-facto Unix editor 'Vi', with a more complete feature set.
@@ -239,7 +239,7 @@ int main(void)
     puts("Hello world!");
     return 0;
 }`},
-{id: '4d665abd7d73e02a55000009', keys: '~iList<lt><esc>mc><esc><a-b>yAnew<space>Array<c-r>"();<esc>%s,<ret>Lc<ret><esc><a-C><a-&><a-x>Z<a-K>\.<ret>ad<a-;>z);<home>c.add(<esc><a-x>dm<a-x><a-R>,q', in: `double[] c = 
+{id: '4d665abd7d73e02a55000009', keys: '~iList<lt><esc>mc><esc><a-b>yAnew<space>Array<c-r>"();<esc>%s,<ret>Lc<ret><esc><a-C><a-&><a-x>Z<a-K>\\.<ret>ad<a-;>z);<home>c.add(<esc><a-x>dm<a-x><a-R>,q', in: `double[] c = 
 {
         112.2, 102, 12, 954, 39.43,
         49.4, 2224.6, 94, 123,
@@ -306,7 +306,7 @@ Turkey,1,2,1,7,5,6
 Turkey,1,2,3,4,5,9
 Poland,2,2,3,9,5,6
 Poland,1,2,3,4,5,6`},
-{id: '4e31627b74ab580001000007', keys: 'm<a-b>*5Nd<a-f>fwcvoid<space><esc>b*<space>cdouble<space><esc>ndbyggxR<a-/>\$<ret>d2<a-n>d%s<ret>./s<ret>iMath.<esc>gjxd,q', in: `<?php
+{id: '4e31627b74ab580001000007', keys: 'm<a-b>*5Nd<a-f>fwcvoid<space><esc>b*<space>cdouble<space><esc>ndbyggxR<a-/>\\$<ret>d2<a-n>d%s<ret>./s<ret>iMath.<esc>gjxd,q', in: `<?php
 class Foo
 {
         private $var1;
@@ -438,7 +438,7 @@ setw -g automatic-rename`},
     Vertex('y'): Edge(Vertex('w'), Vertex('y'))
   }
 }`},
-{id: '50ad2cb165b8db0002000029', keys: '%S\n\n<ret><a-j>Xs ><ret>d,q', in: `> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+{id: '50ad2cb165b8db0002000029', keys: '%S\\n\\n<ret><a-j>Xs ><ret>d,q', in: `> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
 > doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
 > veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
 > ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
@@ -559,7 +559,7 @@ vimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvim
  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v
 vimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvimvim
  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m  m`},
-{id: '5192f96ad8df110002000002', keys: '%S\s<ret>a)<esc>i(<esc>,q', in: `one two
+{id: '5192f96ad8df110002000002', keys: '%S\\s<ret>a)<esc>i(<esc>,q', in: `one two
 three`, out: `(one) (two)
 (three)`},
 {id: '524e1a20b81fe50002000008', keys: 'Qxs,<ret>a<ret><esc><a-x>s:<ret>&<esc><space>jq,q', in: `attr_reader :align, :variables, :with
@@ -715,7 +715,7 @@ New text.
 
 This challenge is just a simple movement and entering text at a certain place.`},
 {id: '55bcdc3ef4219f456102374f', keys: 'xsb|l<ret>2E<a-\'>,q', in: `The quick brown fox jumps over the lazy dog.`, out: `The quick lazy dog jumps over the brown fox.`},
-{id: '56fb2e75ccffcc0009026473', keys: 'J<a-L>dd%S\d+<ret>R,q', in: `- One number per line -
+{id: '56fb2e75ccffcc0009026473', keys: 'J<a-L>dd%S\\d+<ret>R,q', in: `- One number per line -
 -----------------------
 2,3,5,7,
 11,13,17,
@@ -740,7 +740,7 @@ This challenge is just a simple movement and entering text at a certain place.`}
        commas,
        line  ,
        up`},
-{id: '58753af0f5ef5c0006000006', keys: '%s\.<ret>aget(\'<esc>ea\')<esc>,q', in: `function() {
+{id: '58753af0f5ef5c0006000006', keys: '%s\\.<ret>aget(\'<esc>ea\')<esc>,q', in: `function() {
   var a = thing.index < other.attribute;
   var b = thing.index < other.attribute;
   var c = thing.attribute < other.index;

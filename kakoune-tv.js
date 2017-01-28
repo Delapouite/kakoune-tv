@@ -20,8 +20,7 @@ var asciicast = asciicasts.filter(function (a) {
 })[0]
 
 var tokenize = function (keys) {
-	return keys
-		.replace(/\n/g, '\\n')
+	return escapeB(keys)
 		.replace(/<((c-.|a-.)|(c-|a-)?(ret|space|tab|lt|gt|backspace|esc|up|down|left|right|pageup|pagedown|home|end|backtab|del))>|./g, '¤$&')
 		.split('¤')
 		// remove ,q
@@ -669,7 +668,6 @@ function getRegName (reg, key) {
 }
 
 function getGotoName (str, key) {
-	console.log('getGotoName', str, key)
 	if (key !== 'g') return str
 	switch (str) {
 		case 'g':
@@ -681,10 +679,12 @@ function getGotoName (str, key) {
 }
 
 function strip (keys) {
-	return keys
-		.replace(/\n/g, '\\n')
+	return escapeB(keys)
 		// remove ,q
 		.slice(0, -2)
+}
+function escapeB (keys) {
+	return keys
 }
 
 player.setAttribute('src', 'asciicasts/' + id + '.json')
