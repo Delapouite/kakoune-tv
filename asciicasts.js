@@ -740,4 +740,36 @@ This challenge is just a simple movement and entering text at a certain place.`}
        commas,
        line  ,
        up`},
+{id: '58753af0f5ef5c0006000006', keys: '%s\.<ret>aget(\'<esc>ea\')<esc>,q', in: `function() {
+  var a = thing.index < other.attribute;
+  var b = thing.index < other.attribute;
+  var c = thing.attribute < other.index;
+  var d = thing.attribute < other.index;
+}`, out: `function() {
+  var a = thing.get('index') < other.get('attribute');
+  var b = thing.get('index') < other.get('attribute');
+  var c = thing.get('attribute') < other.get('index');
+  var d = thing.get('attribute') < other.get('index');
+}`},
+{id: '587cab5a0740c90006000006', keys: 'Q<a-J>Ed<esc>jjq,q', in: `1 2472
+1 664
+2 2600
+10 4135
+10 5606
+...`, out: `1 2472 664
+2 2600
+10 4135 5606
+...`},
+{id: '587e0a9d5944680006000007', keys: '<a-l>s.<ret>i[<esc>a]<esc>H~yP`,q', in: `SarCastic`, out: `[Ss][Aa][Rr][Cc][Aa][Ss][Tt][Ii][Cc]`},
+{id: '58860440c57fb30006000004', keys: 'fV;3Ct<lt>y<a-;>hi value="."<esc>2hR`s <ret>r_,q', in: `<select>
+  <option>Volvo</option>
+  <option>Aston Martin</option>
+  <option>Audi</option>
+  <option>Alfa Romeo</option>
+</select>`, out: `<select>
+  <option value="volvo">Volvo</option>
+  <option value="aston_martin">Aston Martin</option>
+  <option value="audi">Audi</option>
+  <option value="alfa_romeo">Alfa Romeo</option>
+</select>`},
 ]

@@ -459,12 +459,20 @@ var annotate = function (tokens) {
 				push(t, 'remove main selection')
 				break
 
+			case ';':
+				push(t, 'reduce selections to their cursor')
+				break
+
 			case '&':
 				push(t, 'align selection cursors')
 				break
 
 			case '~':
 				push(t, 'convert to upper case in selections')
+				break
+
+			case '`':
+				push(t, 'convert to lower case in selections')
 				break
 
 			case '*':
@@ -500,18 +508,22 @@ var annotate = function (tokens) {
 				break
 
 			case '<a-;>':
-				logs.push({
-					macro: macroRecording,
-					op: insertOp[0],
-					insert: insertBuffer.join(''),
-					dt: insertOp[1]
-				})
-				insertOp = ['', 'insert [text]']
-				insertBuffer = []
-				push(t, 'escape to normal mode for a single command')
-				mode = 'n'
-				oneShot = true
-				continue
+				if (mode === 'i') {
+					logs.push({
+						macro: macroRecording,
+						op: insertOp[0],
+						insert: insertBuffer.join(''),
+						dt: insertOp[1]
+					})
+					insertOp = ['', 'insert [text]']
+					insertBuffer = []
+					push(t, 'escape to normal mode for a single command')
+					mode = 'n'
+					oneShot = true
+					continue
+				}
+				push(t, 'swap selections cursor and anchor')
+				break
 
 			default:
 				console.debug('unknown token', t)
