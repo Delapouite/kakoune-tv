@@ -623,7 +623,7 @@ function createDd (a) {
 		pre.textContent = m[0]
 
 		var text = document.createElement('em')
-		text.textContent = a.insert || a.prompt || `${getRegName(a.reg, a.key)} register`
+		text.textContent = a.insert || getGotoName(a.prompt, a.op) || `${getRegName(a.reg, a.key)} register`
 
 		var post = document.createElement('span')
 		post.textContent = m[1]
@@ -665,6 +665,18 @@ function getRegName (reg, key) {
 		case '^': return '^ (default mark)'
 		case '|': return '| (default shell)'
 		default: return reg
+	}
+}
+
+function getGotoName (str, key) {
+	console.log('getGotoName', str, key)
+	if (key !== 'g') return str
+	switch (str) {
+		case 'g':
+		case 'k':
+			return 'first line'
+		case 'j':
+			return 'last line'
 	}
 }
 
