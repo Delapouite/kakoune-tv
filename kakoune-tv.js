@@ -687,6 +687,12 @@ function escapeB (keys) {
 	return keys
 }
 
+function mark (kak, vim) {
+	if (kak > vim) return `✘`
+	if (vim > kak) return '✔'
+	return '_'
+}
+
 player.setAttribute('src', 'asciicasts/' + id + '.json')
 
 // populate keys
@@ -701,7 +707,7 @@ asciicasts.forEach(function (a) {
 	var opt = document.createElement('option')
 	var l = tokenize(a.keys).length
 	opt.value = a.id
-	opt.textContent = `${l} keys – ${a.id}`
+	opt.textContent = `${mark(l, a.vgscore - 2)} kakoune: ${l} keys / vim: ${a.vgscore - 2} keys – ${a.id}`
 	opt.selected = a.id === id
 	sel.appendChild(opt)
 })
@@ -710,6 +716,9 @@ docin.textContent = asciicast.in
 docout.textContent = asciicast.out
 
 vg.href = 'https://vimgolf.com/challenges/' + id
+// remove ZZ to be fair
+if (asciicast.vgscore)
+vg.textContent = `See this challenge on vimgolf.com - Best: ${asciicast.vgscore - 2} keys`
 
 // refresh the page for permalink
 sel.onchange = function (evt) {
