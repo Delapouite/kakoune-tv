@@ -688,9 +688,13 @@ function escapeB (keys) {
 }
 
 function mark (kak, vim) {
-	if (kak > vim) return `✘`
-	if (vim > kak) return '✔'
-	return '_'
+	var symbol = '·'
+	if (kak > vim) symbol = `✘`
+	if (vim > kak) symbol = '✔'
+	var diff = kak - vim
+	if (diff > 0) diff = '+' + diff
+
+	return `${symbol} (${diff}) – `
 }
 
 player.setAttribute('src', 'asciicasts/' + id + '.json')
